@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Ereignis</title>
+  <link rel="stylesheet" href="css/card_view.css">
+</head>
+<body>
+  <a href="index.html" id="back_button">← Zurück zur Übersicht</a>
+
+  <div id="overlay">
+    <div id="story_box">
+      <h1 id="card_title">Titel</h1>
+      <p id="card_description">Beschreibung</p>
+    </div>
+
+    <div id="options_container"></div>
+  </div>
+
+  <script>
+    function formatChange(val) {
+      return val > 0 ? `+${val}` : `${val}`;
+    }
+
+    function setBackgroundImage(primary, secondary, fallback) {
+      const img = new Image();
+      img.onload = () => {
+        document.body.style.backgroundImage = `url(${primary})`;
+      };
+      img.onerror = () => {
+        if (secondary) {
+          const img2 = new Image();
+          img2.onload = () => {
+            document.body.style.backgroundImage = `url(${secondary})`;
+          };
+          img2.onerror = () => {
+            document.body.style.backgroundImage = `url(${fallback})`;
+          };
+          img2.src = secondary;
+        } else {
+          document.body.style.backgroundImage = `url(${fallback})`;
+        }
+      };
+      img.src = primary;
+    }
+
+    async function loadCard() {
+      const params = new URLSearchParams(window.location.search);
+      const cardId = parseInt(params.get("id"));
+
+      const response = await fetch("cards.json");
+      const cards = await response.json();
+      const card = cards.find(c => c.id === cardId);
+
+      if (isNaN(cardId) || !card) {
+        console.error("Ungültige oder fehlende Karten-ID");
+        return;
+      }
+
+      setBackgroundImage(card.image, card.overviewImage, "images/backup.png");
+
+      document.getElementById("card_title").innerText = card.title;
+      document.getElementById("card_description").innerText = card.description;
+
+      const container = document.getElementById("options_container");
+      container.innerHTML = "";
+
+      card.options.forEach(opt => {
+        const cardDiv = document.createElement("div");
+        cardDiv.className = "option-card";
+        cardDiv.dataset.state = "front";
+
+        const innerDiv = document.createElement("div");
+        innerDiv.className = "option-inner";
+
+        const front = document.createElement("div");
+        front.className = "option-front";
+        front.innerHTML = `
+          <p class="option_text">${opt.text}</p>
+          <p class="option_description">${opt.description}</p>
+          <div class="requirements">
+            <span class="req strength">💪 ${opt.values[0]}</span>
+            <span class="req intelligence">🧠 ${opt.values[1]}</span>
+            <span class="req charme">😎 ${opt.values[2]}</span>
+            <span class="req money">💰 ${opt.cost}</span>
+          </div>
+        `;
+
+        const cornerLeft = document.createElement("div");
+        cornerLeft.className = "corner red";
+        const cornerRight = document.createElement("div");
+        cornerRight.className = "corner green";
+        front.appendChild(cornerLeft);
+        front.appendChild(cornerRight);
+
+        const back = document.createElement("div");
+        back.className = "option-back";
+        const backCornerLeft = cornerLeft.cloneNode(true);
+        const backCornerRight = cornerRight.cloneNode(true);
+        back.appendChild(backCornerLeft);
+        back.appendChild(backCornerRight);
+
+        innerDiv.appendChild(front);
+        innerDiv.appendChild(back);
+        cardDiv.appendChild(innerDiv);
+
+        cardDiv.addEventListener("click", (e) => {
+          const rect = cardDiv.getBoundingClientRect();
+          const clickX = e.clientX - rect.left;
+          const currentState = cardDiv.dataset.state;
+
+          if (currentState === "front") {
+            const isPositive = clickX > rect.width / 2;
+            const outcome = isPositive ? opt.positive : opt.negative;
+
+            back.innerHTML = `
+              <p class="result_text">${outcome.result}</p>
+              <p class="option_description">${outcome.description}</p>
+              <div class="result_values">
+                <span class="change strength">💪 ${formatChange(outcome.changes[0])}</span>
+                <span class="change intelligence">🧠 ${formatChange(outcome.changes[1])}</span>
+                <span class="change charme">😎 ${formatChange(outcome.changes[2])}</span>
+                <span class="change money">💰 ${formatChange(outcome.moneyChange)}</span>
+              </div>
+            `;
+            back.appendChild(backCornerLeft.cloneNode(true));
+            back.appendChild(backCornerRight.cloneNode(true));
+
+            cardDiv.classList.remove("flipped", "flipped-negative");
+            cardDiv.classList.add(isPositive ? "flipped" : "flipped-negative");
+            cardDiv.dataset.state = isPositive ? "positive" : "negative";
+          } else {
+            cardDiv.classList.remove("flipped", "flipped-negative");
+            cardDiv.dataset.state = "front";
+          }
+        });
+
+        container.appendChild(cardDiv);
+      });
+
+      // Trigger resize to fix layout if loaded directly in landscape
+      setTimeout(() => {
+        window.dispatchEvent(new Event("resize"));
+      }, 100);
+    }
+
+    loadCard();
+  </script>
+</body>
+</html>
+
+  

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Card Database</title>
+  <link rel="stylesheet" href="css/overview.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="headline-wrapper">
+        <h1>ITREG Kartenübersicht</h1>
+    </div>
+    <div id="card_grid"></div>
+
+<script>
+  async function loadCards() {
+    const response = await fetch("cards.json");
+    const cards = await response.json();
+
+    // Sortiere Karten alphabetisch nach Titel
+    cards.sort((a, b) => a.title.localeCompare(b.title, 'de', { sensitivity: 'base' }));
+
+    const grid = document.getElementById("card_grid");
+
+    cards.forEach(card => {
+      const cardDiv = document.createElement("div");
+      cardDiv.className = "card";
+
+      const img = document.createElement("img");
+      img.src = card.overviewImage  || "images/backup.png";
+      img.alt = card.title;
+      img.onerror = () => {
+        img.src = "images/backup.png";
+      };
+
+      const title = document.createElement("h2");
+      title.innerText = card.title;
+
+      cardDiv.appendChild(img);
+      cardDiv.appendChild(title);
+
+      const link = document.createElement("a");
+      link.href = `card_view.html?id=${card.id}`;
+      link.appendChild(cardDiv);
+
+      grid.appendChild(link);
+    });
+  }
+
+  loadCards();
+</script>
+  
+  <footer class="footer-bar">
+    <div class="footer-content">
+      <a href="instructions/Anleitung.html">📘 Anleitung</a>
+      <a href="https://github.com/ManeshLJ/WBL-ITREG" target="_blank">🔗 GitHub Repo</a>
+    </div>
+  </footer>
+</body>
+</html>

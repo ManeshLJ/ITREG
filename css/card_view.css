@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+
+  background-repeat: no-repeat;
+  background-size: cover; /* oder: 100% 100% */
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#back_button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  background: rgba(0,0,0,0.5);
+  padding: 8px 12px;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+#overlay {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#story_box {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#card_title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+#card_description {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#options_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap; /* verhindert Zeilenumbruch */
+  gap: 20px;
+  padding: 20px;
+  max-width: 100%;
+  overflow-x: auto; /* erlaubt horizontales Scrollen bei Bedarf */
+}
+
+/* Kartenstruktur */
+.option-card {
+  width: 280px;
+  height: 360px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #options_container {
+    flex-wrap: wrap;
+    justify-content: center; 
+    overflow-x: visible; 
+  }
+}
+
+.option-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+}
+
+/* Flip nach rechts (positiv) */
+.option-card.flipped .option-inner {
+  transform: rotateY(-180deg);
+}
+
+/* Flip nach links (negativ) */
+.option-card.flipped-negative .option-inner {
+  transform: rotateY(180deg);
+}
+
+.option-front, .option-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.6);
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgba(255,255,255,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Rückseite */
+.option-back {
+  transform: rotateY(180deg);
+}
+
+/* Text */
+.option_text {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.option_description {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+/* Anforderungen & Ergebnisse */
+.requirements, .result_values {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.req, .change {
+  background: rgba(0,0,0,0.4);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.9em;
+}
+
+/* Ecken */
+.corner {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 0 0 0 8px;
+  z-index: 5;
+}
+
+.corner.red {
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 0, 0, 0.7);
+}
+
+.corner.green {
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 255, 0, 0.7);
+}
+
+/* Responsive Basis */
+@media (max-width: 768px) {
+  #card_title {
+    font-size: 2em;
+  }
+
+  .option-card {
+    width: 90%;
+    height: 340px;
+  }
+}

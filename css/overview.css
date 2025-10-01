@@ -1,0 +1,92 @@
+body {
+  background-image: url("../images/spielfeld.png"); /* dein Bildpfad */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 15px 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 30px auto;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+.headline-wrapper {
+  text-align: center;
+}
+
+#card_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 2px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 3 / 2; /* Querformat */
+  object-fit: cover;
+  display: block;
+}
+
+.card h2 {
+  font-size: 1.4rem;
+  margin: 15px 0;
+  padding: 0 10px;
+  color: #111;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.1); /* oder dunkler: rgba(0,0,0,0.2) */
+  pointer-events: none;
+  z-index: 0;
+}
+
+.footer-bar {
+  background-color: white;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  border-top: 2px solid black; /* ← Das ist der schwarze Rand */
+}
+
+.footer-content {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.footer-content a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0055aa;
+  font-weight: bold;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
