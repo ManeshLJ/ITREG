@@ -25,3 +25,11 @@ Generate instruction pdf and html
 
 cd WBL-ITREG\instructions
 py Instructions.py
+
+### TODO Coding
+
+- Lower Image quality. loading takes very long
+- remove scrollbar from options
+- increase options in size
+- make easier readable
+- inlcude area into card (roll multiplier)
