@@ -165,11 +165,11 @@
   },
 {
     "id": 3,
-    "title": "Siedlung Razerath",
+    "title": "Razerath",
     "area": 1,
     "overviewImage": "images/card3_overview.png",
     "image": "images/card3_detail.png",
-    "description": "Du erreichst den Siedlung Razerath südlich der Ligon Berge. Sie ist bekannt für ihre Mienenarbeiteter, die seit Dekanden die Ligon Berge aushöhlen, während die sie mittels Ballons mit Siedlungen in größeren Höhen Handel treiben.",
+    "description": "Du erreichst die Siedlung Razerath südlich der Ligon Berge. Sie ist bekannt für ihre Mienenarbeiteter, die seit Dekanden die Ligon Berge aushöhlen, während die sie mittels Ballons mit Siedlungen in größeren Höhen Handel treiben.",
     "options": [
       {
         "text": "Eine Ballonfahrt über das Gebirge buchen",
@@ -178,7 +178,7 @@
         "cost": 60,
         "positive": {
           "result": "Diese Geldsumme hat sich wirklich gelohnt. Die Aussicht ist atemberaubend.",
-          "description": "Du erreichst die Binuoth Siedlung westlich des großen Sees und konntest im beengten Ballonkorb neue Kontakte mit Mitreisenden knüpfen.",
+          "description": "Du erreichst die Binouth Siedlung westlich des großen Sees und konntest im beengten Ballonkorb neue Kontakte mit Mitreisenden knüpfen.",
           "changes": [0, 1, 2],
           "moneyChange": -60
         },
@@ -196,7 +196,7 @@
         "cost": 0,
         "positive": {
           "result": "Du schaffst es eine Balloncrew zu überfallen und sie zu zwingen, dich über die Ligon Berge zu bringen.",
-          "description": "Du erreichst die Binuoth Siedlung westlich des großen Sees gestärkt und schlauer.",
+          "description": "Du erreichst die Binouth Siedlung westlich des großen Sees gestärkt und schlauer.",
           "changes": [2, 1, 0],
           "moneyChange": 0
         },
@@ -214,7 +214,7 @@
         "cost": 0,
         "positive": {
           "result": "Du schaffst es die Minenarbeiter zu überzeugen, wenn du ihnen bei der Arbeit hilfst und eine kleine Geldsumme gibst, dich durch die Minen zu bringen",
-          "description": "Nach einer anstrengenden eintägigen Fahrt erreichst du die Binuoth Siedlung westlich des großen Sees, gestärkt und schlauer.",
+          "description": "Nach einer anstrengenden eintägigen Fahrt erreichst du die Binouth Siedlung westlich des großen Sees, gestärkt und schlauer.",
           "changes": [2, 1, 0],
           "moneyChange": -10
         },
@@ -238,7 +238,7 @@
         },
         "negative": {
           "result": "Nach einigen Tagen harter Arbeit, wirst du gefeuert, du warst zu schwach.",
-          "description": "Da ihr euch aktuell im Norden der Berge befindet, wirst du gestärkt an der Siedlung Binuoth westlichen des großen Sees abgesetzt.",
+          "description": "Da ihr euch aktuell im Norden der Berge befindet, wirst du gestärkt an der Siedlung Binouth westlichen des großen Sees abgesetzt.",
           "changes": [2, 0, 0],
           "moneyChange": 5
         }
@@ -251,7 +251,7 @@
     "area": 1,
     "overviewImage": "images/card4_overview.png",
     "image": "images/card4_detail.png",
-    "description": "Viele Neuankömmling in der Grafschaft Itreg überqueren Agons Brücke, um die legendären Festmale in Racrans Festung zu genießen. Vor der Brücke wird Wegzoll von einem Brückenwächter verlangt.",
+    "description": "Der ehemalige Graf Itregs Agon ließ diese Brücke bauen, um den Südwesten mit dem Südosten der Grafschaft zu verbinden. Viele Neuankömmling in der Grafschaft Itreg überqueren Agons Brücke, um die legendären Festmale in Racrans Festung zu genießen. Vor der Brücke wird Wegzoll von einem Brückenwächter verlangt.",
     "options": [
       {
         "text": "Den Wegzoll zahlen und die Brücke langsam überqueren",
@@ -561,7 +561,7 @@
     "area": 2,
     "overviewImage": "images/card8_overview.png",
     "image": "images/card8_detail.png",
-    "description": "Die Familie Trothrin machte nach Ende des 53-jährigen Krieges ein Vermögen mit dem Wiederaufbau der Grafschaft Itreg. Als Zeichen ihres Reichtums errichteteten sie ein Herrenhaus nördlich des großen Sees und damit auf halbem Weg zwischen den Siedlungen Binuoth und Lilouth, den wichtigsten Handelsstützpunkten der damaligen Zeit. Nun steht das Haus seit über einem Jahrhundert leer, nachdem die letzte Generation der Trothrin Familie auf mysteriöse Weise verschwand. Seither hat sich niemand mehr in das Gebäude getraut, da immernoch Licht brennt und ein riesenhafter Schatten im Inneren zu sehen ist.",
+    "description": "Die Familie Trothrin machte nach Ende des 53-jährigen Krieges ein Vermögen mit dem Wiederaufbau der Grafschaft Itreg. Als Zeichen ihres Reichtums errichteteten sie ein Herrenhaus nördlich des großen Sees und damit auf halbem Weg zwischen den Siedlungen Binouth und Lilouth, den wichtigsten Handelsstützpunkten der damaligen Zeit. Nun steht das Haus seit über einem Jahrhundert leer, nachdem die letzte Generation der Trothrin Familie auf mysteriöse Weise verschwand. Seither hat sich niemand mehr in das Gebäude getraut, da immernoch Licht brennt und ein riesenhafter Schatten im Inneren zu sehen ist.",
     "options": [
       {
         "text": "Ins Herrenhaus stürmen und alles niederstrecken, was sich dir in den Weg stellt",
@@ -583,7 +583,7 @@
       },
       {
         "text": "Dem Monster ein Opfer darbringen",
-        "description": "Es ist nicht ungewöhnlich für die Bewohner Binuoths, dem Monster im Herrenhaus Opfergaben beizulegen. Es soll den Fischfang begünstigen.",
+        "description": "Es ist nicht ungewöhnlich für die Bewohner Binouths, dem Monster im Herrenhaus Opfergaben beizulegen. Es soll den Fischfang begünstigen.",
         "values": [0, 0, 0],
         "cost": 0,
         "positive": {
@@ -601,7 +601,7 @@
       },
       {
         "text": "Ins Haus einbrechen, um Schätze zu stehlen",
-        "description": "Das Vermögen der Familie Trothrin war legendär und die Opfegaben der Binuother werden es nur vermehrt haben.",
+        "description": "Das Vermögen der Familie Trothrin war legendär und die Opfegaben der Binouther werden es nur vermehrt haben.",
         "values": [5, 3, 1],
         "cost": 0,
         "positive": {
@@ -639,7 +639,7 @@
   },
 {
     "id": 9,
-    "title": "Azelons Stadt",
+    "title": "Azelon",
     "area": 2,
     "overviewImage": "images/card9_overview.png",
     "image": "images/card9_detail.png",
@@ -652,7 +652,7 @@
         "cost": 80,
         "positive": {
           "result": "Diese Geldsumme hat sich wirklich gelohnt. Die Aussicht ist atemberaubend.",
-          "description": "Du erreichst die Binuoth Siedlung westlich des großen Sees und konntest im beengten Ballonkorb neue Kontakte mit Mitreisenden knüpfen.",
+          "description": "Du erreichst die Binouth Siedlung westlich des großen Sees und konntest im beengten Ballonkorb neue Kontakte mit Mitreisenden knüpfen.",
           "changes": [0, 0, 1],
           "moneyChange": -80
         },
@@ -670,7 +670,7 @@
         "cost": 0,
         "positive": {
           "result": "Du schaffst es eine Balloncrew zu überfallen und sie zu zwingen, dich über die Ligon Berge zu bringen.",
-          "description": "Du erreichst die Binuoth Siedlung westlich des großen Sees gestärkt und schlauer.",
+          "description": "Du erreichst die Binouth Siedlung westlich des großen Sees gestärkt und schlauer.",
           "changes": [1, 1, 0],
           "moneyChange": 0
         },
@@ -688,7 +688,7 @@
         "cost": 0,
         "positive": {
           "result": "Du schaffst es die Minenarbeiter zu überzeugen, wenn du ihnen bei der Arbeit hilfst und eine kleine Geldsumme gibst, dich durch die Minen zu bringen",
-          "description": "Nach einer anstrengenden eintägigen Fahrt erreichst du die Binuoth Siedlung westlich des großen Sees, gestärkt und schlauer.",
+          "description": "Nach einer anstrengenden eintägigen Fahrt erreichst du die Binouth Siedlung westlich des großen Sees, gestärkt und schlauer.",
           "changes": [1, 1, 0],
           "moneyChange": -10
         },
@@ -712,7 +712,7 @@
         },
         "negative": {
           "result": "Nach einigen Tagen harter Arbeit, wirst du gefeuert, du warst zu schwach.",
-          "description": "Da ihr euch aktuell im Norden der Berge befindet, wirst du gestärkt an der Siedlung Binuoth westlichen des großen Sees abgesetzt.",
+          "description": "Da ihr euch aktuell im Norden der Berge befindet, wirst du gestärkt an der Siedlung Binouth westlichen des großen Sees abgesetzt.",
           "changes": [1, 0, 0],
           "moneyChange": 5
         }
@@ -997,7 +997,7 @@
         "values": [0, 0, 4],
         "cost": 0,
         "positive": {
-          "result": "Du schaffst es, den Grabräuber zu überzeugen, dass sein Handeln unmoralisch ist. Er erwidert jedoch, dass er im Auftrag des Stadthalters von Azelon Stadt handelt, und dieser Ost-Zhranorath bezahlt, dass diese das Aquirieren und Transportieren von Wertgegenständen Toter Soldaten dulden.",
+          "result": "Du schaffst es, den Grabräuber zu überzeugen, dass sein Handeln unmoralisch ist. Er erwidert jedoch, dass er im Auftrag des Stadthalters von Azelon handelt, und dieser Ost-Zhranorath bezahlt, dass diese das Aquirieren und Transportieren von Wertgegenständen Toter Soldaten dulden.",
           "description": "Du verlässt den Friedhof etwas geschockt, aber schlauer und charmanter gen Norden.",
           "changes": [0, 1, 1],
           "moneyChange": 0
@@ -1015,7 +1015,7 @@
         "values": [4, 0, 0],
         "cost": 0,
         "positive": {
-          "result": "Du verletzt den Grabräuber schwer und bringst seinen ohnmächtigen Körper anschließend nach Ost-Zhranorath, wo du ihn der Stadtwache übergibst. Diese erklären dir jedoch, dass Ost-Zhranorath seit geraumer Zeit, Grabräuberrechte verkauft und dieser Räuber im Auftrag des Stadthalters von Azelon Stadt handelt.",
+          "result": "Du verletzt den Grabräuber schwer und bringst seinen ohnmächtigen Körper anschließend nach Ost-Zhranorath, wo du ihn der Stadtwache übergibst. Diese erklären dir jedoch, dass Ost-Zhranorath seit geraumer Zeit, Grabräuberrechte verkauft und dieser Räuber im Auftrag des Stadthalters von Azelon handelt.",
           "description": "Du befindest dich stäker in Ost-Zhranorath.",
           "changes": [1, 0, 0],
           "moneyChange": 0
@@ -1062,7 +1062,7 @@
         "cost": 0,
         "positive": {
           "result": "Du findest einige verdächtig gut erhaltene Schiffe und schaffest es das Schiff bis nach Binouth zu steuern. Dort wird jedoch eine Parkgebühr fällig.",
-          "description": "Du befindest dich schlauer in Binuoth.",
+          "description": "Du befindest dich schlauer in Binouth.",
           "changes": [0, 1, 0],
           "moneyChange": -15
         },
@@ -1158,7 +1158,7 @@
   },
 {
     "id": 16,
-    "title": "Siedlung Binuoth",
+    "title": "Binouth",
     "area": 2,
     "overviewImage": "images/card16_overview.png",
     "image": "images/card16_detail.png",
@@ -1171,13 +1171,13 @@
         "cost": 0,
         "positive": {
           "result": "Du unterhälst dich mit einigen Händeln und erfährst, dass das Handel in Binouth immer schwieriger wird, da vor Azelon mittlerweile Wegzölle für den Transport von Waren verlangt wird. Währenddessen hat dir jemand einige Münuen gestohlen.",
-          "description": "Du verlässt Binuoth schlauer gen Nordwesten.",
+          "description": "Du verlässt Binouth schlauer gen Nordwesten.",
           "changes": [0, 1, 0],
           "moneyChange": -10
         },
         "negative": {
           "result": "Du versuchst dich freundlich mit einigen Händlern zu unterhalten. Als diese jedoch merken, dass du kein Geld bei ihnen lassen möchtest, brechen sie die Gespräche ab. Währenddessen hat dir jemand einige Münuen gestohlen.",
-          "description": "Du verlässt Binuoth schlauer gen Nordwesten.",
+          "description": "Du verlässt Binouth schlauer gen Nordwesten.",
           "changes": [0, 1, 0],
           "moneyChange": -10
         }
@@ -1189,25 +1189,25 @@
         "cost": 40,
         "positive": {
           "result": "Du schaffst es die teure Seide noch teurer weiterzuverkaufen.",
-          "description": "Im Anschluss verlässt du Binuoth reicher und charmanter gen Nordwesten.",
+          "description": "Im Anschluss verlässt du Binouth reicher und charmanter gen Nordwesten.",
           "changes": [0, 0, 1],
           "moneyChange": 30
         },
         "negative": {
           "result": "Das Fleishc zu kaufen ist ein Kinderspiel, es teuer loszuwerden erweist sich als schwieriger.",
-          "description": "Im Anschluss verlässt du Binuoth ärmer gen Nordwesten.",
+          "description": "Im Anschluss verlässt du Binouth ärmer gen Nordwesten.",
           "changes": [0, 0, 0],
           "moneyChange": -40
         }
       },
       {
         "text": "Am Straßenrand betteln",
-        "description": "Vielleicht sind die Binuother großzügig.",
+        "description": "Vielleicht sind die Binouther großzügig.",
         "values": [0, 0, 10],
         "cost": 0,
         "positive": {
           "result": "Nach einigen Stunden schaffst du es durch dein angenehmen Betragen, einigen Münzen zu erbetteln.",
-          "description": "Du verlässt Binuoth charmanter gen Nordwesten.",
+          "description": "Du verlässt Binouth charmanter gen Nordwesten.",
           "changes": [0, 0, 1],
           "moneyChange": 0
         },
@@ -1226,58 +1226,41 @@
     "area": 2,
     "overviewImage": "images/card17_overview.png",
     "image": "images/card17_detail.png",
-    "description": "Du stehst vor dem Eingang der namenlosen Höhle der Drachen, in die die Drachen während des 53-jährigen Krieges verbannt wurden. Niemand weiß, wie Kommandant Luzehn es schaffte, die Drachen sich dazu zu verpflichten. Seither hat niemand mehr Drachen in Itreg gesehen und nach 324 Jahren Frieden, müssten die Drachen längst verhungert sein. Doch du kannst deutlich Licht im Inneren der Höhle erahnen.",
+    "description": "Östliche von Azelon findet sich hochqualitiativer Stein nur wenigen Meter unter der Erde. Seit etwa einem Jahr bietet die Grafschaft Itreg den doppelten Marktpreis für solches Gestein, wenn dieses zu Agons Tor geliefert wird. Es soll der Verteidigung der Mauer zu gute kommen. Um den Umsatz für die Stadt Azelon zu maximieren werden seit einigen Monaten junge Männer zur Arbeit im stadteigenen Steinbruch konskribiert.",
     "options": [
       {
-        "text": "Umkehren",
-        "description": "Jetzt wo du hier bist, sieht die Höhle doch sehr bedrohlich aus.",
-        "values": [0, 0, 0],
+        "text": "Im Steinbruch arbeiten",
+        "description": "Der Stadthalter Azelons lässt etwa ein Zehntel der erwirtschafteten Gewinn an die Arbeiter auszahlen. Keine schlechte Quote in Azelon.",
+        "values": [7, 3, 1],
         "cost": 0,
         "positive": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
-          "moneyChange": 0
+          "result": "Einen Tag lang spaltest, schiebst und verlädst du Gestein. Am Tagesende wird dir dein Lohn ausgezahl",
+          "description": "Du verlässt den Steinbruch reicher und stärker gen Westen.",
+          "changes": [1, 0, 0],
+          "moneyChange": 40
         },
         "negative": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Du bist zu schwach und kannst die Erwartungen des Vorarbeiters nicht erfüllen. Dir wird kein Lohn ausgezahlt.",
+          "description": "Du verlässt den Steinbruch reicher und stärker gen Westen.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       },
       {
-        "text": "Die Höhle betreten mit der Absicht, die Drachen zu töten",
-        "description": "Ein Drachkopf wäre in Azelon ein Vermögen wert",
-        "values": [6, 0, 0],
+        "text": "Eine Steinlieferung stehlen und bei Agons Tor verkaufen",
+        "description": "",
+        "values": [4, 5, 4],
         "cost": 0,
         "positive": {
-          "result": "Du stürmst voller Wagemut in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und hüllt dich in orangen Flammen.",
-          "description": "Du verlässt die Drachenhöhle gen Süden und kommst schwer verletzt im Ödland an.",
-          "changes": [-1, 0, 0],
-          "moneyChange": 0
-        },
-        "negative": {
-          "result": "Du stürmst voller Wagemut in die Höhle, doch bevor du auch nur ein einziges schuppiges Wesen erblickst, wirst du geröstet. Deine Haut zerfällt und deine Organe versagen.",
-          "description": "Du wachst im Tempel der Erleuchtung auf, dessen stummen Mönchen die gerettet haben. Warum, sie vor Ort waren, weißt du nicht. Du heilst schnell, bald bringen dich die Mönche ins Ödland.",
-          "changes": [-1, 1, 0],
-          "moneyChange": 0
-        }
-      },
-      {
-        "text": "Die Höhle betreten, um mit den Drachen zu sprechen",
-        "description": "Es sind edle Wesen, die Respekt verdienen",
-        "values": [0, 0, 6],
-        "cost": 0,
-        "positive": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, dann verlässt du die Höhle und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 1],
-          "moneyChange": 0
-        },
-        "negative": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, doch sie glauben dir nicht und speihen Flammen in deine Richtung. Du kannst jedoch ausweichen, die Höhle verlassen und rennst gen Süden.",
+          "result": "Du schaffst es eine Wageladung Gestein zu stehlen und fährst sie zu Agons Tor dort verkaufst du sie an Soldaten für einen guten Preis. Sie danken dir für deinen Dienst an der Verteidigung der Mauer.",
+          "description": "Du befindest dich reicher und schlauer bei Agons Tor.",
           "changes": [0, 1, 0],
+          "moneyChange": 80
+        },
+        "negative": {
+          "result": "Beim Versuch eine Wageladung Gestein zu steheln wirst du erwischt und zusammengeschlagen und aus dem Steinbruch geworfen.",
+          "description": "Du verlässt den Steinbruch gen Westen.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       }
@@ -1285,15 +1268,15 @@
   },
 {
     "id": 18,
-    "title": "Tor nach Maulang 1",
+    "title": "Agons Tor",
     "area": 2,
     "overviewImage": "images/card18_overview.png",
     "image": "images/card18_detail.png",
-    "description": "Du stehst vor dem Eingang der namenlosen Höhle der Drachen, in die die Drachen während des 53-jährigen Krieges verbannt wurden. Niemand weiß, wie Kommandant Luzehn es schaffte, die Drachen sich dazu zu verpflichten. Seither hat niemand mehr Drachen in Itreg gesehen und nach 324 Jahren Frieden, müssten die Drachen längst verhungert sein. Doch du kannst deutlich Licht im Inneren der Höhle erahnen.",
+    "description": "Der Kontinent Volinoa, in dessen Südosten die Grafschaft Itreg lieft, wird durch eine kreisförmige Mauer in Maulang und die namenlosen Außengebiete eingeteil. Dabei liegt im Maulangbereich einer jeder Grafschaft deren Regierungssitz. Der ehemalige Graf von Itreg und spätere König Volinoas ordnete den Bau der Maulangmauer ausgehend von diesem Tor an, um als letzter Schutzwall der Grafschaften gegenüber Feinden von fremden Kontinenten. Nur rechtschaffende Bürger dürfen gegen Wegzoll das Tor Agons gen Maulang passieren.",
     "options": [
       {
-        "text": "Umkehren",
-        "description": "Jetzt wo du hier bist, sieht die Höhle doch sehr bedrohlich aus.",
+        "text": "Durch das Tor nach Maulang kämpfen",
+        "description": "Das Fallgatter steht offen auch wenn es schwer bewacht wird.",
         "values": [0, 0, 0],
         "cost": 0,
         "positive": {
@@ -1348,11 +1331,11 @@
   },
 {
     "id": 19,
-    "title": "Tor nach Maulang 2",
+    "title": "Luzehns Tor",
     "area": 2,
     "overviewImage": "images/card19_overview.png",
     "image": "images/card19_detail.png",
-    "description": "Du stehst vor dem Eingang der namenlosen Höhle der Drachen, in die die Drachen während des 53-jährigen Krieges verbannt wurden. Niemand weiß, wie Kommandant Luzehn es schaffte, die Drachen sich dazu zu verpflichten. Seither hat niemand mehr Drachen in Itreg gesehen und nach 324 Jahren Frieden, müssten die Drachen längst verhungert sein. Doch du kannst deutlich Licht im Inneren der Höhle erahnen.",
+    "description": "Eines der ersten Tore der Maulangmauer, welches erichtet wurde. Einst hieß es bramitisches Tor, da für den Handel zwischen den Außengebieten des östlich anliegenden Grafschaft Bramit und dem Maulanggebiets Itregs unerlässlich war. Nach Ende des 53-jährigen Krieges wurd es jedoch als Ehrung für Kommandant Luzehn umbenannt. Es scheint aktuell unter Belagerung zu stehen. Riesige hölzerene Belagerungstürme, Katapulte und anderes Kriegsgerät setzen dem Tor zu.",
     "options": [
       {
         "text": "Umkehren",
@@ -1538,7 +1521,7 @@
   },
 {
     "id": 22,
-    "title": "Siedlung Rameros",
+    "title": "Rameros",
     "area": 3,
     "overviewImage": "images/card22_overview.png",
     "image": "images/card22_detail.png",
@@ -1665,7 +1648,7 @@
 {
     "id": 24,
     "area": 3,
-    "title": "Festung Itreg",
+    "title": "Itreg",
     "overviewImage": "images/card24_overview.png",
     "image": "images/card24_detail.png",
     "description": "Du stehst vor dem Eingang der namenlosen Höhle der Drachen, in die die Drachen während des 53-jährigen Krieges verbannt wurden. Niemand weiß, wie Kommandant Luzehn es schaffte, die Drachen sich dazu zu verpflichten. Seither hat niemand mehr Drachen in Itreg gesehen und nach 324 Jahren Frieden, müssten die Drachen längst verhungert sein. Doch du kannst deutlich Licht im Inneren der Höhle erahnen.",
