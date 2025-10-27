@@ -643,78 +643,78 @@
     "area": 2,
     "overviewImage": "images/card9_overview.png",
     "image": "images/card9_detail.png",
-    "description": "TODO",
+    "description": "Du betrittst die größte Stadt der Grafschaft Itreg - Azelon. Sie ist von Handel getrieben, aber auch von Elend erflüllt, welches in ölig und blutigen Flecken die Gassen bedeckt. Überragt wird die Stadt von der zentralen Kathedrale, die den Zrenithern als Folge der, im 53-jährigen Krieg zugenommenen, Heretik enteignet wurde. Heute ist sie der Sitz des Stadthalters, dessen Linien seit dem Tod des kinderlosen Azelon regiert.",
     "options": [
       {
-        "text": "TODO",
-        "description": "Eine teurer Angelegenheit - aber sehr sicher, da die Gemeinde bereits vor einigen Jahren begann für touristische Zwecke Ballonfahrten anzubieten.",
-        "values": [0, 0, 2],
+        "text": "Den Stadthalter gewaltsam wegputschen",
+        "description": "Seiner duch schwacher Hand geführten Herrschaft muss ein Ende gesetzt werden.",
+        "values": [5, 4, 4],
         "cost": 80,
         "positive": {
-          "result": "Diese Geldsumme hat sich wirklich gelohnt. Die Aussicht ist atemberaubend.",
-          "description": "Du erreichst die Binouth Siedlung westlich des großen Sees und konntest im beengten Ballonkorb neue Kontakte mit Mitreisenden knüpfen.",
+          "result": "Du baust eine kleine radikale Gruppe auf. Zunächst bezahlst du einige Söldner, dich dir anzuschließen. Im Wirtshaus zum stinkenden Schwein, findest du viele unzufriedene Arbeiter, die du für deine Sache gewinnen kannst. Am nächsten Morgen schlagt ihr los. Ihr überennt die Stadtwache nehmt die Kathedrale ein. Du überlässt die neue Führung anderen. Berreicherst dich jedoch an den Goldresereven Azelons.",
+          "description": "Du verlässt Azelons deutlich reicher und kompetenter nach Nordosten.",
+          "changes": [1, 1, 1],
+          "moneyChange": 120
+        },
+        "negative": {
+          "result": "Du baust eine kleine radikale Gruppe auf. Zunächst bezahlst du einige Söldner, dich dir anzuschließen. Im Wirtshaus zum stinkenden Schwein, findest du viele unzufriedene Arbeiter, einige wenige kannst du für deine Sache gewinnen. Am nächsten Morgen schlagt ihr los. Die Stadtwache ist jedoch ein formidabler Kontrahent. Ihr werdet besiegt. Du schaffst es aus der Stadt zu fliehen.",
+          "description": "Du verlässt Azelon gen Nordosten.",
+          "changes": [0, 0, 0],
+          "moneyChange": -80
+        }
+      },
+      {
+        "text": "In der Bibliothek der Stadt lesen",
+        "description": "Es wird wohl Eintritt verlangt",
+        "values": [0, 7, 2],
+        "cost": 60,
+        "positive": {
+          "result": "Du bezahlst Eintritt und ließt stundenlang. Du erfährst, dass der 53-jährige Krieg dadurch begann, dass die Zrenither begannen, gegen die Bramiten zu hetzen, da deren Lebensweise sich immer weiter durchsetzte und schließlich damit begannen, Bramiten zu großen Zahlen eigenmächtig zu deportieren. Diese wehrte sich jedoch und der Krieg begann.",
+          "description": "Du verlässt Azelon schlauer gen Nordosten.",
+          "changes": [0, 1, 0],
+          "moneyChange": -60
+        },
+        "negative": {
+          "result": "Du bezahlst Eintritt und ließt stundenlang. Das Gelesene verstehst du jedoch nicht. Dir fehlt es an Hintergrundwissen.",
+          "description": "Du verlässt Azelon gen Nordosten.",
+          "changes": [0, 0, 0],
+          "moneyChange": -60
+        }
+      },
+      {
+        "text": "Mit Floss flussabwärts bis zur Maulang Mauer fahren",
+        "description": "Hinter der Maulang Mauer wartet dein großes Ziel - Itreg.",
+        "values": [2, 1, 4],
+        "cost": 100,
+        "positive": {
+          "result": "Du bezahlst für die Flossfahrt bis zur Maulang Mauer. Du genießt die sehr gesellige Fahrt in vollen Zügen mit deinen Mitreisenden und erreichst die Mauer.",
+          "description": "Du befindest die bei Tor nach Maulang 3.",
           "changes": [0, 0, 1],
-          "moneyChange": -80
+          "moneyChange": -100
         },
         "negative": {
-          "result": "Diese Geldsumme hat sich wirklich gelohnt. Die Aussicht ist atemberaubend, aber du streitest mit den Mitreisenden, die dich aus dem Ballonkorb werfen.",
-          "description": "Nach langer Ohnmacht wachst ärmer du in Siedlung Razerath auf. Wie du überlebt hast, ist dir ein Rätsel.",
+          "result": "Du bezahlst für die Flossfahrt bis zur Maulang Mauer. Deine Mitreisenden halten deine Anwesenheit jedoch für zu unausstehlich, dass sie dich von Bord werfen. Du wirst zurück nach Azelon gespült.",
+          "description": "Du befindest dich in Azelon.",
           "changes": [0, 0, 0],
-          "moneyChange": -80
+          "moneyChange": -100
         }
       },
       {
-        "text": "Eine Ballonfahrt vor der Abreise überfallen",
-        "description": "Warum bezahlen, wenn man die Crew zwingen kann einen über das Gebirge zu bringen?",
-        "values": [8, 8, 0],
-        "cost": 0,
+        "text": "Am Markplatz Juwelen kaufen, um sie in Anschluss teurer weiterzuverkaufen",
+        "description": "Manch Einer verdient so Unmengen Geld.",
+        "values": [0, 0, 9],
+        "cost": 100,
         "positive": {
-          "result": "Du schaffst es eine Balloncrew zu überfallen und sie zu zwingen, dich über die Ligon Berge zu bringen.",
-          "description": "Du erreichst die Binouth Siedlung westlich des großen Sees gestärkt und schlauer.",
-          "changes": [1, 1, 0],
-          "moneyChange": 0
+          "result": "Du schaffst es die Juwelene noch teurer weiterzuverkaufen.",
+          "description": "Im Anschluss verlässt du Azelon reicher und charmanter gen Nordosten.",
+          "changes": [0, 0, 1],
+          "moneyChange": 50
         },
         "negative": {
-          "result": "Beim Versuch die Balloncrew zu überfallen, wirst du überwältigt und zu quälender Arbeit in den Minen verurteilt.",
-          "description": "Nach einer Woche harter Arbeit, wirst du in der Siedlung Razerath geschwächt entlassen.",
+          "result": "Die Juwelen zu kaufen ist ein Kinderspiel, sie teuerer loszuwerden erweist sich als schwieriger.",
+          "description": "Im Anschluss verlässt du Azelon ärmer gen Nordosten.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
-        }
-      },
-      {
-        "text": "Die Minenarbeiter um Hilfe bitten",
-        "description": "Warum über die Berge, wenn man auch unter ihnen durch kann?",
-        "values": [4, 2, 6],
-        "cost": 0,
-        "positive": {
-          "result": "Du schaffst es die Minenarbeiter zu überzeugen, wenn du ihnen bei der Arbeit hilfst und eine kleine Geldsumme gibst, dich durch die Minen zu bringen",
-          "description": "Nach einer anstrengenden eintägigen Fahrt erreichst du die Binouth Siedlung westlich des großen Sees, gestärkt und schlauer.",
-          "changes": [1, 1, 0],
-          "moneyChange": -10
-        },
-        "negative": {
-          "result": "Die Minenarbeiter lachen dich aus, sie können ein Schwächling wie dich nicht in ihren Lohen gebrauchen.",
-          "description": "Du bleibst in der Siedlung Razerath.",
-          "changes": [0, 0, -1],
-          "moneyChange": 0
-        }
-      },
-      {
-        "text": "Im den Minen arbeiten",
-        "description": "Warum nicht etwas Geld verdienen, du bist etwas knapp bei Kasse.",
-        "values": [8, 0, 2],
-        "cost": 0,
-        "positive": {
-          "result": "Du kannst die Minenarbeiter überzeugen dich mitarbeiten zu lassen. Nach einigen Tagen harter Arbeit, erhälst du deine Lohn.",
-          "description": "Du bleibst in der Siedlung Razerath.",
-          "changes": [1, 0, 0],
-          "moneyChange": 30
-        },
-        "negative": {
-          "result": "Nach einigen Tagen harter Arbeit, wirst du gefeuert, du warst zu schwach.",
-          "description": "Da ihr euch aktuell im Norden der Berge befindet, wirst du gestärkt an der Siedlung Binouth westlichen des großen Sees abgesetzt.",
-          "changes": [1, 0, 0],
-          "moneyChange": 5
+          "moneyChange": -100
         }
       }
     ]
@@ -1189,13 +1189,13 @@
         "values": [0, 2, 7],
         "cost": 40,
         "positive": {
-          "result": "Du schaffst es die teure Seide noch teurer weiterzuverkaufen.",
+          "result": "Du schaffst es das Fleisch noch teurer weiterzuverkaufen.",
           "description": "Im Anschluss verlässt du Binouth reicher und charmanter gen Nordwesten.",
           "changes": [0, 0, 1],
           "moneyChange": 30
         },
         "negative": {
-          "result": "Das Fleishc zu kaufen ist ein Kinderspiel, es teuer loszuwerden erweist sich als schwieriger.",
+          "result": "Das Fleisch zu kaufen ist ein Kinderspiel, es teuer loszuwerden erweist sich als schwieriger.",
           "description": "Im Anschluss verlässt du Binouth ärmer gen Nordwesten.",
           "changes": [0, 0, 0],
           "moneyChange": -40
@@ -1273,60 +1273,60 @@
     "area": 2,
     "overviewImage": "images/card18_overview.png",
     "image": "images/card18_detail.png",
-    "description": "Der Kontinent Volinoa, in dessen Südosten die Grafschaft Itreg lieft, wird durch eine kreisförmige Mauer in Maulang und die namenlosen Außengebiete eingeteil. Dabei liegt im Maulangbereich einer jeder Grafschaft deren Regierungssitz. Der ehemalige Graf von Itreg und spätere König Volinoas ordnete den Bau der Maulangmauer ausgehend von diesem Tor an, um als letzter Schutzwall der Grafschaften gegenüber Feinden von fremden Kontinenten. Nur rechtschaffende Bürger dürfen gegen Wegzoll das Tor Agons gen Maulang passieren.",
+    "description": "Der Kontinent Volinoa, in dessen Südosten die Grafschaft Itreg lieft, wird durch eine kreisförmige Mauer in Maulang und die namenlosen Außengebiete eingeteil. Dabei liegt im Maulangbereich einer jeder Grafschaft deren Regierungssitz. Der ehemalige Graf von Itreg und spätere König Volinoas ordnete den Bau der Maulangmauer ausgehend von diesem Tor an, um als letzter Schutzwall der Grafschaften gegenüber Feinden von fremden Kontinenten. Nur rechtschaffende Bürger dürfen gegen Wegzoll das Tor Agons gen Maulang passieren, welche durch die Maulang-Garde geschützt wird.",
     "options": [
       {
-        "text": "Durch das Tor nach Maulang kämpfen",
-        "description": "Das Fallgatter steht offen auch wenn es schwer bewacht wird.",
+        "text": "Den Wegzoll bezahlen und Maulang betreten",
+        "description": "Du bist schließlich ein rechtschaffender Reisender in Itreg.",
         "values": [0, 0, 0],
+        "cost": 260,
+        "positive": {
+          "result": "Du bezahlst den sehr hohen Wegzoll und betrittst Maulang.",
+          "description": "Du verlässt Agons Tor gen Norden.",
+          "changes": [0, 0,0],
+          "moneyChange": -260
+        },
+        "negative": {
+          "result": "Du bezahlst den sehr hohen Wegzoll und betrittst Maulang.",
+          "description": "Du verlässt Agons Tor gen Norden.",
+          "changes": [0, 0,0],
+          "moneyChange": -260
+        }
+      },
+      {
+        "text": "Dir den Weg nach Maulang freikämpfen",
+        "description": "Der Wegzoll ist sehr hoch, und du sehr stark.",
+        "values": [11, 2, 0],
         "cost": 0,
         "positive": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Du stürmst gegen die zwei Dutzend Wachen der Maulang-Garde an und schaffst es tatsächlich an ihnen vorbei zu kommen. Du rennst von Agons Tor gen Norden nach Maulang. Nach einigen Stunden wirst du von Gardenmitgliedern eingeholt und niedergeritten. Du verlierst das Bewusstsein.",
+          "description": "Du wachst gestärkt im Gefängnis Itregs innerhalb der Maulangmauer auf.",
+          "changes": [1, 0, 0],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Du stürmst gegen die zwei Dutzend Wachen der Maulang-Garde an und wirst gnadenlos niedergeschlagen. Die Garde möchte die demütigen und bindet dich an eine Wagen voller stinkender Fässe voller Fische, der nach Süden fährt.",
+          "description": "Angekommen in Azelon wirst du losgebunden. Du befindest dich in Azelon.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       },
       {
-        "text": "Die Höhle betreten mit der Absicht, die Drachen zu töten",
-        "description": "Ein Drachkopf wäre in Azelon ein Vermögen wert",
-        "values": [6, 0, 0],
+        "text": "Eine Wache bestechen, dich nachts passieren zu lassen",
+        "description": "Auch wenn die Maulang-Garde hoch angesehen ist, sind sie sehr schlecht bezahlt.",
+        "values": [0, 1, 7],
         "cost": 0,
         "positive": {
-          "result": "Du stürmst voller Wagemut in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und hüllt dich in orangen Flammen.",
-          "description": "Du verlässt die Drachenhöhle gen Süden und kommst schwer verletzt im Ödland an.",
-          "changes": [-1, 0, 0],
-          "moneyChange": 0
+          "result": "Du schaffst es dich nachts an das Tor zu schleichen und eine Wache einzeln abzupassen. Bei einem netten Gespräch übergibst du etwas Geld und dir wird von der Wache heimlich Einlass nach Maulang gewährt.",
+          "description": "Du verlässt Agons Tor charmanter gen Norden.",
+          "changes": [0, 0, 1],
+          "moneyChange": -100
         },
         "negative": {
-          "result": "Du stürmst voller Wagemut in die Höhle, doch bevor du auch nur ein einziges schuppiges Wesen erblickst, wirst du geröstet. Deine Haut zerfällt und deine Organe versagen.",
-          "description": "Du wachst im Tempel der Erleuchtung auf, dessen stummen Mönchen die gerettet haben. Warum, sie vor Ort waren, weißt du nicht. Du heilst schnell, bald bringen dich die Mönche ins Ödland.",
-          "changes": [-1, 1, 0],
-          "moneyChange": 0
-        }
-      },
-      {
-        "text": "Die Höhle betreten, um mit den Drachen zu sprechen",
-        "description": "Es sind edle Wesen, die Respekt verdienen",
-        "values": [0, 0, 6],
-        "cost": 0,
-        "positive": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, dann verlässt du die Höhle und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 1],
-          "moneyChange": 0
-        },
-        "negative": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, doch sie glauben dir nicht und speihen Flammen in deine Richtung. Du kannst jedoch ausweichen, die Höhle verlassen und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
-          "moneyChange": 0
+          "result": "Du schaffst es dich nachts an das Tor zu schleichen und eine Wache einzeln abzupassen. Bei einem Gespräch übergibst du etwas Geld und dir wird von der Wache heimlich Einlass nach Maulang gewährt. Kurz danach wirst du von der Maulang-Garde eingeholt. Die Wache hat dich verraten, da sie für das Festnehmen von Eindringlingen eine Provision erhält. Du wirst in das Gefängnis Itregs gebracht.",
+          "description": "Du befindest dich im Gefängnis Itregs innerhalb der Maulangmauer auf.",
+          "changes": [0, 0, 0],
+          "moneyChange": -100
         }
       }
     ]
@@ -1340,55 +1340,55 @@
     "description": "Eines der ersten Tore der Maulangmauer, welches erichtet wurde. Einst hieß es bramitisches Tor, da für den Handel zwischen den Außengebieten des östlich anliegenden Grafschaft Bramit und dem Maulanggebiets Itregs unerlässlich war. Nach Ende des 53-jährigen Krieges wurd es jedoch als Ehrung für Kommandant Luzehn umbenannt. Es scheint aktuell unter Belagerung zu stehen. Riesige hölzerene Belagerungstürme, Katapulte und anderes Kriegsgerät setzen dem Tor zu.",
     "options": [
       {
-        "text": "Umkehren",
-        "description": "Jetzt wo du hier bist, sieht die Höhle doch sehr bedrohlich aus.",
-        "values": [0, 0, 0],
+        "text": "Belagerungstürme zum Einsturz bringen",
+        "description": "Du stehst schließlich zu dem itregianischen Staat, dessen Herz und Haupstadt in Maulang liegt.",
+        "values": [8, 4, 0],
         "cost": 0,
         "positive": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Du kennst Aufbau dieser Türme. Durch ein geschicktes Manöver schaffst du es unbemerkt in das Zwischengeschoss eines stehenden Turms. Von dort aus schaffst du es den Turm mit einer Kette mit einem davonrollenden Turm zu verbinden. Der Turm, in dem du dich befindest, stürzt in den davonrollenden Turm. Du verlierst beim Aufprall das Bewusstein, und wachst als Kriegsgefangener im itregianischen Gefängnis auf. Itreg hat wohl deinetwegen die Schlacht gewonnen und konnte vor Luzehns Tor Gefangene nehmen.",
+          "description": "Du befindest dich gestärkt im itregianischen Gefängnis.",
+          "changes": [1, 0, 0],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
+          "result": "Bei deinem Versuch zwei Türm unbemerkt mit einer Kette zu verbinden, wirst du von Soldaten entdeckt. Sie haben nicht die Ressourcen dich festzusetzen. Möchten dich jedoch auch nicht verletzten. Sie schicken dich vom Schlachtfeld. Du bringst in Erfahrung, dass es sich um Bramiten handelt, die aus ihrere verbrannten Heimt geflohen sind und Obdacht suchen.",
+          "description": "Du verlässt Luzehns Tor schlauer gen Südosten.",
           "changes": [0, 1, 0],
           "moneyChange": 0
         }
       },
       {
-        "text": "Die Höhle betreten mit der Absicht, die Drachen zu töten",
-        "description": "Ein Drachkopf wäre in Azelon ein Vermögen wert",
-        "values": [6, 0, 0],
+        "text": "Angreifern anschließen, um das Tor zu stürmen",
+        "description": "Du schuldest Maulang überhaupt nichts",
+        "values": [10, 0, 2],
         "cost": 0,
         "positive": {
-          "result": "Du stürmst voller Wagemut in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und hüllt dich in orangen Flammen.",
-          "description": "Du verlässt die Drachenhöhle gen Süden und kommst schwer verletzt im Ödland an.",
-          "changes": [-1, 0, 0],
+          "result": "Du kannst die Soldaten, welche sich als Bramiten herausstellen, überzeugen, dass du an einem Angriff der Verteidigungstürme teilnehmen darfst. Und jetzt stehst du dort hoch auf einem Mauerstück leicht östlich von Luzehns Tor und kämpfst um dein Leben. Viele Gegner kannst du zu Fall bringen. Auf einmal siehst du dich umringt von Gegnern. Du siehst nur einen Ausweg gen Norden von der Mauer springen. Dein Sturz wird duch Bäume gebremst und du kannst dich nach Rameros durchschlagen.",
+          "description": "Du befindest dich gestärkt in Rameros.",
+          "changes": [1, 0, 0],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Du stürmst voller Wagemut in die Höhle, doch bevor du auch nur ein einziges schuppiges Wesen erblickst, wirst du geröstet. Deine Haut zerfällt und deine Organe versagen.",
-          "description": "Du wachst im Tempel der Erleuchtung auf, dessen stummen Mönchen die gerettet haben. Warum, sie vor Ort waren, weißt du nicht. Du heilst schnell, bald bringen dich die Mönche ins Ödland.",
-          "changes": [-1, 1, 0],
+          "result": "Du schaffst es nicht die Soldaten zu überzeugen, dass du für den Kampf geeignet bist. Sie möchten nicht, dass du unvorbereitet in die Schlacht ziehst. Sie schicken dich vom Schlachtfeld. Du bringst in Erfahrung, dass es sich um Bramiten handelt, die aus ihrere verbrannten Heimt geflohen sind und Obdacht suchen.",
+          "description": "Du verlässt das Schlachtfeld schlauer gen Südosten.",
+          "changes": [0, 1, 0],
           "moneyChange": 0
         }
       },
       {
-        "text": "Die Höhle betreten, um mit den Drachen zu sprechen",
-        "description": "Es sind edle Wesen, die Respekt verdienen",
-        "values": [0, 0, 6],
+        "text": "Durch diplomatisches Geschick, die Parteien zu einer Waffenruhe bewegen",
+        "description": "Du bist schließlich kein gewaltäitger Barbar.",
+        "values": [0, 3, 12],
         "cost": 0,
         "positive": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, dann verlässt du die Höhle und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 1],
+          "result": "Du schaffst es beide Parteien an einen Tisch zu bringen. Die angreifenden Bramiten könnten den Itregianer zu verstehen geben, dass sie ihre Heimat verloren haben und nur Obdacht suchen. Da ihnen diese jedoch merfach verweht wurde, greifen sie nun zu Gewalt. Die Itregianern stimmen zu, dreihundert Bramiten in Rameros aufzunehem, wenn dafür die Bramiten ihre Waffen niederlegen. Du schließt dich dieser Gruppe an, um sicherzugehen, dass sich an die Abmachung gehalten wird.",
+          "description": "Du befindest dich in Rameros.",
+          "changes": [0, 0, 2],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, doch sie glauben dir nicht und speihen Flammen in deine Richtung. Du kannst jedoch ausweichen, die Höhle verlassen und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
+          "result": "Du schaffst es beide Parteien an einen Tisch zu bringen. Dort schreien sie sich jedoch nur gegenseitig an. Die Angreifer versuchen zu erklären, dass sie nur nach Obdacht suchen, da ihr bramitisches Heimatland verbrannt. Sie jedoch nirgends Hilfe finden. Nach einigen Stunden werden die Verhandlungen beendet und die Kämpfe werden fortgesetzt. ",
+          "description": "Du verlässt das Schlachtfeld schlauer gen Südosten.",
           "changes": [0, 1, 0],
           "moneyChange": 0
         }
