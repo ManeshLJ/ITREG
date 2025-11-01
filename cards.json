@@ -889,77 +889,77 @@
     "area": 3,
     "overviewImage": "images/card12_overview.png",
     "image": "images/card12_detail.png",
-    "description": "Der Teil Zhranorath östlich der großen Schlucht. Durch ihre zentrale Lage, ist diese Siedlung einer der wichtigsten Handelsplätze Itregs.",
+    "description": "Das Gefängnis Itregs, ein riesenhafter Turm, markiert den Übergang der Maulang Mauer in das Anbram Gebirge. Dessen Ein- sowie Ausgang befindet sich in Maulang. Wobei noch wenige Gefangene jemals, der teuer gemauerten, Ausgang betrachten durften. Und nun sitzt du dort in einer Zelle ein - was ein Pech.",
     "options": [
       {
-        "text": "Am Straßenrand betteln",
-        "description": "Vielleicht sind die Ost-Zhranorather großzügig.",
+        "text": "In Zelle bleiben",
+        "description": "Vielleicht lassen die Wachen dich irgendwann frei.",
         "values": [0, 0, 0],
         "cost": 0,
         "positive": {
-          "result": "Nach einigen Minuten fruchtlosem Betteln, wirst du von einer Gruppe jugendlicher Ost-Zhranorather überfallen. Sie bezeichnen dich als dreckigen West-Zhranorather und trage dich über die Brücke zurück nach West-Zhranorath.",
-          "description": "Du befindest dich in West-Zhranorath.",
+          "result": "Du wartest und wartest, aber es passiert nicht.",
+          "description": "Du befindest dich im Gefängnis.",
           "changes": [0, 0, 0],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Nach einigen Minuten fruchtlosem Betteln, wirst du von einer Gruppe jugendlicher Ost-Zhranorather überfallen. Sie bezeichnen dich als dreckigen West-Zhranorather und trage dich über die Brücke zurück nach West-Zhranorath.",
-          "description": "Du befindest dich in West-Zhranorath.",
+          "result": "Du wartest und wartest, aber es passiert nicht.",
+          "description": "Du befindest dich im Gefängnis.",
           "changes": [0, 0, 0],
           "moneyChange": 0
         }
       },
       {
-        "text": "Am Markplatz Seide kaufen, um sie in Anschluss teurer weiterzuverkaufen",
-        "description": "Manch Einer verdient so Unmengen Geld.",
-        "values": [0, 0, 5],
-        "cost": 40,
-        "positive": {
-          "result": "Du schaffst es die teure Seide noch teurer weiterzuverkaufen.",
-          "description": "Im Anschluss verlässt du Ost-Zhranorath reicher und charmanter gen Osten.",
-          "changes": [0, 0, 1],
-          "moneyChange": 30
-        },
-        "negative": {
-          "result": "Die Seide zu kaufen ist ein Kinderspiel, sie teuer loszuwerden erweist sich als schwieriger.",
-          "description": "Im Anschluss verlässt du Ost-Zhranorath ärmer gen Osten.",
-          "changes": [0, 0, 0],
-          "moneyChange": -40
-        }
-      },
-      {
-        "text": "Auf einen Boxkampf im Stade de Zhranorath wetten",
-        "description": "Die besten Kämpfer aus West-Zhranorath treten hier gegen einander an. Die Kämpfe bringen Unmengen an Geld ein, die Kämpfer gehen dabei fast leer aus.",
-        "values": [0, 5, 0],
-        "cost": 30,
-        "positive": {
-          "result": "Deine Einschätzung des Kampfes war richtig, du gewinnst eine Menge Geld.",
-          "description": "Am nächsten Morgen, verlässt du Ost-Zhranorath reicher gen Osten.",
-          "changes": [0, 1, 0],
-          "moneyChange": 60
-        },
-        "negative": {
-          "result": "Deine Einschätzung des Kampfes war falsch, du verlierst deinen Einsatz.",
-          "description":  "Am nächsten Morgen, verlässt du Ost-Zhranorath etwas ärmer gen Osten.",
-          "changes": [0, 0, 0],
-          "moneyChange": -30
-        }
-      },
-      {
-        "text": "Die Bank der Stadt überfallen",
-        "description": "In dieser Geld befinden sich Unmengen an Geld.",
-        "values": [8, 0, 0],
+        "text": "Zellentür aufbrechen und aus Gefängnis kämpfen",
+        "description": "Du bist schließlich sehr stark.",
+        "values": [15, 0, 0],
         "cost": 0,
         "positive": {
-          "result": "Du bedrohst die Bankangestellten mit einer Waffe und forderst sie auf, dir das Geld auszuhändigen. Du schaffst es mit der Beute zu entkommen.",
-          "description": "Du verlässt Ost-Zhranorath deutlich reicher gen Osten.",
+          "result": "Mit eine kuren Anlauf schaffst du es, die Zelltür aufzubrechen. Mit bloßen Händen kämpfst du gegen die Wächter, viele von ihnen aus der Maulang-Garde, und schaffst es zu entkommen.",
+          "description": "Du verlässt das Gefängnis gestärkt gen Westen.",
           "changes": [1, 0, 0],
-          "moneyChange": 200
+          "moneyChange": 0
         },
         "negative": {
-          "result": "Du bedrohst die Bankangestellten mit einer Waffe und forderst sie auf, dir das Geld auszuhändigen, wirst jedoch von dem Sicherheitespersonal überwältigt und in die große Schlucht geworfen und treibst ab",
-          "description": "Du befindest dich bei Agons Brücke.",
-          "changes": [1, 0, 0],
+          "result": "Mit eine kuren Anlauf schaffst du es, die Zelltür aufzubrechen. Mit bloßen Händen kämpfst du gegen die Wächter, viele von ihnen aus der Maulang-Garde, du bist viel zu scwach und wirst überwältigt und zurück in eine Zelle gebracht.",
+          "description": "Du befindest dich im Gefängnis.",
+          "changes": [0, 0, 0],
+          "moneyChange": 0
+        }
+      },
+      {
+        "text": "Einen Wärter bestechen, um freigelassen zu werden",
+        "description": "Jeder ist käuflich.",
+        "values": [0, 0, 5],
+        "cost": 200,
+        "positive": {
+          "result": "Du bist an den richtigen Wärter geraten, er führt dich nachts unbemerkt aus dem Gefängnis, nachdem du ihm eine große Summe Geld überlassen hast.",
+          "description": "Du verlässt charmanter das Gefängnis gestärkt gen Westen.",
+          "changes": [0, 0, 1],
+          "moneyChange": -200
+        },
+        "negative": {
+          "result": "Du bist an den falschen Wärter geraten, nachdem du ihm eine große Summe Geld überlassen hast, schlägt er dich einfach zusammen und lässt dich in deiner Zelle liegen.",
+          "description": "Du befindest dich im Gefängnis.",
+          "changes": [0, 0, 0],
+          "moneyChange": -200
+        }
+      },
+      {
+        "text": "Mit Häftlingen um Geld spielen",
+        "description": "Die Wachen erlauben es, da es für Ruhe im Gefängnis sorgt.",
+        "values": [0, 3, 2],
+        "cost": 10,
+        "positive": {
+          "result": "Du spielst und gewinnst, da du sehr schlau bist und deine Gegenspielen lesen kannst. Du machst eine kleine Menge Geld.",
+          "description": "Du befindest dich im Gefängnis.",
+          "changes": [0, 0, 0],
+          "moneyChange": 40
+        },
+        "negative": {
+          "result": "Du spielst und gewinnst aber verlierst auch, da du nicht ganz so schlau bist. Am Ende hast du etwa so viel Geld wie du begonnen hast.",
+          "description": "Du befindest dich im Gefängnis.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       }
@@ -1102,7 +1102,7 @@
     "description": "Du stehst vor dem Eingang der namenlosen Höhle der Drachen, in die die Drachen während des 53-jährigen Krieges verbannt wurden. Niemand weiß, wie Kommandant Luzehn es schaffte, die Drachen sich dazu zu verpflichten. Seither hat niemand mehr Drachen in Itreg gesehen und nach 324 Jahren Frieden, müssten die Drachen längst verhungert sein. Doch du kannst deutlich Licht im Inneren der Höhle erahnen.",
     "options": [
       {
-        "text": "Umkehren",
+        "text": "Höhle gen Südwesten verlassen",
         "description": "Jetzt wo du hier bist, sieht die Höhle doch sehr bedrohlich aus.",
         "values": [0, 0, 0],
         "cost": 0,
@@ -1404,7 +1404,7 @@
     "description": "Du stehst vor dem Eingang der namenlosen Höhle der Drachen, in die die Drachen während des 53-jährigen Krieges verbannt wurden. Niemand weiß, wie Kommandant Luzehn es schaffte, die Drachen sich dazu zu verpflichten. Seither hat niemand mehr Drachen in Itreg gesehen und nach 324 Jahren Frieden, müssten die Drachen längst verhungert sein. Doch du kannst deutlich Licht im Inneren der Höhle erahnen.",
     "options": [
       {
-        "text": "Umkehren",
+        "text": "Höhle gen Südwesten verlassen",
         "description": "Jetzt wo du hier bist, sieht die Höhle doch sehr bedrohlich aus.",
         "values": [0, 0, 0],
         "cost": 0,
@@ -1718,62 +1718,62 @@
 {
     "id": 25,
     "area": 2,
-    "title": "Geplünderte Siedlung Gabeg",
+    "title": "Gabeg",
     "overviewImage": "images/card25_overview.png",
     "image": "images/card25_detail.png",
-    "description": "Du stehst vor dem Eingang der namenlosen Höhle der Drachen, in die die Drachen während des 53-jährigen Krieges verbannt wurden. Niemand weiß, wie Kommandant Luzehn es schaffte, die Drachen sich dazu zu verpflichten. Seither hat niemand mehr Drachen in Itreg gesehen und nach 324 Jahren Frieden, müssten die Drachen längst verhungert sein. Doch du kannst deutlich Licht im Inneren der Höhle erahnen.",
+    "description": "Die Siedlung Gabeg markiert den Einstiegspunkt in eine kilometer lange sehr enge Schlucht nach Bramitan im Osten. Dieser Durchgang gilt als Todesfalle, jedoch kam wohl vor einiger Zeit eine zehntausend Mann starke Streitkraft von Osten hier hindurch und plünderte die Siedlung. Das erzählt dir zumindest einer der hungernden Bewohnern. Im Norden der Siedlung befindet sich eine fast 2000 Meter hohe glatte Felswand, deren Erklimmung nur die fähigsten Kletterer wagen. An ihrem Fuß befindet sich der Eingang zu einem verlassenen System aus Kristallminen.",
     "options": [
       {
-        "text": "Umkehren",
-        "description": "Jetzt wo du hier bist, sieht die Höhle doch sehr bedrohlich aus.",
-        "values": [0, 0, 0],
+        "text": "Felswand erklimmen, um Maulang zu erreichen",
+        "description": "Die Felswand gilt als heilig, du wirst für Zugang bezahlen müssen.",
+        "values": [8, 0, 0],
+        "cost": 100,
+        "positive": {
+          "result": "Du bezahlst den Wächter der Feldwand und beginnst den Freesolo-Aufstieg der Felswand. Du bist verdammt gut im Klettern und schaffst es die fast 2000 Meter nach oben. ",
+          "description": "Du befindest dich gestärkt in der Hochebene der Anbram Berge.",
+          "changes": [1, 0, 0],
+          "moneyChange": -100
+        },
+        "negative": {
+          "result": "Du bezahlst den Wächter der Feldwand und beginnst den Freesolo-Aufstieg der Felswand. Du bist verdammt schlecht im Klettern und schaffst es gerade mal 5 Meter nach oben. Zu deinem Glück, wenn du etwas höher gekommen wärst, hättest du dich stärker verletzt. ",
+          "description": "Du befindest dich in Gabeg.",
+          "changes": [0, 0, 0],
+          "moneyChange": -100
+        }
+      },
+      {
+        "text": "Kristallminen durchqueren, um Maulang zu erreichen",
+        "description": "Du wirst dir davor das Labyrinth dieser Minen einprägen müssen.",
+        "values": [6, 7, 0],
         "cost": 0,
         "positive": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
+          "result": "Zunächst sind die Kristallminen trist, alles schwarz um dich herum. Doch nach einigen Stunden erreichst du tiefere Bereiche, in denen Kristallen, von deiner Laterne erhellt, in den buntesten Farben schimmern. Du schaffst es dich durch das Labyrinth zu navigieren. Schließlich hörst du Stimmen und folgst ihnen ein steiles Loch hinab. Unten angekommen, merkst du, dass du dich in einer Gefängniszelle befindest.",
+          "description": "Du befindest dich schlauer im Gefängnis.",
           "changes": [0, 1, 0],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Die Kristallminen sind sehr schlicht. Stundenlang irrst du durch die Dunkelheit. Auf einmal fliegt dir ein Feuerball von der Seite entgegen. Du kannst ausweichen und rennst davon, hinter dir ein Monster. Du schaffst es ins Freie. In der Pforte hinter dir steht ein blaugeschuppter Drache, doch er verlässt die Höhle nicht.",
+          "description": "Du befindest dich bei der Drachenhöhle.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       },
       {
-        "text": "Die Höhle betreten mit der Absicht, die Drachen zu töten",
-        "description": "Ein Drachkopf wäre in Azelon ein Vermögen wert",
-        "values": [6, 0, 0],
+        "text": "Schlucht nach Bramitan durchqueren",
+        "description": "Eine lange Reise, doch du könntest erfahren, warum die Bramiten ihr Land plötzlich verlassen haben.",
+        "values": [10, 3, 0],
         "cost": 0,
         "positive": {
-          "result": "Du stürmst voller Wagemut in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und hüllt dich in orangen Flammen.",
-          "description": "Du verlässt die Drachenhöhle gen Süden und kommst schwer verletzt im Ödland an.",
-          "changes": [-1, 0, 0],
-          "moneyChange": 0
-        },
-        "negative": {
-          "result": "Du stürmst voller Wagemut in die Höhle, doch bevor du auch nur ein einziges schuppiges Wesen erblickst, wirst du geröstet. Deine Haut zerfällt und deine Organe versagen.",
-          "description": "Du wachst im Tempel der Erleuchtung auf, dessen stummen Mönchen die gerettet haben. Warum, sie vor Ort waren, weißt du nicht. Du heilst schnell, bald bringen dich die Mönche ins Ödland.",
-          "changes": [-1, 1, 0],
-          "moneyChange": 0
-        }
-      },
-      {
-        "text": "Die Höhle betreten, um mit den Drachen zu sprechen",
-        "description": "Es sind edle Wesen, die Respekt verdienen",
-        "values": [0, 0, 6],
-        "cost": 0,
-        "positive": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, dann verlässt du die Höhle und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 1],
-          "moneyChange": 0
-        },
-        "negative": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, doch sie glauben dir nicht und speihen Flammen in deine Richtung. Du kannst jedoch ausweichen, die Höhle verlassen und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
+          "result": "Lange schreitest du dahin, zweimal musst du nächtigen. Doch schließlich erreichst du Bramitan. Ein gänzlich verbranntes Land. Kein Grünen Pflanzen, kein blaues Wasser, nur schwarze Asche, selbst der Himmel scheint zu brennen. Du wendest dich um und erklimmst die Anbram Berge von Osten.",
+          "description": "Du erreichst die Hochebene in den Anbram Bergen schlauer.",
           "changes": [0, 1, 0],
+          "moneyChange": 0
+        },
+        "negative": {
+          "result": "Lange schreitest du dahin. Nach einer Nacht wird es dir jedoch zu anstrengend und du kehrst um. ",
+          "description": "Du befindest dich in Gabeg.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       }
