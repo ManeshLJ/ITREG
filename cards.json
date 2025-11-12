@@ -232,14 +232,14 @@
         "cost": 0,
         "positive": {
           "result": "Du kannst die Minenarbeiter überzeugen dich mitarbeiten zu lassen. Nach einigen Tagen harter Arbeit, erhälst du deine Lohn.",
-          "description": "Du bleibst in der Siedlung Razerath.",
-          "changes": [1, 0, 0],
+          "description": "Da ihr euch aktuell im Norden der Berge befindet, wirst du gestärkt und schlauer an der Siedlung Binouth westlichen des großen Sees abgesetzt.",
+          "changes": [2, 1, 0],
           "moneyChange": 20 
         },
         "negative": {
           "result": "Nach einigen Tagen harter Arbeit, wirst du gefeuert, du warst zu schwach.",
-          "description": "Da ihr euch aktuell im Norden der Berge befindet, wirst du gestärkt an der Siedlung Binouth westlichen des großen Sees abgesetzt.",
-          "changes": [2, 0, 0],
+          "description": "Du bleibst in der Siedlung Razerath.",
+          "changes": [0, 0, 0],
           "moneyChange": 5
         }
       }
@@ -543,13 +543,13 @@
         "positive": {
           "result": "Der Gläubige an der Tür lässt dich eintreten, lehnt dein Geld ab ohne ein Wort zu sagen. Du kannst belauschen, wie der hohe Rat darüber berät, wie sie ihren Einfluss über Azelon erhöhen können. Du wirst nicht erwischt.",
           "description": "Am nächsten Tag, reist du mit einer Gruppe Mönche, welche in deiner Anwesenheit nicht sprechen, zu Lettas Einkehr.",
-          "changes": [1, 0, 0],
+          "changes": [0, 1, 0],
           "moneyChange": 0
         },
         "negative": {
           "result": "Der Gläubige an der Tür lässt dich eintreten, lehnt dein Geld ab ohne ein Wort zu sagen. Du kannst belauschen, wie der hohe Rat darüber berät, wie sie ihren Einfluss über Azelon erhöhen können. Du wirst erwischt und wirst von der Klippe ins Meer geworfen.",
           "description": "Du wirst in der Hafenstadt wieder angespült.",
-          "changes": [0, 0, 0],
+          "changes": [0, 1, 0],
           "moneyChange": 0
         }
       }
@@ -682,18 +682,18 @@
         }
       },
       {
-        "text": "Mit Floss flussabwärts bis zur Maulang Mauer fahren",
+        "text": "Mit Floß flussabwärts bis zur Maulang Mauer fahren",
         "description": "Hinter der Maulang Mauer wartet dein großes Ziel - Itreg.",
         "values": [2, 1, 4],
         "cost": 100,
         "positive": {
-          "result": "Du bezahlst für die Flossfahrt bis zur Maulang Mauer. Du genießt die sehr gesellige Fahrt in vollen Zügen mit deinen Mitreisenden und erreichst die Mauer.",
-          "description": "Du befindest die bei Tor nach Maulang 3.",
+          "result": "Du bezahlst für die Floßfahrt bis zur Maulang Mauer. Du genießt die sehr gesellige Fahrt in vollen Zügen mit deinen Mitreisenden und erreichst die Mauer.",
+          "description": "Du befindest die bei der Wasserpassage Itzor.",
           "changes": [0, 0, 1],
           "moneyChange": -100
         },
         "negative": {
-          "result": "Du bezahlst für die Flossfahrt bis zur Maulang Mauer. Deine Mitreisenden halten deine Anwesenheit jedoch für zu unausstehlich, dass sie dich von Bord werfen. Du wirst zurück nach Azelon gespült.",
+          "result": "Du bezahlst für die Floßfahrt bis zur Maulang Mauer. Deine Mitreisenden halten deine Anwesenheit jedoch für zu unausstehlich, dass sie dich von Bord werfen. Du wirst zurück nach Azelon gespült.",
           "description": "Du befindest dich in Azelon.",
           "changes": [0, 0, 0],
           "moneyChange": -100
@@ -1249,7 +1249,7 @@
       },
       {
         "text": "Eine Steinlieferung stehlen und bei Agons Tor verkaufen",
-        "description": "",
+        "description": "Stein ist teuer.",
         "values": [4, 5, 4],
         "cost": 0,
         "positive": {
@@ -1397,63 +1397,63 @@
   },
 {
     "id": 20,
-    "title": "Tor nach Maulang 3",
+    "title": "Wasserpassage Itzor",
     "area": 2,
     "overviewImage": "images/card20_overview.png",
     "image": "images/card20_detail.png",
-    "description": "Du stehst vor dem Eingang der namenlosen Höhle der Drachen, in die die Drachen während des 53-jährigen Krieges verbannt wurden. Niemand weiß, wie Kommandant Luzehn es schaffte, die Drachen sich dazu zu verpflichten. Seither hat niemand mehr Drachen in Itreg gesehen und nach 324 Jahren Frieden, müssten die Drachen längst verhungert sein. Doch du kannst deutlich Licht im Inneren der Höhle erahnen.",
+    "description": "Die Wasserassage Itzor ermöglicht den Wasserzulauf nach Maulang aus den Ligon Bergen, versperrt jedoch den Zugang für Flöße und ähnliches. Diese müssen eine Weg- und Warenzoll bezahlen, dann wird für sie das Tor geöffnet. Es wird von einer kleiner Garnison der Maulang-Garde bewacht. Kurz vor dem Tor befindet sich ein Handelsschiff, welches nach Itreg reisen möchte, jedoch den Zoll nicht aufbringen kann.",
     "options": [
       {
-        "text": "Höhle gen Südwesten verlassen",
-        "description": "Jetzt wo du hier bist, sieht die Höhle doch sehr bedrohlich aus.",
+        "text": "Zoll für Handelsschiff bezahlen und nach Itreg reisen",
+        "description": "Du hast schließlich genug Geld.",
         "values": [0, 0, 0],
+        "cost": 260,
+        "positive": {
+          "result": "Du bezahlst den Zoll und das massive Tor wird für das Handelsschiff aus den tiefen des Flusses hinauf gezogen. Du reist als gerngesehener Gast mit dem Schiff bis nach Itreg.",
+          "description": "Du befindest dich charmanter in Itreg.",
+          "changes": [0, 0, 1],
+          "moneyChange": -260
+        },
+        "negative": {
+          "result": "Du bezahlst den Zoll und das massive Tor wird für das Handelsschiff aus den tiefen des Flusses hinauf gezogen. Du reist als gerngesehener Gast mit dem Schiff bis nach Itreg.",
+          "description": "Du befindest dich charmanter in Itreg.",
+          "changes": [0, 0, 1],
+          "moneyChange": -260
+        }
+      },
+      {
+        "text": "Handelsschiff dazu aufstacheln mit dir das Tor zu stürmen",
+        "description": "Warum zahlen, wenn man zahlenmässig überlegen ist?",
+        "values": [7, 0, 6],
         "cost": 0,
         "positive": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Mit einer mitreißenden Rede gegen die Tyrannei und den Protektionismus der itregianischen Regierung schaffst du es, die Besatzung des Handelsschiffs zu einem Sturm auf die Wasserpassage zu überzeugen. In der Nacht schlagt ihr zu und überrent die minderzählige Maulang-Garde. Ihr öffnet das Tor und fahrt gen Norden nach Itreg.",
+          "description": "Du befindest dich charmanter und stärker in Itreg.",
+          "changes": [1, 0, 1],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Mit einer mittelmäßigen Rede gegen die Tyrannei und den Protektionismus der itregianischen Regierung schaffst du es, die zögernde Besatzung des Handelsschiffs zu einem Sturm auf die Wasserpassage zu überzeugen. In der Nacht schlagt ihr zu, seid jedoch überrascht von der Macht der minderzähligen Maulang-Garde. Ihr werdet geschlagen und gefangen genommen.",
+          "description": "Du befindest dich im Gefängnis.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       },
       {
-        "text": "Die Höhle betreten mit der Absicht, die Drachen zu töten",
-        "description": "Ein Drachkopf wäre in Azelon ein Vermögen wert",
-        "values": [6, 0, 0],
+        "text": "Mauer nachts überklettern",
+        "description": "Du bist sicher stark genug.",
+        "values": [13, 0, 0],
         "cost": 0,
         "positive": {
-          "result": "Du stürmst voller Wagemut in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und hüllt dich in orangen Flammen.",
-          "description": "Du verlässt die Drachenhöhle gen Süden und kommst schwer verletzt im Ödland an.",
-          "changes": [-1, 0, 0],
+          "result": "Unter dem tintenschwarzen Nachthimmel greifst du Hand um Hand und Fuß um Fuß nach der schier endlos entfernt scheinenden Mauerkante. Schließlich erreichst du sie und überwindest sich unbemerkt. Du wanderst gen Norden.",
+          "description": "Du erreichst Itreg gestärkt.",
+          "changes": [1, 0, 0],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Du stürmst voller Wagemut in die Höhle, doch bevor du auch nur ein einziges schuppiges Wesen erblickst, wirst du geröstet. Deine Haut zerfällt und deine Organe versagen.",
-          "description": "Du wachst im Tempel der Erleuchtung auf, dessen stummen Mönchen die gerettet haben. Warum, sie vor Ort waren, weißt du nicht. Du heilst schnell, bald bringen dich die Mönche ins Ödland.",
-          "changes": [-1, 1, 0],
-          "moneyChange": 0
-        }
-      },
-      {
-        "text": "Die Höhle betreten, um mit den Drachen zu sprechen",
-        "description": "Es sind edle Wesen, die Respekt verdienen",
-        "values": [0, 0, 6],
-        "cost": 0,
-        "positive": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, dann verlässt du die Höhle und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 1],
-          "moneyChange": 0
-        },
-        "negative": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, doch sie glauben dir nicht und speihen Flammen in deine Richtung. Du kannst jedoch ausweichen, die Höhle verlassen und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Unter dem tintenschwarzen Nachthimmel greifst du Hand um Hand und Fuß um Fuß nach der schier endlos entfernt scheinenden Mauerkante. Plötzlich stürzt du ab und fällst. Glücklicherweise fällst du in die Takelage eines Schiffes und verletzt dich nicht schwer, verlierst jedoch das Bewusstsein. Als du wieder zu dir kommst, befindest du dich bei Azelon, auf dem Mast eines Handelsschiffs, welches nach Azelon zurückkehrte, da es den Zoll nicht zahlen konnte.",
+          "description": "Du befindest dich in Azelon.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       }
@@ -1593,59 +1593,77 @@
     "area": 3,
     "overviewImage": "images/card23_overview.png",
     "image": "images/card23_detail.png",
-    "description": "Du stehst vor dem Eingang der namenlosen Höhle der Drachen, in die die Drachen während des 53-jährigen Krieges verbannt wurden. Niemand weiß, wie Kommandant Luzehn es schaffte, die Drachen sich dazu zu verpflichten. Seither hat niemand mehr Drachen in Itreg gesehen und nach 324 Jahren Frieden, müssten die Drachen längst verhungert sein. Doch du kannst deutlich Licht im Inneren der Höhle erahnen.",
+    "description": "Die itregianische Bank wird seit jeher von sehr besonderen Menschen geführt. Sie lieben das Geld und das Geld liebt sie. Auch für Großanleger haben sie viel Zuneigung übrig, für Geringverdiener eher weniger.",
     "options": [
       {
-        "text": "Umkehren",
-        "description": "Jetzt wo du hier bist, sieht die Höhle doch sehr bedrohlich aus.",
+        "text": "Um Almosen bitten",
+        "description": "Du hast leider gar kein Geld.",
         "values": [0, 0, 0],
         "cost": 0,
         "positive": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Nachdem du deine Bitte geäußert hast, wirst du von dem Sicherheitspersonal der Bank gewaltvoll gefesselt und auf einen Sklaventransport gen Süden verfrachtet.",
+          "description": "Wenige Tage später kannst du aus dem rollenden Wagen entkommen, du befindest dich bei Lettas Einkehr.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Nachdem du deine Bitte geäußert hast, wirst du von dem Sicherheitspersonal der Bank gewaltvoll gefesselt und auf einen Sklaventransport gen Süden verfrachtet.",
+          "description": "Wenige Tage später kannst du aus dem rollenden Wagen entkommen, du befindest dich bei Lettas Einkehr.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       },
       {
-        "text": "Die Höhle betreten mit der Absicht, die Drachen zu töten",
-        "description": "Ein Drachkopf wäre in Azelon ein Vermögen wert",
-        "values": [6, 0, 0],
-        "cost": 0,
+        "text": "Eine kleine Menge Geld anlegen",
+        "description": "Du hast leider nur wenig Geld.",
+        "values": [0, 0, 0],
+        "cost": 30,
         "positive": {
-          "result": "Du stürmst voller Wagemut in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und hüllt dich in orangen Flammen.",
-          "description": "Du verlässt die Drachenhöhle gen Süden und kommst schwer verletzt im Ödland an.",
-          "changes": [-1, 0, 0],
-          "moneyChange": 0
+          "result": "Du übergibst eine kleine Geldsumme an die Bankmitarbeiter, prompt erwidern sie, dass sie das Geld in die bramitische Landwirtschaft investiert hätten und es bereits 98% seines Werts verloren hat.",
+          "description": "Du verlässt die Bank gen Westen.",
+          "changes": [0, 0, 0],
+          "moneyChange": -30
         },
         "negative": {
-          "result": "Du stürmst voller Wagemut in die Höhle, doch bevor du auch nur ein einziges schuppiges Wesen erblickst, wirst du geröstet. Deine Haut zerfällt und deine Organe versagen.",
-          "description": "Du wachst im Tempel der Erleuchtung auf, dessen stummen Mönchen die gerettet haben. Warum, sie vor Ort waren, weißt du nicht. Du heilst schnell, bald bringen dich die Mönche ins Ödland.",
-          "changes": [-1, 1, 0],
-          "moneyChange": 0
+          "result": "Du übergibst eine kleine Geldsumme an die Bankmitarbeiter, prompt erwidern sie, dass sie das Geld in die bramitische Landwirtschaft investiert hätten und es bereits 98% seines Werts verloren hat.",
+          "description": "Du verlässt die Bank ärmer gen Westen.",
+          "changes": [0, 0, 0],
+          "moneyChange": -30
         }
       },
       {
-        "text": "Die Höhle betreten, um mit den Drachen zu sprechen",
-        "description": "Es sind edle Wesen, die Respekt verdienen",
-        "values": [0, 0, 6],
-        "cost": 0,
+        "text": "Eine große Menge Geld anlegen",
+        "description": "Du bist schließlich reich - sollen sie dich noch reicher machen",
+        "values": [0, 0, 0],
+        "cost": 300,
         "positive": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, dann verlässt du die Höhle und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 1],
-          "moneyChange": 0
+          "result": "Du übergibst eine große Geldsumme an die Bankmitarbeiter, prompt erwidern sie, dass sie das Geld in eine ramerotische Waffenschmiede investiert hätten und es bereits 250% an Wert gewonne hat. Den Ertrag lässt du dir direkt auszahlen.",
+          "description": "Du verlässt die Bank reicher gen Westen.",
+          "changes": [0, 0, 0],
+          "moneyChange": 150
         },
         "negative": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, doch sie glauben dir nicht und speihen Flammen in deine Richtung. Du kannst jedoch ausweichen, die Höhle verlassen und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Du übergibst eine große Geldsumme an die Bankmitarbeiter, prompt erwidern sie, dass sie das Geld in eine ramerotische Waffenschmiede investiert hätten und es bereits 250% an Wert gewonne hat. Den Ertrag lässt du dir direkt auszahlen.",
+          "description": "Du verlässt die Bank reicher gen Westen.",
+          "changes": [0, 0, 0],
+          "moneyChange": 150
+        }
+      },
+      {
+        "text": "Die Bank ausrauben",
+        "description": "Warum auch nicht?",
+        "values": [16, 2, 2],
+        "cost": 0,
+        "positive": {
+          "result": "Du raubst dich Bank aus und es funktioniert. Du bist schließlich sehr stark. Eine ordentliche Beute kannst du ergaunern.",
+          "description": "Du verlässt die Bank reicher gen Westen.",
+          "changes": [0, 0, 0],
+          "moneyChange": 300
+        },
+        "negative": {
+          "result": "Du raubst dich Bank aus und es funktioniert nicht. Du bist schließlich schwach. Du wirst überwältigt.",
+          "description": "Du wachst im Gefängnis auf.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       }
