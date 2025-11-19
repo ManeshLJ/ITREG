@@ -1465,7 +1465,7 @@
     "area": 2,
     "overviewImage": "images/card21_overview.png",
     "image": "images/card21_detail.png",
-    "description": "Die Staatsbibliothek Itregs ist die größte Wissensammlung der Grafschaft und steht jedem Unbewaffneten gebührenfrei offen. Sie wurde zu Beginn der langen Jahre des Friedens gegründet mit dem Ziel, den Hergang des 53-jährigen Kriegs für alle Ewigkeit zu dokumentieren. Sie wird durch die Maulang-Garde des Rameros Wettkämpfe. Bei diesen jährlich stattfindenden Wettkämpfen in Rameros werden die besten Krieger in die Maulang-Garde, deren primäre Aufgabe der Schutz der Maulang-Mauer ist, aufgenommen.",
+    "description": "Die Staatsbibliothek Itregs ist die größte Wissensammlung der Grafschaft und steht jedem Unbewaffneten gebührenfrei offen. Sie wurde zu Beginn der langen Jahre des Friedens gegründet mit dem Ziel, den Hergang des 53-jährigen Kriegs für alle Ewigkeit zu dokumentieren. Sie wird durch die Maulang-Garde bewacht. Bei einem jährlich stattfindenden Wettkämpf in Rameros werden die besten Krieger in die Maulang-Garde, deren primäre Aufgabe der Schutz der Maulang-Mauer ist, aufgenommen.",
     "options": [
       {
         "text": "Über den 53-jährigen Krieg lesen",
@@ -1529,59 +1529,59 @@
     "area": 3,
     "overviewImage": "images/card22_overview.png",
     "image": "images/card22_detail.png",
-    "description": "Du stehst vor dem Eingang der namenlosen Höhle der Drachen, in die die Drachen während des 53-jährigen Krieges verbannt wurden. Niemand weiß, wie Kommandant Luzehn es schaffte, die Drachen sich dazu zu verpflichten. Seither hat niemand mehr Drachen in Itreg gesehen und nach 324 Jahren Frieden, müssten die Drachen längst verhungert sein. Doch du kannst deutlich Licht im Inneren der Höhle erahnen.",
+    "description": "Rameros bildet des bürgerliche Herz des Maulanggebiets in Itreg. Bekannt ist die Siedlung für ihr Rindfleisch und die die blutigen Wettkämpfe, welche den Arena der Siedlung duchgeführt werden und unter anderem Mitglieder für die Maulang-Garde zu aquirieren.",
     "options": [
       {
-        "text": "Umkehren",
-        "description": "Jetzt wo du hier bist, sieht die Höhle doch sehr bedrohlich aus.",
+        "text": "An Wettkämpfen in Arena teilnehmen",
+        "description": "Wenn du siegst, gebührt dir ein hohes Preisgeld.",
+        "values": [14, 0, 0],
+        "cost": 0,
+        "positive": {
+          "result": "Dein Blut kocht vor Aufregung als du die Arena betrittst, doch deine Sorgen sind unbegründet. Du besiegst Gegner um Gegner und gewinnst das Turnier. Als du deine letzten Kontrahenten zu Boden schickst, jubelt die ganze Arena. Dir wird ein hohes Preisgeld ausgezahlt. Bei der anschließenden Feier betrinkst du dich und wirst aufgrund deines unzulänglichen Verhaltens von der Wache der Siedlung verwiesen.",
+          "description": "Du verlässt Rameros gestärkt und reicher gen Westen.",
+          "changes": [1, 0, 0],
+          "moneyChange": 200
+        },
+        "negative": {
+          "result": "Dein Blut kocht vor Aufregung als du die Arena betrittst, du bist vielleicht doch nicht so stark wie gedacht. Nachdem du zwei Kontrahenten besiegen konntest, wirst du von deinen Beinen gefegt und verlierst kurzzeitig das Bewusstsein. Da du sehr frustriert bist, stürmst du die Feier der Gewinner und schlägst den nächstbesten Kampfrichter nieder. Die Wache der Siedlung hat dich schnell unter Kontrolle und bringt dich ins Gefängnis.",
+          "description": "Du befindest dich im Gefängnis.",
+          "changes": [0, 0, 0],
+          "moneyChange": 0
+        }
+      },
+      {
+        "text": "Zu einem beliebigen Ort in Itreg reisen",
+        "description": "Rameros ist ein Verkehrsknotenpunkt, es werden kurzweilige Wagenfahrten zu jedem Ort in Itreg angeboten. Wenn du dich noch nicht bereit fühlst die Hauptstadt zu betreten, solltest du dich vielleicht anderen Ortes vorbereiten.",
         "values": [0, 0, 0],
-        "cost": 0,
+        "cost": 50,
         "positive": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Du bezahlst die Gebühr und steigst auf einen Wagen - vor dir liegt eine lange, oder auch kurze Reise.",
+          "description": "Du befindest dich bei einem von dir frei wählbaren Ort in der Grafschaft Itreg.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Du bezahlst die Gebühr und steigst auf einen Wagen - vor dir liegt eine lange, oder auch kurze Reise.",
+          "description": "Du befindest dich bei einem von dir frei wählbaren Ort in der Grafschaft Itreg.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       },
       {
-        "text": "Die Höhle betreten mit der Absicht, die Drachen zu töten",
-        "description": "Ein Drachkopf wäre in Azelon ein Vermögen wert",
-        "values": [6, 0, 0],
-        "cost": 0,
+        "text": "In Bibliothek lesen",
+        "description": "Die Bibliothek in Rameros öffnet ihre Türen zu unbegrenztem Wissen auf 237 Qudratmetern auch für Fremde, wenn die gut bezahlen.",
+        "values": [0, 4, 6],
+        "cost": 100,
         "positive": {
-          "result": "Du stürmst voller Wagemut in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und hüllt dich in orangen Flammen.",
-          "description": "Du verlässt die Drachenhöhle gen Süden und kommst schwer verletzt im Ödland an.",
-          "changes": [-1, 0, 0],
-          "moneyChange": 0
-        },
-        "negative": {
-          "result": "Du stürmst voller Wagemut in die Höhle, doch bevor du auch nur ein einziges schuppiges Wesen erblickst, wirst du geröstet. Deine Haut zerfällt und deine Organe versagen.",
-          "description": "Du wachst im Tempel der Erleuchtung auf, dessen stummen Mönchen die gerettet haben. Warum, sie vor Ort waren, weißt du nicht. Du heilst schnell, bald bringen dich die Mönche ins Ödland.",
-          "changes": [-1, 1, 0],
-          "moneyChange": 0
-        }
-      },
-      {
-        "text": "Die Höhle betreten, um mit den Drachen zu sprechen",
-        "description": "Es sind edle Wesen, die Respekt verdienen",
-        "values": [0, 0, 6],
-        "cost": 0,
-        "positive": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, dann verlässt du die Höhle und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 1],
-          "moneyChange": 0
-        },
-        "negative": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, doch sie glauben dir nicht und speihen Flammen in deine Richtung. Du kannst jedoch ausweichen, die Höhle verlassen und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
+          "result": "Du betrittst die Bibliothek und liest verschiedenste Texte, wenn du etwas nicht verstehst, bittest du die Bibliotheksmitarbeiter recht nett dir zu helfen. Diesen Bitten kommen sie nach. Du verlässt die Bibliothek am Abend und bist so in klugen Gedanken versunken, dass du Rameros geistesabwesend gen Westen verlässt.",
+          "description": "Du verlässt Rameros im Anschluss schlauer gen Westen.",
           "changes": [0, 1, 0],
+          "moneyChange": 0
+        },
+        "negative": {
+          "result": "Du betrittst die Bibliothek und liest verschiedenste Texte, viele verstehst du nicht, wenn das passiert, liest du einfach so lange die gleichen Stellen, bis du denkst, dass du sie verstanden hast. Du verlässt die Bibliothek am Abend. Viel verstanden hast du nicht.",
+          "description": "Du bleibst in Rameros.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       }
