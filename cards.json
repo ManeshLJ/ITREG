@@ -931,18 +931,18 @@
         "text": "Einen Wärter bestechen, um freigelassen zu werden",
         "description": "Jeder ist käuflich.",
         "values": [0, 0, 5],
-        "cost": 200,
+        "cost": 150,
         "positive": {
           "result": "Du bist an den richtigen Wärter geraten, er führt dich nachts unbemerkt aus dem Gefängnis, nachdem du ihm eine große Summe Geld überlassen hast.",
           "description": "Du verlässt charmanter das Gefängnis gestärkt gen Westen.",
           "changes": [0, 0, 1],
-          "moneyChange": -200
+          "moneyChange": -150
         },
         "negative": {
           "result": "Du bist an den falschen Wärter geraten, nachdem du ihm eine große Summe Geld überlassen hast, schlägt er dich einfach zusammen und lässt dich in deiner Zelle liegen.",
           "description": "Du befindest dich im Gefängnis.",
           "changes": [0, 0, 0],
-          "moneyChange": -200
+          "moneyChange": -150
         }
       },
       {
@@ -1697,20 +1697,20 @@
     "options": [
       {
         "text": "Zu einem beliebigen Ort in Itreg reisen",
-        "description": "Itreg ist ein Verkehrsknotenpunkt, es werden kurzweilige Wagenfahrten zu jedem Ort in Itreg angeboten. Wenn du dich noch nicht bereit fühlst die Gräfin zu treffen, solltest du dich vielleicht anderen Ortes vorbereiten.",
+        "description": "Itreg ist ein Verkehrsknotenpunkt, es passiere kurzweilige Wagenfahrten zu jedem Ort in Itreg um Waren zu transportieren. Wenn du dich noch nicht bereit fühlst die Gräfin zu treffen, solltest du dich vielleicht anderen Ortes vorbereiten. Du kannst bei einem Händler als Wache anheuern, um kostengünstig an einen anderen Ort zu gelangen.",
         "values": [0, 0, 0],
-        "cost": 50,
+        "cost": 0,
         "positive": {
-          "result": "Du bezahlst die Gebühr und steigst auf einen Wagen - vor dir liegt eine lange, oder auch kurze Reise.",
+          "result": "Du steigst auf einen Wagen - vor dir liegt eine lange, oder auch kurze Reise.",
           "description": "Du befindest dich bei einem von dir frei wählbaren Ort in der Grafschaft Itreg.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 20
         },
         "negative": {
-          "result": "Du bezahlst die Gebühr und steigst auf einen Wagen - vor dir liegt eine lange, oder auch kurze Reise.",
+          "result": "Du steigst auf einen Wagen - vor dir liegt eine lange, oder auch kurze Reise.",
           "description": "Du befindest dich bei einem von dir frei wählbaren Ort in der Grafschaft Itreg.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 20
         }
       },
       {
@@ -1721,13 +1721,13 @@
         "positive": {
           "result": "Zu deiner Überraschung erscheint die Gräfin selbst zum Duell. Der Kampf beginnt und deine Kontrahentin erweist sich als exzellente Duellistin. Jedoch nicht so gut wie Du. Schließlich gibt sie den Kampf auf und übergibt dir rituell die Krone der Grafschaft. Du bist Herrscher über Itreg.  ",
           "description": "Du hast das Spiel gewonnen!",
-          "changes": [1, 0, 0],
+          "changes": [0, 0, 0],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Zu deiner Überraschung erscheint die Gräfin selbst zum Duell. Der Kampf beginnt und deine Kontrahentin erweist sich als exzellente Duellistin. Sie ist dir überlegen. Schließlich musst Du dich übergeben, um dein Leben zu schützen. Im Anschluss wirst du in itregianische Gefängnis gebracht. Du hättest das itregianische Recht vielleicht besser studieren sollen.",
-          "description": "Du befindest dich im Gefängnis.",
-          "changes": [1, 0, 0],
+          "result": "Zu deiner Überraschung erscheint die Gräfin selbst zum Duell. Der Kampf beginnt und deine Kontrahentin erweist sich als exzellente Duellistin. Sie ist dir überlegen. Schließlich musst Du dich ergeben, um dein Leben zu schützen. Du sollst ins itregianische Gefängnis gebracht werden. Du hättest das itregianische Recht vielleicht besser studieren sollen. Bei deinem Transport wirst du jedoch von einer Gruppe Rebellen befreit. Sie bieten dir an, dich zu einem beliebigen Ort in Itreg zu bringen.",
+          "description": "Du befindest dich bei einem von dir frei wählbaren Ort in der Grafschaft Itreg.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       },
@@ -1739,31 +1739,31 @@
         "positive": {
           "result": "Du erzählst und erzählst und immer und immer mehr, ergibt sich für die Gräfin ein finsteres aber eindeutiges Bild. Vielen Bereichen Itregs sollte sie mehr Aufmerksamkeit schenken und die dortigen Probleme lösen - nachdem der Krieg mit den Bramiten beigelegt ist. Zu deren Intentionen kannst Du sie ebenfalls belehren. Sie bittet dich ihr als bezahlter Berater beiseite zu stehen. Du akzeptierst.",
           "description": "Du hast das Spiel gewonnen!",
-          "changes": [0, 1, 0],
+          "changes": [0, 0, 0],
           "moneyChange": 100
         },
         "negative": {
-          "result": "Du erzählst und erzählst und immer und immer mehr, doch wirklich viel Inhalt kannst du nicht vermitteln. So viel weißt du wohl doch nicht. Die Gräfin ist dankbar für die von dir bereitgestellten Informationen. Sie bittet dich dein Wissen an die Gelehrten der itregianischen Staatsbibliothek weiterzugeben. Du akzeptierst. ",
+          "result": "Du erzählst und erzählst und immer und immer mehr, doch wirklich viel Inhalt kannst du nicht vermitteln. So viel weißt du wohl doch nicht. Die Gräfin ist dankbar für die von dir bereitgestellten Informationen. Sie bittet dich dein Wissen an die Gelehrten der itregianischen Staatsbibliothek weiterzugeben. Du akzeptierst. Im Gespräch mit den Gelehrten, teilen sie auch Wissen mit dir.",
           "description": "Du befindest dich in der Staatsbibliothek.",
           "changes": [0, 1, 0],
-          "moneyChange": 50
+          "moneyChange": 0
         }
       },
       {
-        "text": "Der Gräfin verführen",
+        "text": "Die Gräfin verführen",
         "description": "Die Gräfin ist ledig und der Titel Graf könnte dir gut stehen.",
         "values": [5, 5, 10],
         "cost": 0,
         "positive": {
           "result": "Du bist wirklich charmant und das kannst du der Gräfin bei einem Dinner beweisen. Sie bittet dich in Itreg zu bleiben. Du akzeptierst und schaffst es sie über die nächsten Wochen vollends zu verführen. Fünf Monate feiert ihr euer Hochzeit und die wirst zum Grafen von Itreg.",
           "description": "Du hast das Spiel gewonnen!",
-          "changes": [0, 0, 1],
+          "changes": [0, 0, 0],
           "moneyChange": 100000
         },
         "negative": {
           "result": "Eigentlich bist du doch ganz charmant, doch schaffst es irgendwie nicht die Gräfin bei einem Dinner zu beeindrucken. Dein Charakter wirkt aufgesetzt und eventuell erkennt sie auch deinen Wunsch nach dem Grafentitel. Im Anschluss empfiehlt sie dir, dich bei der itregianischen Bank als Bänker zu bewerben. Du akzeptierst.",
           "description": "Du befindest dich bei der Bank.",
-          "changes": [0, 0, 1],
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       }

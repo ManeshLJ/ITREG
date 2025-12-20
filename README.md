@@ -30,6 +30,7 @@ py Instructions.py
 
 - Lower Image quality. loading takes very long
 - remove scrollbar from options
-- increase options in size
 - make easier readable
-- inlcude area into card (roll multiplier)
+
+### Problems to solve
+Sollte man, wenn man auf aktion-zug-feld steht am Anfang eines Zuges, entscheiden können, ob man spielt oder weiterläuft???
