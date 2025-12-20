@@ -174,12 +174,12 @@
       {
         "text": "Eine Ballonfahrt über das Gebirge buchen",
         "description": "Eine teurer Angelegenheit - aber sehr sicher, da die Gemeinde bereits vor einigen Jahren begann für touristische Zwecke Ballonfahrten anzubieten.",
-        "values": [0, 0, 2],
+        "values": [0, 0, 3],
         "cost": 60,
         "positive": {
           "result": "Diese Geldsumme hat sich wirklich gelohnt. Die Aussicht ist atemberaubend.",
           "description": "Du erreichst die Binouth Siedlung westlich des großen Sees und konntest im beengten Ballonkorb neue Kontakte mit Mitreisenden knüpfen.",
-          "changes": [0, 1, 2],
+          "changes": [0, 1, 1],
           "moneyChange": -60
         },
         "negative": {
@@ -192,12 +192,12 @@
       {
         "text": "Eine Ballonfahrt vor der Abreise überfallen",
         "description": "Warum bezahlen, wenn man die Crew zwingen kann einen über das Gebirge zu bringen?",
-        "values": [4, 1, 0],
+        "values": [4, 2, 0],
         "cost": 0,
         "positive": {
           "result": "Du schaffst es eine Balloncrew zu überfallen und sie zu zwingen, dich über die Ligon Berge zu bringen.",
           "description": "Du erreichst die Binouth Siedlung westlich des großen Sees gestärkt und schlauer.",
-          "changes": [2, 1, 0],
+          "changes": [1, 1, 0],
           "moneyChange": 0
         },
         "negative": {
@@ -210,12 +210,12 @@
       {
         "text": "Die Minenarbeiter um Hilfe bitten",
         "description": "Warum über die Berge, wenn man auch unter ihnen durch kann?",
-        "values": [2, 1, 2],
+        "values": [2, 1, 3],
         "cost": 0,
         "positive": {
           "result": "Du schaffst es die Minenarbeiter zu überzeugen, wenn du ihnen bei der Arbeit hilfst und eine kleine Geldsumme gibst, dich durch die Minen zu bringen",
           "description": "Nach einer anstrengenden eintägigen Fahrt erreichst du die Binouth Siedlung westlich des großen Sees, gestärkt und schlauer.",
-          "changes": [2, 1, 0],
+          "changes": [1, 1, 0],
           "moneyChange": -10
         },
         "negative": {
@@ -228,12 +228,12 @@
       {
         "text": "Im den Minen arbeiten",
         "description": "Warum nicht etwas Geld verdienen, du bist etwas knapp bei Kasse.",
-        "values": [4, 0, 0],
+        "values": [6, 0, 0],
         "cost": 0,
         "positive": {
           "result": "Du kannst die Minenarbeiter überzeugen dich mitarbeiten zu lassen. Nach einigen Tagen harter Arbeit, erhälst du deine Lohn.",
           "description": "Da ihr euch aktuell im Norden der Berge befindet, wirst du gestärkt und schlauer an der Siedlung Binouth westlichen des großen Sees abgesetzt.",
-          "changes": [2, 1, 0],
+          "changes": [1, 1, 0],
           "moneyChange": 20 
         },
         "negative": {
@@ -585,7 +585,7 @@
         "text": "Dem Monster ein Opfer darbringen",
         "description": "Es ist nicht ungewöhnlich für die Bewohner Binouths, dem Monster im Herrenhaus Opfergaben beizulegen. Es soll den Fischfang begünstigen.",
         "values": [0, 0, 0],
-        "cost": 0,
+        "cost": 20,
         "positive": {
           "result": "Du legst eine Sack voller Geld vor der Pforte des Herrenhauses. Wenige Minuten später ist es verschwunden, ohne dass du das Monster gesehen hättest, sonst passiert nichts.",
           "description": "Du verlässt das Herrenhaus ärmer gen Nordnordwesten",
@@ -994,7 +994,7 @@
       {
         "text": "Den Grabräuber zur Rede stellen",
         "description": "Ein solches Verhalten ist unnannehmbar. Davon muss du ihn überzeugen.",
-        "values": [0, 0, 4],
+        "values": [0, 0, 3],
         "cost": 0,
         "positive": {
           "result": "Du schaffst es, den Grabräuber zu überzeugen, dass sein Handeln unmoralisch ist. Er erwidert jedoch, dass er im Auftrag des Stadthalters von Azelon handelt, und dieser Ost-Zhranorath bezahlt, dass diese das Aquirieren und Transportieren von Wertgegenständen Toter Soldaten dulden.",
@@ -1012,12 +1012,12 @@
       {
         "text": "Den Grabräuber stellen und zusammenschlagen",
         "description": "Ein solches Verhalten ist unnannehmbar. Es muss bestraft werden.",
-        "values": [4, 0, 0],
+        "values": [3, 0, 0],
         "cost": 0,
         "positive": {
           "result": "Du verletzt den Grabräuber schwer und bringst seinen ohnmächtigen Körper anschließend nach Ost-Zhranorath, wo du ihn der Stadtwache übergibst. Diese erklären dir jedoch, dass Ost-Zhranorath seit geraumer Zeit, Grabräuberrechte verkauft und dieser Räuber im Auftrag des Stadthalters von Azelon handelt.",
           "description": "Du befindest dich stäker in Ost-Zhranorath.",
-          "changes": [1, 0, 0],
+          "changes": [1, 1, 0],
           "moneyChange": 0
         },
         "negative": {
@@ -1315,7 +1315,7 @@
         "text": "Eine Wache bestechen, dich nachts passieren zu lassen",
         "description": "Auch wenn die Maulang-Garde hoch angesehen ist, sind sie sehr schlecht bezahlt.",
         "values": [0, 1, 7],
-        "cost": 0,
+        "cost": 100,
         "positive": {
           "result": "Du schaffst es dich nachts an das Tor zu schleichen und eine Wache einzeln abzupassen. Bei einem netten Gespräch übergibst du etwas Geld und dir wird von der Wache heimlich Einlass nach Maulang gewährt.",
           "description": "Du verlässt Agons Tor charmanter gen Norden.",
@@ -1397,7 +1397,7 @@
   },
 {
     "id": 20,
-    "title": "Wasserpassage Itzor",
+    "title": "Itzor",
     "area": 2,
     "overviewImage": "images/card20_overview.png",
     "image": "images/card20_detail.png",
@@ -1550,39 +1550,39 @@
         }
       },
       {
-        "text": "Zu einem beliebigen Ort in Itreg reisen",
-        "description": "Rameros ist ein Verkehrsknotenpunkt, es werden kurzweilige Wagenfahrten zu jedem Ort in Itreg angeboten. Wenn du dich noch nicht bereit fühlst die Hauptstadt zu betreten, solltest du dich vielleicht anderen Ortes vorbereiten.",
-        "values": [0, 0, 0],
-        "cost": 50,
-        "positive": {
-          "result": "Du bezahlst die Gebühr und steigst auf einen Wagen - vor dir liegt eine lange, oder auch kurze Reise.",
-          "description": "Du befindest dich bei einem von dir frei wählbaren Ort in der Grafschaft Itreg.",
-          "changes": [0, 0, 0],
-          "moneyChange": 0
-        },
-        "negative": {
-          "result": "Du bezahlst die Gebühr und steigst auf einen Wagen - vor dir liegt eine lange, oder auch kurze Reise.",
-          "description": "Du befindest dich bei einem von dir frei wählbaren Ort in der Grafschaft Itreg.",
-          "changes": [0, 0, 0],
-          "moneyChange": 0
-        }
-      },
-      {
         "text": "In Bibliothek lesen",
         "description": "Die Bibliothek in Rameros öffnet ihre Türen zu unbegrenztem Wissen auf 237 Qudratmetern auch für Fremde, wenn die gut bezahlen.",
-        "values": [0, 4, 6],
-        "cost": 100,
+        "values": [0, 6, 7],
+        "cost": 40,
         "positive": {
           "result": "Du betrittst die Bibliothek und liest verschiedenste Texte, wenn du etwas nicht verstehst, bittest du die Bibliotheksmitarbeiter recht nett dir zu helfen. Diesen Bitten kommen sie nach. Du verlässt die Bibliothek am Abend und bist so in klugen Gedanken versunken, dass du Rameros geistesabwesend gen Westen verlässt.",
           "description": "Du verlässt Rameros im Anschluss schlauer gen Westen.",
           "changes": [0, 1, 0],
-          "moneyChange": 0
+          "moneyChange": -40
         },
         "negative": {
           "result": "Du betrittst die Bibliothek und liest verschiedenste Texte, viele verstehst du nicht, wenn das passiert, liest du einfach so lange die gleichen Stellen, bis du denkst, dass du sie verstanden hast. Du verlässt die Bibliothek am Abend. Viel verstanden hast du nicht.",
           "description": "Du bleibst in Rameros.",
           "changes": [0, 0, 0],
+          "moneyChange": -40
+        }
+      },
+      {
+        "text": "Rameros gen Westen durchqueren",
+        "description": "Warum nicht einmal normal durch die Stadt laufen? - Aber in Rameros kann das durchaus fordernd sein.",
+        "values": [4, 4, 4],
+        "cost": 0,
+        "positive": {
+          "result": "Du schlenderst durch Rameros und wirst überfallen, schaffst es jedoch durch dein charmantes, autoriäres und das selbstbewusstes Auftreten sowie das Brechen der Nase eines Räubers sie in die Flucht zu schlagen.",
+          "description": "Du verlässt Rameros im Anschluss gen Westen.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
+        },
+        "negative": {
+          "result": "Du schlenderst durch Rameros und wirst überfallen, dir wird einiges an Geld abgenommen.",
+          "description": "Du verlässt Rameros im Anschluss ärmer gen Westen.",
+          "changes": [0, 0, 0],
+          "moneyChange": -40
         }
       }
     ]
@@ -1609,6 +1609,24 @@
         "negative": {
           "result": "Nachdem du deine Bitte geäußert hast, wirst du von dem Sicherheitspersonal der Bank gewaltvoll gefesselt und auf einen Sklaventransport gen Süden verfrachtet.",
           "description": "Wenige Tage später kannst du aus dem rollenden Wagen entkommen, du befindest dich bei Lettas Einkehr.",
+          "changes": [0, 0, 0],
+          "moneyChange": 0
+        }
+      },
+      {
+        "text": "Als Bänker bewerben",
+        "description": "Dir wurde schon oft gesagt, dass du das nötige Talent hast.",
+        "values": [0, 6, 9],
+        "cost": 0,
+        "positive": {
+          "result": "Nach einem angenehmen Bewerbungsgespräch, wird dir ein unentgeltliches Praktikum angeboten. Du nimmst an und lernst einiges über das Bankwesen. Nach deinem Praktikum wirst du nicht übernommen.",
+          "description": "Du verlässt die Bank schlauer gen Westen.",
+          "changes": [0, 1, 0],
+          "moneyChange": 0
+        },
+        "negative": {
+          "result": "Nach einem unangenehmen Bewerbungsgespräch, wird dein Gesuch abgelehnt.",
+          "description":  "Du verlässt die Bank gen Westen.",
           "changes": [0, 0, 0],
           "moneyChange": 0
         }
@@ -1675,59 +1693,77 @@
     "title": "Itreg",
     "overviewImage": "images/card24_overview.png",
     "image": "images/card24_detail.png",
-    "description": "Du stehst vor dem Eingang der namenlosen Höhle der Drachen, in die die Drachen während des 53-jährigen Krieges verbannt wurden. Niemand weiß, wie Kommandant Luzehn es schaffte, die Drachen sich dazu zu verpflichten. Seither hat niemand mehr Drachen in Itreg gesehen und nach 324 Jahren Frieden, müssten die Drachen längst verhungert sein. Doch du kannst deutlich Licht im Inneren der Höhle erahnen.",
+    "description": "Als Du das Stadttor Itregs durchsschreitest, bist du beeindruckt von der Größe und Schönheit dieser Stadt. Aus dem Nichts wirst du von einem Palastdiener angesprochen, der Dir mitteilt, dass deine Taten in der Grafschaft Aufmerksamkeit in der Haupstadt und sogar bei der Gräfin geweckt haben. Dieser wirst du nun vorgeführt.",
     "options": [
       {
-        "text": "Umkehren",
-        "description": "Jetzt wo du hier bist, sieht die Höhle doch sehr bedrohlich aus.",
+        "text": "Zu einem beliebigen Ort in Itreg reisen",
+        "description": "Itreg ist ein Verkehrsknotenpunkt, es werden kurzweilige Wagenfahrten zu jedem Ort in Itreg angeboten. Wenn du dich noch nicht bereit fühlst die Gräfin zu treffen, solltest du dich vielleicht anderen Ortes vorbereiten.",
         "values": [0, 0, 0],
-        "cost": 0,
+        "cost": 50,
         "positive": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Du bezahlst die Gebühr und steigst auf einen Wagen - vor dir liegt eine lange, oder auch kurze Reise.",
+          "description": "Du befindest dich bei einem von dir frei wählbaren Ort in der Grafschaft Itreg.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 0],
+          "result": "Du bezahlst die Gebühr und steigst auf einen Wagen - vor dir liegt eine lange, oder auch kurze Reise.",
+          "description": "Du befindest dich bei einem von dir frei wählbaren Ort in der Grafschaft Itreg.",
+          "changes": [0, 0, 0],
           "moneyChange": 0
         }
       },
       {
-        "text": "Die Höhle betreten mit der Absicht, die Drachen zu töten",
-        "description": "Ein Drachkopf wäre in Azelon ein Vermögen wert",
-        "values": [6, 0, 0],
+        "text": "Die Gräfin zu einem Duell um die Herrschaft über Itreg herausfordern",
+        "description": "Nach altem itregianischen Recht, muss sie dir dieses Recht zugestehen. Kann jedoch einen Untergebenen ihrerstatt zum Duell abstellen.",
+        "values": [10, 5, 5],
         "cost": 0,
         "positive": {
-          "result": "Du stürmst voller Wagemut in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und hüllt dich in orangen Flammen.",
-          "description": "Du verlässt die Drachenhöhle gen Süden und kommst schwer verletzt im Ödland an.",
-          "changes": [-1, 0, 0],
+          "result": "Zu deiner Überraschung erscheint die Gräfin selbst zum Duell. Der Kampf beginnt und deine Kontrahentin erweist sich als exzellente Duellistin. Jedoch nicht so gut wie Du. Schließlich gibt sie den Kampf auf und übergibt dir rituell die Krone der Grafschaft. Du bist Herrscher über Itreg.  ",
+          "description": "Du hast das Spiel gewonnen!",
+          "changes": [1, 0, 0],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Du stürmst voller Wagemut in die Höhle, doch bevor du auch nur ein einziges schuppiges Wesen erblickst, wirst du geröstet. Deine Haut zerfällt und deine Organe versagen.",
-          "description": "Du wachst im Tempel der Erleuchtung auf, dessen stummen Mönchen die gerettet haben. Warum, sie vor Ort waren, weißt du nicht. Du heilst schnell, bald bringen dich die Mönche ins Ödland.",
-          "changes": [-1, 1, 0],
+          "result": "Zu deiner Überraschung erscheint die Gräfin selbst zum Duell. Der Kampf beginnt und deine Kontrahentin erweist sich als exzellente Duellistin. Sie ist dir überlegen. Schließlich musst Du dich übergeben, um dein Leben zu schützen. Im Anschluss wirst du in itregianische Gefängnis gebracht. Du hättest das itregianische Recht vielleicht besser studieren sollen.",
+          "description": "Du befindest dich im Gefängnis.",
+          "changes": [1, 0, 0],
           "moneyChange": 0
         }
       },
       {
-        "text": "Die Höhle betreten, um mit den Drachen zu sprechen",
-        "description": "Es sind edle Wesen, die Respekt verdienen",
-        "values": [0, 0, 6],
+        "text": "Der Gräfin dein Wissen über böse Machenschaften in Itreg darlegen",
+        "description": "Azelon, Ost-Zhranorath, die Zrenither, die Maulang-Garde - sie alle sind verwickelt in dunkele Machenschaften.",
+        "values": [5, 10, 5],
         "cost": 0,
         "positive": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, dann verlässt du die Höhle und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
-          "changes": [0, 1, 1],
-          "moneyChange": 0
+          "result": "Du erzählst und erzählst und immer und immer mehr, ergibt sich für die Gräfin ein finsteres aber eindeutiges Bild. Vielen Bereichen Itregs sollte sie mehr Aufmerksamkeit schenken und die dortigen Probleme lösen - nachdem der Krieg mit den Bramiten beigelegt ist. Zu deren Intentionen kannst Du sie ebenfalls belehren. Sie bittet dich ihr als bezahlter Berater beiseite zu stehen. Du akzeptierst.",
+          "description": "Du hast das Spiel gewonnen!",
+          "changes": [0, 1, 0],
+          "moneyChange": 100
         },
         "negative": {
-          "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, doch sie glauben dir nicht und speihen Flammen in deine Richtung. Du kannst jedoch ausweichen, die Höhle verlassen und rennst gen Süden.",
-          "description": "Du befindest dich im Ödland.",
+          "result": "Du erzählst und erzählst und immer und immer mehr, doch wirklich viel Inhalt kannst du nicht vermitteln. So viel weißt du wohl doch nicht. Die Gräfin ist dankbar für die von dir bereitgestellten Informationen. Sie bittet dich dein Wissen an die Gelehrten der itregianischen Staatsbibliothek weiterzugeben. Du akzeptierst. ",
+          "description": "Du befindest dich in der Staatsbibliothek.",
           "changes": [0, 1, 0],
+          "moneyChange": 50
+        }
+      },
+      {
+        "text": "Der Gräfin verführen",
+        "description": "Die Gräfin ist ledig und der Titel Graf könnte dir gut stehen.",
+        "values": [5, 5, 10],
+        "cost": 0,
+        "positive": {
+          "result": "Du bist wirklich charmant und das kannst du der Gräfin bei einem Dinner beweisen. Sie bittet dich in Itreg zu bleiben. Du akzeptierst und schaffst es sie über die nächsten Wochen vollends zu verführen. Fünf Monate feiert ihr euer Hochzeit und die wirst zum Grafen von Itreg.",
+          "description": "Du hast das Spiel gewonnen!",
+          "changes": [0, 0, 1],
+          "moneyChange": 100000
+        },
+        "negative": {
+          "result": "Eigentlich bist du doch ganz charmant, doch schaffst es irgendwie nicht die Gräfin bei einem Dinner zu beeindrucken. Dein Charakter wirkt aufgesetzt und eventuell erkennt sie auch deinen Wunsch nach dem Grafentitel. Im Anschluss empfiehlt sie dir, dich bei der itregianischen Bank als Bänker zu bewerben. Du akzeptierst.",
+          "description": "Du befindest dich bei der Bank.",
+          "changes": [0, 0, 1],
           "moneyChange": 0
         }
       }
