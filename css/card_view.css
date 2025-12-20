@@ -76,17 +76,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-wrap: nowrap; /* verhindert Zeilenumbruch */
+  flex-wrap: nowrap; 
   gap: 20px;
   padding: 20px;
   max-width: 100%;
-  overflow-x: auto; /* erlaubt horizontales Scrollen bei Bedarf */
+  overflow-x: auto; 
 }
 
 /* Kartenstruktur */
 .option-card {
   width: 280px;
-  height: 360px;
+  height: 460px;
   perspective: 1000px;
   cursor: pointer;
 }
@@ -96,6 +96,13 @@ body {
     flex-wrap: wrap;
     justify-content: center; 
     overflow-x: visible; 
+  }
+}
+
+@media (max-width: 768px) {
+  .option-card {
+    width: 90%;
+    height: 420px; /* vorher 340px */
   }
 }
 

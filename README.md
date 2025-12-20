@@ -7,7 +7,7 @@ Diese Repository enthält nicht das gesamte Spiel. Es wird hauptsächlich analog
 ## Licensing
 
 - **Code**: Licensed under the [CC BY-NC 4.0](./LICENSE).
-- **Images**: AI-generated and not covered by the CC BY-NC 4.0 License. Do not reuse or redistribute without permission.
+- **Images**: All images under root/images/ AI-generated and not covered by the CC BY-NC 4.0 License. Do not reuse or redistribute without permission.
 
 ## Notes
 
