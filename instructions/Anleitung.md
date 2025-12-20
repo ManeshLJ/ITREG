@@ -7,7 +7,7 @@ Alle Personen, welche an dem Spiel teilnehmen wollen, sollten zusammen an einem 
 Zudem sollte pro Person eine Spielfigur bereitliegen. Dieses befinden sich zum Spielstart alle in der Hafenstadt Südstern.
 Idealerweise liegen drei unterscheidbare Würfel (1-6) bereit. Mit einem Würfel ist das Spiel jedoch auch spielbar.
 
-Jede Mitspielende Person sollte auf einem digitalen Endgerät folgende Webseite geöffnet haben: https://maneshlj.github.io/ITREG/
+Jede Mitspielende Person sollte auf einem digitalen Endgerät folgende Webseite geöffnet haben: [https://maneshlj.github.io/ITREG/](https://maneshlj.github.io/ITREG/)
 
 <img src="qr-code.png" width="200">
 
@@ -21,12 +21,12 @@ Das Ziel des Spiels besteht darin die Stadt Itreg (nordwestliche Ecke) als erste
 
 | Name | Zeichen | Funktion |
 |------|-------|-------|
-| Zug | <img src="../map/icons/normal walk.png" width="80"> | Zeigt Laufrichtung an. Bei mehrere Feldern, die in angezeigter Richtung liegen, darf die Spielfigur auf beide Felder gestellt werden. |
-| Zug (mit Wiedereinstieg) | <img src="../map/icons/normal walk respawn.png" width="80"> | Zeigt Laufrichtung an. Bei mehrere Feldern, die in angezeigter Richtung liegen, darf die Spielfigur auf beide Felder gestellt werden. Dient als Wiedereinstiegsfeld (siehe Ziehen).|
-| Aktion Zug | <img src="../map/icons/event walk.png" width="80"> | Zeigt Laufrichtung an. Bei mehrere Feldern, die in angezeigter Richtung liegen, darf die Spielfigur auf beide Felder gestellt werden. Wenn Zug auf diesem Feld endet, muss die Aktionskarte gespielt werden.|
-| Aktion Zug (mit Wiedereinstieg)| <img src="../map/icons/event walk respawn.png" width="80"> | Zeigt Laufrichtung an. Bei mehrere Feldern, die in angezeigter Richtung liegen, darf die Spielfigur auf beide Felder gestellt werden. Wenn Zug auf diesem Feld endet, muss die Aktionskarte gespielt werden. Dient als Wiedereinstiegsfeld (siehe Ziehen).|
-| Aktion Stopp | <img src="../map/icons/event stop.png" width="80"> | Wenn die Spielfigur exakt auf oder an diesem Feld vorbeiziehen würde, bleibt sie dort stehen und die restlichen Schritte verfallen Die Aktionskarte muss gespielt werden.|
-| Aktion Stopp (mit Wiedereinstieg) | <img src="../map/icons/event stop respawn.png" width="80"> | Wenn die Spielfigur exakt auf oder an diesem Feld vorbeiziehen würde, bleibt sie dort stehen und die restlichen Schritte verfallen Die Aktionskarte muss gespielt werden. Dient als Wiedereinstiegsfeld (siehe Ziehen).|
+| Zug | <img src="../icons/normal walk.png" width="80"> | Zeigt Laufrichtung an. Bei mehrere Feldern, die in angezeigter Richtung liegen, darf die Spielfigur auf beide Felder gestellt werden. |
+| Zug (mit Wiedereinstieg) | <img src="../icons/normal walk respawn.png" width="80"> | Zeigt Laufrichtung an. Bei mehrere Feldern, die in angezeigter Richtung liegen, darf die Spielfigur auf beide Felder gestellt werden. Dient als Wiedereinstiegsfeld (siehe Ziehen).|
+| Aktion Zug | <img src="../icons/event walk.png" width="80"> | Zeigt Laufrichtung an. Bei mehrere Feldern, die in angezeigter Richtung liegen, darf die Spielfigur auf beide Felder gestellt werden. Wenn Zug auf diesem Feld endet, muss die Aktionskarte gespielt werden.|
+| Aktion Zug (mit Wiedereinstieg)| <img src="../icons/event walk respawn.png" width="80"> | Zeigt Laufrichtung an. Bei mehrere Feldern, die in angezeigter Richtung liegen, darf die Spielfigur auf beide Felder gestellt werden. Wenn Zug auf diesem Feld endet, muss die Aktionskarte gespielt werden. Dient als Wiedereinstiegsfeld (siehe Ziehen).|
+| Aktion Stopp | <img src="../icons/event stop.png" width="80"> | Wenn die Spielfigur exakt auf oder an diesem Feld vorbeiziehen würde, bleibt sie dort stehen und die restlichen Schritte verfallen Die Aktionskarte muss gespielt werden.|
+| Aktion Stopp (mit Wiedereinstieg) | <img src="../icons/event stop respawn.png" width="80"> | Wenn die Spielfigur exakt auf oder an diesem Feld vorbeiziehen würde, bleibt sie dort stehen und die restlichen Schritte verfallen Die Aktionskarte muss gespielt werden. Dient als Wiedereinstiegsfeld (siehe Ziehen).|
 
 ## Figureigenschaften
 
@@ -67,7 +67,7 @@ Jeder Spielender trackt die eigene Figur mittels einer Tabelle mit folgenden Spa
   - Entsprechend der Karte kann die Figur erneut verschoben werden:
     
 
-1. Öffne die Karte in der Übersicht (https://maneshlj.github.io/ITREG/).
+1. Öffne die Karte in der Übersicht ([https://maneshlj.github.io/ITREG/](https://maneshlj.github.io/ITREG/)).
 2. Alle Spielenden sollen mitbekommen, was jeder tut:
    - Optimal: Aktiver Spielender liest laut vor.
    - Alternativ: Andere Spielenden öffnen die Karte selbst.
