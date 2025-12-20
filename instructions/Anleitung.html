@@ -171,12 +171,80 @@
 </head>
 <body>
 <h1 id="spielanleitung">Spielanleitung</h1>
+<p>Itreg ist ein würfelbasiertes Laufspiel. Dabei führen die Spielenden
+im Uhrzeigersinn ihre Züge aus.</p>
+<h2 id="spielvorbereitung">Spielvorbereitung</h2>
+<p>Jede Mitspielende Person sollte auf einem digitalen Endgerät folgende
+Webseite geöffnet haben: https://maneshlj.github.io/ITREG/</p>
+<p><img src="qr-code.png" width="200"></p>
+<h2 id="arten-von-feldern">Arten von Feldern:</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 35%" />
+<col style="width: 35%" />
+</colgroup>
+<thead>
+<tr>
+<th>Name</th>
+<th>Zeichen</th>
+<th>Funktion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Regulärer Zug</td>
+<td><img src="../map/icons/normal walk.png" width="80"></td>
+<td>Zeigt Laufrichtung an. Bei mehrere Feldern, die in angezeigter
+Richtung liegen, darf die Spielfigur auf beide Felder gestellt
+werden.</td>
+</tr>
+<tr>
+<td>Regulärer Zug (mit Wiedereinstieg)</td>
+<td><img src="../map/icons/normal walk respawn.png" width="80"></td>
+<td>Zeigt Laufrichtung an. Bei mehrere Feldern, die in angezeigter
+Richtung liegen, darf die Spielfigur auf beide Felder gestellt werden.
+Dient als Wiedereinstiegsfeld (siehe Ziehen).</td>
+</tr>
+<tr>
+<td>Aktion Zug</td>
+<td><img src="../map/icons/event walk.png" width="80"></td>
+<td>Zeigt Laufrichtung an. Bei mehrere Feldern, die in angezeigter
+Richtung liegen, darf die Spielfigur auf beide Felder gestellt werden.
+Wenn Zug auf diesem Feld endet, muss die Aktionskarte gespielt
+werden.</td>
+</tr>
+<tr>
+<td>Aktion Zug (mit Wiedereinstieg)</td>
+<td><img src="../map/icons/event walk respawn.png" width="80"></td>
+<td>Zeigt Laufrichtung an. Bei mehrere Feldern, die in angezeigter
+Richtung liegen, darf die Spielfigur auf beide Felder gestellt werden.
+Wenn Zug auf diesem Feld endet, muss die Aktionskarte gespielt werden.
+Dient als Wiedereinstiegsfeld (siehe Ziehen).</td>
+</tr>
+<tr>
+<td>Aktion Stopp</td>
+<td><img src="../map/icons/event stop.png" width="80"></td>
+<td>Wenn die Spielfigur exakt auf oder an diesem Feld vorbeiziehen
+würde, bleibt sie dort stehen und die restlichen Schritte verfallen Die
+Aktionskarte muss gespielt werden.</td>
+</tr>
+<tr>
+<td>Aktion Stopp (mit Wiedereinstieg)</td>
+<td><img src="../map/icons/event stop respawn.png" width="80"></td>
+<td>Wenn die Spielfigur exakt auf oder an diesem Feld vorbeiziehen
+würde, bleibt sie dort stehen und die restlichen Schritte verfallen Die
+Aktionskarte muss gespielt werden. Dient als Wiedereinstiegsfeld (siehe
+Ziehen).</td>
+</tr>
+</tbody>
+</table>
 <h2 id="einen-zug-durchführen">Einen Zug durchführen</h2>
 <h3 id="würfeln">Würfeln</h3>
 <ul>
 <li>Laufwürfel und Geldwürfel gleichzeitig werfen.</li>
 <li>Augenzahl des Geldwürfels auf Kontostand addieren.<br />
-<em>(Hinweis: Muss später mit Eventkarte verrechnet werden.)</em></li>
+<em>(Hinweis: Muss später mit Aktionskarte verrechnet werden.)</em></li>
 <li>Wenn auf Stoppfeld, darf nicht gezogen werden</li>
 <li>Entscheiden, ob mit der Augenzahl des Laufwürfels gelaufen oder
 stehengeblieben wird.</li>
@@ -194,9 +262,9 @@ verfallen.</li>
 <li>Diese wird geschlagen und auf das nächste hintere Feld mit blauem
 Rand zurückgesetzt.</li>
 <li>Die kürzeste Distanz wird durch die Anzahl der Felder zwischen zwei
-Feldern bestimmt.</li>
+Feldedrn bestimmt.</li>
 <li>Falls dort bereits eine Figur steht, wird die geschlagene Figur ein
-Feld dahinter positioniert, unabhängig von dessen Umrandung.</li>
+Feld ahinter positioniert, unabhängig von dessen Umrandung.</li>
 <li>Falls das neue Feld ein Eventfeld ist, passiert nichts.</li>
 </ul></li>
 <li>Wenn sich die Spielfigur nun auf einem blauen Eventfeld befindet:
@@ -206,7 +274,7 @@ stattdessen einem deiner Fähigkeiten einen Punkt hinzuzufügen, dafür
 musst du aber einer anderen Fähigkeit zwei abziehen. Das kannst du
 mehrfach machen und auch zwischen verschieden Fähigkeiten</li>
 <li>Der Spieler spielt die Aktionskarte <em>(Details siehe
-Eventkarten)</em>.</li>
+Aktionskarten)</em>.</li>
 <li>Entsprechend der Karte kann die Figur erneut verschoben werden:
 <ul>
 <li>Figur bleibt stehen</li>
@@ -234,7 +302,7 @@ folgenden Spalten:</p>
 </ul></li>
 </ul>
 <hr />
-<h2 id="eventkarte-spielen">Eventkarte spielen</h2>
+<h2 id="aktionskarte-spielen">Aktionskarte spielen</h2>
 <ol type="1">
 <li>Öffne die Karte in der Übersicht (bereitgestellt über das GitHub
 Repository).</li>
@@ -251,8 +319,9 @@ Repository).</li>
 </ul></li>
 <li>Entscheide dich für eine Option und teile sie deinen Mitspielern
 mit.</li>
-<li>Würfle mit einem Würfel: (In Maulang darf zwei mal gewürfelt werden,
-und die Augenzahl wird addiert)</li>
+<li>Würfle mit einem Würfel: (Die Anzahl der Würfel mit denen du würfeln
+darfst hängt mit der Region des Events zusammen (1-3). Von allen Würfeln
+darfst du den besten Wert verwenden)</li>
 <li>Stelle fest, ob du die notwendinge Fähigkeitsstärke aufbringen
 kannst : Dabei kannst du die gewürfelt Augenzahl nutzen, um deine
 Fähigkeitsstärken zu verstärken. Für jedes Auge kannst du temporär eine

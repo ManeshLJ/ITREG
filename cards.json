@@ -96,13 +96,13 @@
         "cost": 80,
         "positive": {
           "result": "Nachdem du ein hübsches Sümmchen bezahlt hast, wirst du auf eine Fähre gebracht, die dich flussaufwärts bringt.",
-          "description": "Nach einer entspannten eintägigen Fahrt erreichst du den Fährenhafen an der Hdrathur Brücke.",
+          "description": "Nach einer entspannten eintägigen Fahrt erreichst du den Fährenhafen an der Zwillingsbrücken.",
           "changes": [0, 0, 0],
           "moneyChange": -80
         },
         "negative": {
           "result": "Nachdem du ein hübsches Sümmchen bezahlt hast, wirst du auf eine Fähre gebracht, die dich flussaufwärts bringt.",
-          "description": "Nach einer entspannten eintägigen Fahrt erreichst du den Fährenhafen an der Hdrathur Brücke.",
+          "description": "Nach einer entspannten eintägigen Fahrt erreichst du den Fährenhafen an der Zwillingsbrücken.",
           "changes": [0, 0, 0],
           "moneyChange": -80
         }
@@ -114,7 +114,7 @@
         "cost": 0,
         "positive": {
           "result": "Du versteckst dich zwischen in einem Fass voller Fische. Der Geruch stört, aber du wirst nicht entdeckt.",
-          "description": "Nach einer geruchsintensiven eintägigen Fahrt erreichst du den Fährenhafen an der Hdrathur Brücke.",
+          "description": "Nach einer geruchsintensiven eintägigen Fahrt erreichst du den Fährenhafen an der Zwillingsbrücken.",
           "changes": [0, 1, 1],
           "moneyChange": 0
         },
@@ -132,7 +132,7 @@
         "cost": 20,
         "positive": {
           "result": "Du schaffst es eine fahrende, wenn auch etwas wackeligen Fähre zu bauen.",
-          "description": "Nach einer anstrengende zweitägigen Fahrt erreichst du den Fährenhafen an der Hdrathur Brücke, gestärkt und schlauer.",
+          "description": "Nach einer anstrengende zweitägigen Fahrt erreichst du den Fährenhafen an der Zwillingsbrücken, gestärkt und schlauer.",
           "changes": [1, 1, 0],
           "moneyChange": -20
         },
@@ -1085,7 +1085,7 @@
           "moneyChange": 0
         },
         "negative": {
-          "result": "Du bist zu schwach. Die Strömungen treiben dich nach Süden ab, an der Hdrathur Brücke vorbei, bis du schließlich am Fährhafen nördlich der Hafenstadt ankommst.",
+          "result": "Du bist zu schwach. Die Strömungen treiben dich nach Süden ab, an der Zwillingsbrücken vorbei, bis du schließlich am Fährhafen nördlich der Hafenstadt ankommst.",
           "description": "Du befindest dich am Fährhafen nördlich der Hafenstadt.",
           "changes": [0, 0, 0],
           "moneyChange": 0
