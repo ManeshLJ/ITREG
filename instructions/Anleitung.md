@@ -62,26 +62,69 @@ Jeder Spielender trackt die eigene Figur mittels einer Tabelle mit folgenden Spa
 
 ### 4. Aktionskarte spielen
 
-4.1. Öffne die Karte in der Übersicht ([https://maneshlj.github.io/ITREG/](https://maneshlj.github.io/ITREG/)). Außerhalb des Spielens einer Karte darf sie nicht geöffnet werden.
+4.1. Öffne die Karte in der Übersicht  
+([https://maneshlj.github.io/ITREG/](https://maneshlj.github.io/ITREG/)).  
+Außerhalb des Spielens einer Karte darf sie nicht geöffnet werden.
+
 4.2. Alle Spielenden sollen mitbekommen, was jeder tut:
-   - Optimal: Aktiver Spielender liest laut vor.
-   - Alternativ: Andere Spielenden öffnen die Karte selbst.
-4.3. Lies die Beschreibung der Karte (Oberer Teil).
-4.4. Lies **nur die Vorderseite** der Optionen (Unterer Teil):
-   - Zeigt benötigte Fähigkeitsstufen (Stärke, Wissen, Charme).
-   - Zeigt voraussichtlichen Geldverbrauch. Wenn dieser größer als dein Kontostand (mit Geldwürfelertrag) ist, kannst du diese Option nicht durchführen.
-4.5. Du kannst dich entscheiden einem deiner Fähigkeiten einen Punkt hinzuzufügen, dafür musst du aber einer anderen Fähigkeit zwei abziehen. Das kannst du mehrfach machen und auch zwischen verschieden Fähigkeiten. Du kannst das in eine neue Zeile in der Tabelle notieren ohne die Rundennummer zu erhöhen.
+
+- Optimal: Aktiver Spielender liest laut vor.
+- Alternativ: Andere Spielenden öffnen die Karte selbst.
+
+4.3. Lies die Beschreibung der Karte (oberer Teil).
+
+4.4. Lies **nur die Vorderseite** der Optionen (unterer Teil):
+
+- Zeigt benötigte Fähigkeitsstufen (Stärke, Wissen, Charme).
+- Zeigt voraussichtlichen Geldverbrauch.  
+  Wenn dieser größer als dein Kontostand (mit Geldwürfelertrag) ist,  
+  kannst du diese Option nicht durchführen.
+
+4.5. Du kannst dich entscheiden, einer deiner Fähigkeiten einen Punkt hinzuzufügen.  
+Dafür musst du einer anderen Fähigkeit zwei Punkte abziehen.
+
+- Das kannst du mehrfach machen.
+- Auch zwischen verschiedenen Fähigkeiten.
+- Du kannst das in einer neuen Zeile in der Tabelle notieren,  
+  ohne die Rundennummer zu erhöhen.
+
 4.6. Entscheide dich für eine Option und teile sie deinen Mitspielenden mit.
-4.7. Würfel mit einem Würfel: Du darfst so oft würfeln wie es oben rechts in der Kartenansicht angezeigt wird (1-3). Dabei gilt 1 für den Bereich südlich der imagniären horizontalen Linien ausgerichtet an den Ligon Bergen. 2 gilt für alles nördlich dieser Linien aber südlich der Maulangmauer. 3 gilt für alles nördlich der Maulangmauer. Die höchste Augenzahl aller Würfe zählt.
-4.8. Stelle fest, ob du die notwendinge Fähigkeitsstärke aufbringen kannst :
-    Dabei kannst du die gewürfelt Augenzahl nutzen, um deine Fähigkeitsstufen zu verstärken. Für jedes Auge kannst du **temporär** eine Punkt zu den Fähigkeiten zuweisen. Du kannst sie beliebig auf die drei Fähigkeiten aufteilen.
+
+4.7. Würfle mit einem Würfel.  
+Du darfst so oft würfeln, wie es oben rechts in der Kartenansicht angezeigt wird (1–3).
+
+- **1** → südlich der imaginären horizontalen Linie an den Ligon-Bergen  
+- **2** → nördlich dieser Linie, aber südlich der Maulangmauer  
+- **3** → nördlich der Maulangmauer  
+
+Die höchste Augenzahl aller Würfe zählt.
+
+4.8. Stelle fest, ob du die notwendige Fähigkeitsstärke aufbringen kannst:
+
+- Du kannst die gewürfelte Augenzahl nutzen, um deine Fähigkeiten zu verstärken.
+- Für jedes Auge darfst du **temporär** einen Punkt verteilen.
+- Die Punkte können beliebig auf Stärke, Wissen und Charme verteilt werden.
+
 4.9. Vergleiche mit den Anforderungen:
-- Wenn alle drei Werte >= gefordert → positive Rückseite → Berühre die rechte Hälfte der Option.
-- Sonst → negative Rückseite → Berühre die linke Hälte der Option
-4.10. Positioniere deine Figur gemäß Rückseite der Karte. Folgende Möglichkeiten existieren:
-    - Figur bleibt stehen
-    - Figur wird auf ein Feld hinter dem Event gesetzt (nicht mehr auf primär blauen Feldern)
-    - Figur wird auf ein Feld vor dem Event gesetzt (nicht mehr auf primär blauen Feldern)
-    - Figur wird auf ein anderes Feld Aktionsfeld (Priorität mit Wiedereinstieg) oder Zugfeld mit Wiedereinstieg gesetzt
-4.11. Notiere Veränderungen für Fähigkeitspunkte und Geld. Falls du einen Fähigkeitsstufe reduzieren musst, aber diese bei 0 liegt, bleibt diese bei 0. Dein Kontostand kann unter 0 fallen. 
- *(Wichtig: Verrechnen mit Geldwürfel-Ertrag.)*
+
+- Wenn alle drei Werte **≥ gefordert** → positive Rückseite  
+  → Berühre die **rechte Hälfte** der Option
+- Sonst → negative Rückseite  
+  → Berühre die **linke Hälfte** der Option
+
+4.10. Positioniere deine Figur gemäß Rückseite der Karte:
+
+- Figur bleibt stehen
+- Figur wird auf ein Feld **hinter** dem Event gesetzt  
+  (nicht mehr auf primär blauen Feldern)
+- Figur wird auf ein Feld **vor** dem Event gesetzt  
+  (nicht mehr auf primär blauen Feldern)
+- Figur wird auf ein anderes Aktionsfeld  
+  (Priorität mit Wiedereinstieg) oder Zugfeld mit Wiedereinstieg gesetzt
+
+4.11. Notiere Veränderungen für Fähigkeitspunkte und Geld.
+
+- Muss eine Fähigkeitsstufe reduziert werden, liegt aber bereits bei 0, bleibt sie bei 0.
+- Dein Kontostand kann unter 0 fallen.
+
+*(Wichtig: Verrechnen mit Geldwürfel-Ertrag.)*
