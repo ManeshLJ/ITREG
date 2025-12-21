@@ -42,23 +42,48 @@ Jeder Spielender trackt die eigene Figur mittels einer Tabelle mit folgenden Spa
 
 ### 1. Rückkehr
 
-1.1. Du kannst dich zu Beginn jedes Zugs entscheiden in die Hafenstadt Südstern zurückzukehren. Dabei verfallenen alle anderen Handlungen deines Zuges.
+1.1. Du kannst dich zu Beginn jedes Zugs entscheiden, in die **Hafenstadt Südstern** zurückzukehren.  
+Dabei verfallen alle anderen Handlungen deines Zuges.
+
+---
 
 ### 2. Würfeln
+
 2.1. Laufwürfel und Geldwürfel gleichzeitig werfen.
-2.2. Augenzahl des Geldwürfels auf Kontostand addieren. *(Hinweis: Muss später mit Aktionskarte verrechnet werden.)*
-2.3. Wenn auf Stoppfeld, darf nicht gezogen werden, muss diese Aktionskarte gepspielt werden
-2.4. Entscheiden, ob mit der Augenzahl des Laufwürfels gelaufen oder stehengeblieben wird. 
+
+2.2. Augenzahl des Geldwürfels auf den Kontostand addieren.  
+*(Hinweis: Muss später mit der Aktionskarte verrechnet werden.)*
+
+2.3. Wenn auf einem Stoppfeld gelandet wird, darf nicht gezogen werden  
+und die entsprechende Aktionskarte **muss** gespielt werden.
+
+2.4. Entscheiden, ob mit der Augenzahl des Laufwürfels gelaufen  
+oder stehen geblieben wird.
+
+---
 
 ### 3. Ziehen
-3.1. Spielfigur exakt der Augenzahl des Laufwürfels nach bewegen. Die Richtung wird durch Pfeile auf Spielfeldern angezeigt. *(Bei zwei Richtungen kann frei entschieden werden.)*
-  - Wenn die Spielfigur exakt auf oder an einem Stoppfeld vorbeiziehen würde, bleibt sie dort stehen und die restlichen Schritte verfallen.
-  - Wenn auf dem Zielfeld bereits eine andere Figur steht:
-    - Diese wird geschlagen und auf das nächste hintere Feld mit Wiedereinstiegspunkt gestellt.
-    - Die kürzeste Distanz wird durch die Anzahl der Felder zwischen zwei Feldern bestimmt.
-    - Falls dort bereits eine Figur steht, wird die geschlagene Figur ein Feld dahinter positioniert, unabhängig von dessen Umrandung.
-    - Falls das neue Feld ein Aktionsfeld ist, passiert nichts.
-3.2. Wenn sich die Spielfigur nun auf einem blauen Aktonsfeld befindet, muss diese Aktionskarte gespielt werden
+
+3.1. Spielfigur exakt um die Augenzahl des Laufwürfels bewegen.  
+Die Richtung wird durch Pfeile auf den Spielfeldern angezeigt.  
+*(Bei zwei Richtungen kann frei entschieden werden.)*
+
+- Wenn die Spielfigur exakt auf ein Stoppfeld zieht  
+  oder an einem Stoppfeld vorbeiziehen würde,  
+  bleibt sie dort stehen und die restlichen Schritte verfallen.
+
+- Wenn auf dem Zielfeld bereits eine andere Figur steht:
+  - Diese wird geschlagen und auf das nächste hintere Feld  
+    mit Wiedereinstiegspunkt gestellt.
+  - Die kürzeste Distanz wird durch die Anzahl der Felder  
+    zwischen zwei Feldern bestimmt.
+  - Falls dort bereits eine Figur steht, wird die geschlagene Figur  
+    ein Feld dahinter positioniert, unabhängig ob dieses einen Wiedereinstieg hat.
+  - Falls das neue Feld ein Aktionsfeld ist, passiert nichts.
+
+3.2. Wenn sich die Spielfigur nun auf einem **blauen Aktionsfeld** befindet,  
+muss die entsprechende Aktionskarte gespielt werden.
+
 
 ### 4. Aktionskarte spielen
 
