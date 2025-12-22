@@ -41,11 +41,11 @@ Das Ziel des Spiels besteht darin, die Stadt **Itreg** (nordwestliche Ecke) als 
 Jede spielende Person trackt die eigene Figur mithilfe einer Tabelle mit folgenden Spalten:
 
 - **Runde**: Startwert 0  
-- **Aramik (Geld)**: Startwert 100  
+- **Aramik (Geld)** 💰: Startwert 100  
 - **Fähigkeiten**:
-  - Stärke: Startwert 0  
-  - Wissen: Startwert 0  
-  - Charme: Startwert 0  
+  - Stärke 💪: Startwert 0   
+  - Wissen 🧠: Startwert 0  
+  - Charme 😎: Startwert 0  
 
 ---
 
