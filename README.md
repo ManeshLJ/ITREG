@@ -33,4 +33,3 @@ py Instructions.py
 - make easier readable
 
 ### Problems to solve
-Sollte man, wenn man auf aktion-zug-feld steht am Anfang eines Zuges, entscheiden können, ob man spielt oder weiterläuft???

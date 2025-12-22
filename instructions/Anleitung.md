@@ -94,7 +94,7 @@ Die Richtung wird durch Pfeile auf den Spielfeldern angezeigt.
     unabhängig davon, ob dieses Feld einen Wiedereinstieg hat.
   - Befindet sich die geschlagene Figur anschließend auf einem Aktionsfeld, passiert nichts.
 
-3.2. Befindet sich die Spielfigur nun auf einem **blauen Aktionsfeld**,  
+3.2. Befindet sich die Spielfigur nun auf einem *Aktionsfeld**,  
 muss die entsprechende Aktionskarte gespielt werden.
 
 ---
@@ -115,7 +115,7 @@ Außerhalb des Spielens einer Karte darf sie nicht geöffnet werden.
 4.4. Lies **nur die Vorderseite** der Optionen (unterer Teil):
 
 - Zeigt benötigte Fähigkeitsstufen (Stärke, Wissen, Charme).  
-- Zeigt den voraussichtlichen Aramikverbrauch.  
+- Zeigt den voraussichtlichen Aramikverbrauch (Kann von tatsächlichem Verbrauch abweichen. Dieser wird erst später auf der Rückseite gezeigt).  
   Ist dieser größer als dein Kontostand (inklusive Aramikwürfelertrag),  
   kannst du diese Option nicht durchführen.
 

@@ -648,19 +648,19 @@
       {
         "text": "Den Stadthalter gewaltsam wegputschen",
         "description": "Seiner duch schwacher Hand geführten Herrschaft muss ein Ende gesetzt werden.",
-        "values": [5, 4, 4],
-        "cost": 80,
+        "values": [5, 4, 5],
+        "cost": 0,
         "positive": {
           "result": "Du baust eine kleine radikale Gruppe auf. Zunächst bezahlst du einige Söldner, dich dir anzuschließen. Im Wirtshaus zum stinkenden Schwein, findest du viele unzufriedene Arbeiter, die du für deine Sache gewinnen kannst. Am nächsten Morgen schlagt ihr los. Ihr überennt die Stadtwache nehmt die Kathedrale ein. Du überlässt die neue Führung anderen. Berreicherst dich jedoch an den Goldresereven Azelons.",
           "description": "Du verlässt Azelons deutlich reicher und kompetenter nach Nordosten.",
           "changes": [1, 1, 1],
-          "moneyChange": 120
+          "moneyChange": 100
         },
         "negative": {
           "result": "Du baust eine kleine radikale Gruppe auf. Zunächst bezahlst du einige Söldner, dich dir anzuschließen. Im Wirtshaus zum stinkenden Schwein, findest du viele unzufriedene Arbeiter, einige wenige kannst du für deine Sache gewinnen. Am nächsten Morgen schlagt ihr los. Die Stadtwache ist jedoch ein formidabler Kontrahent. Ihr werdet besiegt. Du schaffst es aus der Stadt zu fliehen.",
           "description": "Du verlässt Azelon gen Nordosten.",
           "changes": [0, 0, 0],
-          "moneyChange": -80
+          "moneyChange": 0
         }
       },
       {
