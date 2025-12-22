@@ -145,7 +145,7 @@
       },
       {
         "text": "Im Hafen arbeiten",
-        "description": "An der frischen Luft zu arbeiten wird deiner Gesundheit und deinem Geldbeutel guttun.",
+        "description": "An der frischen Luft zu arbeiten wird deiner Gesundheit und deinem Aramikbeutel guttun.",
         "values": [4, 1, 0],
         "cost": 0,
         "positive": {
@@ -177,13 +177,13 @@
         "values": [0, 0, 3],
         "cost": 60,
         "positive": {
-          "result": "Diese Geldsumme hat sich wirklich gelohnt. Die Aussicht ist atemberaubend.",
+          "result": "Diese Aramiksumme hat sich wirklich gelohnt. Die Aussicht ist atemberaubend.",
           "description": "Du erreichst die Binouth Siedlung westlich des großen Sees und konntest im beengten Ballonkorb neue Kontakte mit Mitreisenden knüpfen.",
           "changes": [0, 1, 1],
           "moneyChange": -60
         },
         "negative": {
-          "result": "Diese Geldsumme hat sich wirklich gelohnt. Die Aussicht ist atemberaubend, aber du streitest mit den Mitreisenden, die dich aus dem Ballonkorb werfen.",
+          "result": "Diese Aramiksumme hat sich wirklich gelohnt. Die Aussicht ist atemberaubend, aber du streitest mit den Mitreisenden, die dich aus dem Ballonkorb werfen.",
           "description": "Nach langer Ohnmacht wachst du ärmer in Siedlung Razerath auf. Wie du überlebt hast, ist dir ein Rätsel.",
           "changes": [0, 0, 0],
           "moneyChange": -60
@@ -201,7 +201,7 @@
           "moneyChange": 0
         },
         "negative": {
-          "result": "Beim Versuch die Balloncrew zu überfallen, wirst du überwältigt und zu quälender Arbeit in den Minen verurteilt und einer Geldstrafe.",
+          "result": "Beim Versuch die Balloncrew zu überfallen, wirst du überwältigt und zu quälender Arbeit in den Minen verurteilt und einer Aramikstrafe.",
           "description": "Nach einer Woche harter Arbeit, wirst du ärmer in der Siedlung Razerath entlassen.",
           "changes": [0, 0, 0],
           "moneyChange": -20
@@ -213,7 +213,7 @@
         "values": [2, 1, 3],
         "cost": 0,
         "positive": {
-          "result": "Du schaffst es die Minenarbeiter zu überzeugen, wenn du ihnen bei der Arbeit hilfst und eine kleine Geldsumme gibst, dich durch die Minen zu bringen",
+          "result": "Du schaffst es die Minenarbeiter zu überzeugen, wenn du ihnen bei der Arbeit hilfst und eine kleine Aramiksumme gibst, dich durch die Minen zu bringen",
           "description": "Nach einer anstrengenden eintägigen Fahrt erreichst du die Binouth Siedlung westlich des großen Sees, gestärkt und schlauer.",
           "changes": [1, 1, 0],
           "moneyChange": -10
@@ -227,7 +227,7 @@
       },
       {
         "text": "Im den Minen arbeiten",
-        "description": "Warum nicht etwas Geld verdienen, du bist etwas knapp bei Kasse.",
+        "description": "Warum nicht etwas Aramik verdienen, du bist etwas knapp bei Kasse.",
         "values": [6, 0, 0],
         "cost": 0,
         "positive": {
@@ -305,13 +305,13 @@
         "values": [0, 0, 2],
         "cost": 40,
         "positive": {
-          "result": "Diese Geldsumme hat sich wirklich gelohnt. Das Essen ist köstlich, die Unterhaltung exzellent und die Gesellschaft anregend.",
+          "result": "Diese Aramiksumme hat sich wirklich gelohnt. Das Essen ist köstlich, die Unterhaltung exzellent und die Gesellschaft anregend.",
           "description": "Du verlässt Racrans Festung am nächsten Morgen gen Norden mit neu geknüpften Kontakten.",
           "changes": [0, 0, 1],
           "moneyChange": -40
         },
         "negative": {
-          "result": "Diese Geldsumme hat sich wirklich gelohnt. Das Essen ist köstlich, die Unterhaltung exzellent, jedoch fühlen sich einige Gäste durch deine Anwesenheit gestört und werfen dich aus der Festung",
+          "result": "Diese Aramiksumme hat sich wirklich gelohnt. Das Essen ist köstlich, die Unterhaltung exzellent, jedoch fühlen sich einige Gäste durch deine Anwesenheit gestört und werfen dich aus der Festung",
           "description": "Du verlässt Racrans Festung gen Norden.",
           "changes": [0, 0, 0],
           "moneyChange": -40
@@ -388,7 +388,7 @@
         "cost": 0,
         "positive": {
           "result": "Stolzen Fußes machst du dich auf den Weg gen Abenteuer.",
-          "description": "Du verläßt du die Hafenstadt Südstern gen Westen.",
+          "description": "Du verläßt die Hafenstadt Südstern gen Westen.",
           "changes": [0, 0, 0],
           "moneyChange": 0
         },
@@ -406,7 +406,7 @@
         "cost": 0,
         "positive": {
           "result": "Stolzen Fußes machst du dich auf den Weg gen Abenteuer.",
-          "description": "Du verläßt du die Hafenstadt Südstern gen Norden.",
+          "description": "Du verläßt die Hafenstadt Südstern gen Norden.",
           "changes": [0, 0, 0],
           "moneyChange": 0
         },
@@ -473,7 +473,7 @@
       },
       {
         "text": "In einem der Handwerksbetriebe der Stadt arbeiten",
-        "description": "Etwas Geld kann dir auf deiner Reise nur guttun.",
+        "description": "Etwas Aramik kann dir auf deiner Reise nur guttun.",
         "values": [1, 0, 0],
         "cost": 0,
         "positive": {
@@ -505,13 +505,13 @@
         "values": [0, 3, 1],
         "cost": 80,
         "positive": {
-          "result": "Der Gläubige an der Tür lässt dich eintreten, lehnt dein Geld ab ohne ein Wort zu sagen. Du meditierst im Tempel und erlangst Erkenntnis",
+          "result": "Der Gläubige an der Tür lässt dich eintreten, lehnt dein Aramik ab ohne ein Wort zu sagen. Du meditierst im Tempel und erlangst Erkenntnis",
           "description": "Am nächsten Tag, reist du mit einer Gruppe Mönche, welche in deiner Anwesenheit nicht sprechen, zu Lettas Einkehr.",
           "changes": [0, 1, 0],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Der Gläubige an der Tür lässt dich eintreten, lehnt dein Geld ab ohne ein Wort zu sagen. Du meditierst im Tempel und erlangst jedoch keine Erkenntnis",
+          "result": "Der Gläubige an der Tür lässt dich eintreten, lehnt dein Aramik ab ohne ein Wort zu sagen. Du meditierst im Tempel und erlangst jedoch keine Erkenntnis",
           "description": "Am nächsten Tag, reist du mit einer Gruppe Mönche, welche in deiner Anwesenheit nicht sprechen, zu Lettas Einkehr.",
           "changes": [0, 0, 0],
           "moneyChange": 0
@@ -541,13 +541,13 @@
         "values": [3, 0, 1],
         "cost": 80,
         "positive": {
-          "result": "Der Gläubige an der Tür lässt dich eintreten, lehnt dein Geld ab ohne ein Wort zu sagen. Du kannst belauschen, wie der hohe Rat darüber berät, wie sie ihren Einfluss über Azelon erhöhen können. Du wirst nicht erwischt.",
+          "result": "Der Gläubige an der Tür lässt dich eintreten, lehnt dein Aramik ab ohne ein Wort zu sagen. Du kannst belauschen, wie der hohe Rat darüber berät, wie sie ihren Einfluss über Azelon erhöhen können. Du wirst nicht erwischt.",
           "description": "Am nächsten Tag, reist du mit einer Gruppe Mönche, welche in deiner Anwesenheit nicht sprechen, zu Lettas Einkehr.",
           "changes": [0, 1, 0],
           "moneyChange": 0
         },
         "negative": {
-          "result": "Der Gläubige an der Tür lässt dich eintreten, lehnt dein Geld ab ohne ein Wort zu sagen. Du kannst belauschen, wie der hohe Rat darüber berät, wie sie ihren Einfluss über Azelon erhöhen können. Du wirst erwischt und wirst von der Klippe ins Meer geworfen.",
+          "result": "Der Gläubige an der Tür lässt dich eintreten, lehnt dein Aramik ab ohne ein Wort zu sagen. Du kannst belauschen, wie der hohe Rat darüber berät, wie sie ihren Einfluss über Azelon erhöhen können. Du wirst erwischt und wirst von der Klippe ins Meer geworfen.",
           "description": "Du wirst in der Hafenstadt wieder angespült.",
           "changes": [0, 1, 0],
           "moneyChange": 0
@@ -587,13 +587,13 @@
         "values": [0, 0, 0],
         "cost": 20,
         "positive": {
-          "result": "Du legst eine Sack voller Geld vor der Pforte des Herrenhauses. Wenige Minuten später ist es verschwunden, ohne dass du das Monster gesehen hättest, sonst passiert nichts.",
+          "result": "Du legst eine Sack voller Aramik vor der Pforte des Herrenhauses. Wenige Minuten später ist es verschwunden, ohne dass du das Monster gesehen hättest, sonst passiert nichts.",
           "description": "Du verlässt das Herrenhaus ärmer gen Nordnordwesten",
           "changes": [0, 0, 0],
           "moneyChange": -20
         },
         "negative": {
-          "result": "Du legst eine Sack voller Geld vor der Pforte des Herrenhauses. Wenige Minuten später ist es verschwunden, ohne dass du das Monster gesehen hättest, sonst passiert nichts.",
+          "result": "Du legst eine Sack voller Aramik vor der Pforte des Herrenhauses. Wenige Minuten später ist es verschwunden, ohne dass du das Monster gesehen hättest, sonst passiert nichts.",
           "description": "Du verlässt das Herrenhaus ärmer gen Nordnordwesten",
           "changes": [0, 0, 0],
           "moneyChange": -20
@@ -701,7 +701,7 @@
       },
       {
         "text": "Am Markplatz Juwelen kaufen, um sie in Anschluss teurer weiterzuverkaufen",
-        "description": "Manch Einer verdient so Unmengen Geld.",
+        "description": "Manch Einer verdient so Unmengen Aramik.",
         "values": [0, 0, 9],
         "cost": 100,
         "positive": {
@@ -728,18 +728,18 @@
     "description": "Der Teil Zhranorath westlich der großen Schlucht, geprägt von Elend, Armut und Hoffnungslosigkeit.",
     "options": [
       {
-        "text": "Den Bettlern etwas Geld geben",
+        "text": "Den Bettlern etwas Aramik geben",
         "description": "Ein bisschen Großzügigkeit kann nie schaden.",
         "values": [0, 0, 0],
         "cost": 10,
         "positive": {
-          "result": "Du gibst einem Bettler etwas Geld. Er bedankt sich.",
+          "result": "Du gibst einem Bettler etwas Aramik. Er bedankt sich.",
           "description": "Du verlässt West-Zhranorath etwas ärmer gen Osten.",
           "changes": [0, 0, 0],
           "moneyChange": -10
         },
         "negative": {
-          "result": "Du gibst einem Bettler etwas Geld. Er bedankt sich.",
+          "result": "Du gibst einem Bettler etwas Aramik. Er bedankt sich.",
           "description": "Du verlässt West-Zhranorath etwas ärmer gen Osten.",
           "changes": [0, 0, 0],
           "moneyChange": -10
@@ -829,7 +829,7 @@
       },
       {
         "text": "Am Markplatz Seide kaufen, um sie in Anschluss teurer weiterzuverkaufen",
-        "description": "Manch Einer verdient so Unmengen Geld.",
+        "description": "Manch Einer verdient so Unmengen Aramik.",
         "values": [0, 0, 5],
         "cost": 40,
         "positive": {
@@ -847,11 +847,11 @@
       },
       {
         "text": "Auf einen Boxkampf im Stade de Zhranorath wetten",
-        "description": "Die besten Kämpfer aus West-Zhranorath treten hier gegen einander an. Die Kämpfe bringen Unmengen an Geld ein, die Kämpfer gehen dabei fast leer aus.",
+        "description": "Die besten Kämpfer aus West-Zhranorath treten hier gegen einander an. Die Kämpfe bringen Unmengen an Aramik ein, die Kämpfer gehen dabei fast leer aus.",
         "values": [0, 5, 0],
         "cost": 30,
         "positive": {
-          "result": "Deine Einschätzung des Kampfes war richtig, du gewinnst eine Menge Geld.",
+          "result": "Deine Einschätzung des Kampfes war richtig, du gewinnst eine Menge Aramik.",
           "description": "Am nächsten Morgen, verlässt du Ost-Zhranorath reicher gen Osten.",
           "changes": [0, 1, 0],
           "moneyChange": 30
@@ -865,17 +865,17 @@
       },
       {
         "text": "Die Bank der Stadt überfallen",
-        "description": "In dieser Geld befinden sich Unmengen an Geld.",
+        "description": "In dieser Aramik befinden sich Unmengen an Aramik.",
         "values": [8, 0, 0],
         "cost": 0,
         "positive": {
-          "result": "Du bedrohst die Bankangestellten mit einer Waffe und forderst sie auf, dir das Geld auszuhändigen. Du schaffst es mit der Beute zu entkommen.",
+          "result": "Du bedrohst die Bankangestellten mit einer Waffe und forderst sie auf, dir das Aramik auszuhändigen. Du schaffst es mit der Beute zu entkommen.",
           "description": "Du verlässt Ost-Zhranorath deutlich reicher gen Osten.",
           "changes": [1, 0, 0],
           "moneyChange": 200
         },
         "negative": {
-          "result": "Du bedrohst die Bankangestellten mit einer Waffe und forderst sie auf, dir das Geld auszuhändigen, wirst jedoch von dem Sicherheitespersonal überwältigt und in die große Schlucht geworfen und treibst ab",
+          "result": "Du bedrohst die Bankangestellten mit einer Waffe und forderst sie auf, dir das Aramik auszuhändigen, wirst jedoch von dem Sicherheitespersonal überwältigt und in die große Schlucht geworfen und treibst ab",
           "description": "Du befindest dich bei Agons Brücke.",
           "changes": [1, 0, 0],
           "moneyChange": 0
@@ -933,31 +933,31 @@
         "values": [0, 0, 5],
         "cost": 150,
         "positive": {
-          "result": "Du bist an den richtigen Wärter geraten, er führt dich nachts unbemerkt aus dem Gefängnis, nachdem du ihm eine große Summe Geld überlassen hast.",
+          "result": "Du bist an den richtigen Wärter geraten, er führt dich nachts unbemerkt aus dem Gefängnis, nachdem du ihm eine große Summe Aramik überlassen hast.",
           "description": "Du verlässt charmanter das Gefängnis gestärkt gen Westen.",
           "changes": [0, 0, 1],
           "moneyChange": -150
         },
         "negative": {
-          "result": "Du bist an den falschen Wärter geraten, nachdem du ihm eine große Summe Geld überlassen hast, schlägt er dich einfach zusammen und lässt dich in deiner Zelle liegen.",
+          "result": "Du bist an den falschen Wärter geraten, nachdem du ihm eine große Summe Aramik überlassen hast, schlägt er dich einfach zusammen und lässt dich in deiner Zelle liegen.",
           "description": "Du befindest dich im Gefängnis.",
           "changes": [0, 0, 0],
           "moneyChange": -150
         }
       },
       {
-        "text": "Mit Häftlingen um Geld spielen",
+        "text": "Mit Häftlingen um Aramik spielen",
         "description": "Die Wachen erlauben es, da es für Ruhe im Gefängnis sorgt.",
         "values": [0, 3, 2],
         "cost": 10,
         "positive": {
-          "result": "Du spielst und gewinnst, da du sehr schlau bist und deine Gegenspielen lesen kannst. Du machst eine kleine Menge Geld.",
+          "result": "Du spielst und gewinnst, da du sehr schlau bist und deine Gegenspielen lesen kannst. Du machst eine kleine Menge Aramik.",
           "description": "Du befindest dich im Gefängnis.",
           "changes": [0, 0, 0],
           "moneyChange": 40
         },
         "negative": {
-          "result": "Du spielst und gewinnst aber verlierst auch, da du nicht ganz so schlau bist. Am Ende hast du etwa so viel Geld wie du begonnen hast.",
+          "result": "Du spielst und gewinnst aber verlierst auch, da du nicht ganz so schlau bist. Am Ende hast du etwa so viel Aramik wie du begonnen hast.",
           "description": "Du befindest dich im Gefängnis.",
           "changes": [0, 0, 0],
           "moneyChange": 0
@@ -971,7 +971,7 @@
     "area": 1,
     "overviewImage": "images/card13_overview.png",
     "image": "images/card13_detail.png",
-    "description": "Als der 53-jährige Krieg vor 324 Jahren durch General Helarons Truppen gewonnen wurde, bestattete die neugegründete Graftschaft Itreg Zehntausenden Leichnahme der gefallenen Soldaten gesammelt auf einem Friedhof. Dieser ist heute nach Helaron benannt und Ost-Zhranorath für dessen Verwaltung zuständig. Du siehst einen Grabräuber, welcher Grab um Grab öffnet und durchsucht.",
+    "description": "Als der 53-jährige Krieg vor 324 Jahren durch General Helarons Truppen gewonnen wurde, bestattete die neugegründete Graftschaft Itreg Zehntausenden Leichname der gefallenen Soldaten gesammelt auf einem Friedhof. Dieser ist heute nach Helaron benannt und Ost-Zhranorath für dessen Verwaltung zuständig. Du siehst einen Grabräuber, welcher Grab um Grab öffnet und durchsucht.",
     "options": [
       {
         "text": "Einfach Weitergehen",
@@ -979,13 +979,13 @@
         "values": [0, 0, 0],
         "cost": 0,
         "positive": {
-          "result": "Nach einigen Minuten wird dein Abgang unsaft durch ein Schlag gegen den Hinterkopf unterbrochen. Der Grabräuber ist dir gefolgt und raubt dich nun aus. Du rennst panisch nach Süden bis du wieder die Hafenstadt erreichst, er konnte dir jedoch Geld abnehmen.",
+          "result": "Nach einigen Minuten wird dein Abgang unsaft durch ein Schlag gegen den Hinterkopf unterbrochen. Der Grabräuber ist dir gefolgt und raubt dich nun aus. Du rennst panisch nach Süden bis du wieder die Hafenstadt erreichst, er konnte dir jedoch Aramik abnehmen.",
           "description": "Du befindest dich in der Hafenstadt Südstern.",
           "changes": [0, 0, 0],
           "moneyChange": -30
         },
         "negative": {
-          "result": "Nach einigen Minuten wird dein Abgang unsaft durch ein Schlag gegen den Hinterkopf unterbrochen. Der Grabräuber ist dir gefolgt und raubt dich nun aus. Du rennst panisch nach Süden bis du wieder die Hafenstadt erreichst, er konnte dir jedoch Geld abnehmen.",
+          "result": "Nach einigen Minuten wird dein Abgang unsaft durch ein Schlag gegen den Hinterkopf unterbrochen. Der Grabräuber ist dir gefolgt und raubt dich nun aus. Du rennst panisch nach Süden bis du wieder die Hafenstadt erreichst, er konnte dir jedoch Aramik abnehmen.",
           "description": "Du befindest dich in der Hafenstadt Südstern.",
           "changes": [0, 0, 0],
           "moneyChange": -30
@@ -1003,7 +1003,7 @@
           "moneyChange": 0
         },
         "negative": {
-          "result": "Dein Argumentation ist nicht überzeugend. Der Grabräuber schlägt dich nieder und raubt dich aus. Du rennst panisch nach Süden bis du wieder die Hafenstadt erreichst, er konnte dir jedoch Geld abnehmen.",
+          "result": "Dein Argumentation ist nicht überzeugend. Der Grabräuber schlägt dich nieder und raubt dich aus. Du rennst panisch nach Süden bis du wieder die Hafenstadt erreichst, er konnte dir jedoch Aramik abnehmen.",
           "description": "Du befindest dich in der Hafenstadt Südstern.",
           "changes": [0, 0, 0],
           "moneyChange": -30
@@ -1021,7 +1021,7 @@
           "moneyChange": 0
         },
         "negative": {
-          "result": "Du bist zu schwach. Der Grabräuber schlägt dich nieder und raubt dich aus. Du rennst panisch nach Süden bis du wieder die Hafenstadt erreichst, er konnte dir jedoch Geld abnehmen.",
+          "result": "Du bist zu schwach. Der Grabräuber schlägt dich nieder und raubt dich aus. Du rennst panisch nach Süden bis du wieder die Hafenstadt erreichst, er konnte dir jedoch Aramik abnehmen.",
           "description": "Du befindest dich in der Hafenstadt Südstern.",
           "changes": [0, 0, 0],
           "moneyChange": -30
@@ -1163,7 +1163,7 @@
     "area": 2,
     "overviewImage": "images/card16_overview.png",
     "image": "images/card16_detail.png",
-    "description": "Du befindest dich in einer der ekonomisch relevantesten Siedlungen Itregs. Hier regiert Geld und Handel.",
+    "description": "Du befindest dich in einer der ekonomisch relevantesten Siedlungen Itregs. Hier regiert Aramik und Handel.",
     "options": [
       {
         "text": "Dich freundlich mit Händlern unterhalten, ohne etwas zu kaufen",
@@ -1177,7 +1177,7 @@
           "moneyChange": -10
         },
         "negative": {
-          "result": "Du versuchst dich freundlich mit einigen Händlern zu unterhalten. Als diese jedoch merken, dass du kein Geld bei ihnen lassen möchtest, brechen sie die Gespräche ab. Währenddessen hat dir jemand einige Münuen gestohlen.",
+          "result": "Du versuchst dich freundlich mit einigen Händlern zu unterhalten. Als diese jedoch merken, dass du kein Aramik bei ihnen lassen möchtest, brechen sie die Gespräche ab. Währenddessen hat dir jemand einige Münuen gestohlen.",
           "description": "Du verlässt Binouth schlauer gen Nordwesten.",
           "changes": [0, 1, 0],
           "moneyChange": -10
@@ -1185,7 +1185,7 @@
       },
       {
         "text": "Am Markplatz Rameros-Fleisch kaufen, um es in Anschluss teurer weiterzuverkaufen",
-        "description": "Manch Einer verdient so Unmengen Geld.",
+        "description": "Manch Einer verdient so Unmengen Aramik.",
         "values": [0, 2, 7],
         "cost": 40,
         "positive": {
@@ -1317,13 +1317,13 @@
         "values": [0, 1, 7],
         "cost": 100,
         "positive": {
-          "result": "Du schaffst es dich nachts an das Tor zu schleichen und eine Wache einzeln abzupassen. Bei einem netten Gespräch übergibst du etwas Geld und dir wird von der Wache heimlich Einlass nach Maulang gewährt.",
+          "result": "Du schaffst es dich nachts an das Tor zu schleichen und eine Wache einzeln abzupassen. Bei einem netten Gespräch übergibst du etwas Aramik und dir wird von der Wache heimlich Einlass nach Maulang gewährt.",
           "description": "Du verlässt Agons Tor charmanter gen Norden.",
           "changes": [0, 0, 1],
           "moneyChange": -100
         },
         "negative": {
-          "result": "Du schaffst es dich nachts an das Tor zu schleichen und eine Wache einzeln abzupassen. Bei einem Gespräch übergibst du etwas Geld und dir wird von der Wache heimlich Einlass nach Maulang gewährt. Kurz danach wirst du von der Maulang-Garde eingeholt. Die Wache hat dich verraten, da sie für das Festnehmen von Eindringlingen eine Provision erhält. Du wirst in das Gefängnis Itregs gebracht.",
+          "result": "Du schaffst es dich nachts an das Tor zu schleichen und eine Wache einzeln abzupassen. Bei einem Gespräch übergibst du etwas Aramik und dir wird von der Wache heimlich Einlass nach Maulang gewährt. Kurz danach wirst du von der Maulang-Garde eingeholt. Die Wache hat dich verraten, da sie für das Festnehmen von Eindringlingen eine Provision erhält. Du wirst in das Gefängnis Itregs gebracht.",
           "description": "Du befindest dich im Gefängnis Itregs innerhalb der Maulangmauer auf.",
           "changes": [0, 0, 0],
           "moneyChange": -100
@@ -1405,7 +1405,7 @@
     "options": [
       {
         "text": "Zoll für Handelsschiff bezahlen und nach Itreg reisen",
-        "description": "Du hast schließlich genug Geld.",
+        "description": "Du hast schließlich genug Aramik.",
         "values": [0, 0, 0],
         "cost": 260,
         "positive": {
@@ -1579,7 +1579,7 @@
           "moneyChange": 0
         },
         "negative": {
-          "result": "Du schlenderst durch Rameros und wirst überfallen, dir wird einiges an Geld abgenommen.",
+          "result": "Du schlenderst durch Rameros und wirst überfallen, dir wird einiges an Aramik abgenommen.",
           "description": "Du verlässt Rameros im Anschluss ärmer gen Westen.",
           "changes": [0, 0, 0],
           "moneyChange": -40
@@ -1593,11 +1593,11 @@
     "area": 3,
     "overviewImage": "images/card23_overview.png",
     "image": "images/card23_detail.png",
-    "description": "Die itregianische Bank wird seit jeher von sehr besonderen Menschen geführt. Sie lieben das Geld und das Geld liebt sie. Auch für Großanleger haben sie viel Zuneigung übrig, für Geringverdiener eher weniger.",
+    "description": "Die itregianische Bank wird seit jeher von sehr besonderen Menschen geführt. Sie lieben das Aramik und das Aramik liebt sie. Auch für Großanleger haben sie viel Zuneigung übrig, für Geringverdiener eher weniger.",
     "options": [
       {
         "text": "Um Almosen bitten",
-        "description": "Du hast leider gar kein Geld.",
+        "description": "Du hast leider gar kein Aramik.",
         "values": [0, 0, 0],
         "cost": 0,
         "positive": {
@@ -1632,36 +1632,36 @@
         }
       },
       {
-        "text": "Eine kleine Menge Geld anlegen",
-        "description": "Du hast leider nur wenig Geld.",
+        "text": "Eine kleine Menge Aramik anlegen",
+        "description": "Du hast leider nur wenig Aramik.",
         "values": [0, 0, 0],
         "cost": 30,
         "positive": {
-          "result": "Du übergibst eine kleine Geldsumme an die Bankmitarbeiter, prompt erwidern sie, dass sie das Geld in die bramitische Landwirtschaft investiert hätten und es bereits 98% seines Werts verloren hat.",
+          "result": "Du übergibst eine kleine Aramiksumme an die Bankmitarbeiter, prompt erwidern sie, dass sie das Aramik in die bramitische Landwirtschaft investiert hätten und es bereits 98% seines Werts verloren hat.",
           "description": "Du verlässt die Bank gen Westen.",
           "changes": [0, 0, 0],
           "moneyChange": -30
         },
         "negative": {
-          "result": "Du übergibst eine kleine Geldsumme an die Bankmitarbeiter, prompt erwidern sie, dass sie das Geld in die bramitische Landwirtschaft investiert hätten und es bereits 98% seines Werts verloren hat.",
+          "result": "Du übergibst eine kleine Aramiksumme an die Bankmitarbeiter, prompt erwidern sie, dass sie das Aramik in die bramitische Landwirtschaft investiert hätten und es bereits 98% seines Werts verloren hat.",
           "description": "Du verlässt die Bank ärmer gen Westen.",
           "changes": [0, 0, 0],
           "moneyChange": -30
         }
       },
       {
-        "text": "Eine große Menge Geld anlegen",
+        "text": "Eine große Menge Aramik anlegen",
         "description": "Du bist schließlich reich - sollen sie dich noch reicher machen",
         "values": [0, 0, 0],
         "cost": 300,
         "positive": {
-          "result": "Du übergibst eine große Geldsumme an die Bankmitarbeiter, prompt erwidern sie, dass sie das Geld in eine ramerotische Waffenschmiede investiert hätten und es bereits 250% an Wert gewonne hat. Den Ertrag lässt du dir direkt auszahlen.",
+          "result": "Du übergibst eine große Aramiksumme an die Bankmitarbeiter, prompt erwidern sie, dass sie das Aramik in eine ramerotische Waffenschmiede investiert hätten und es bereits 250% an Wert gewonne hat. Den Ertrag lässt du dir direkt auszahlen.",
           "description": "Du verlässt die Bank reicher gen Westen.",
           "changes": [0, 0, 0],
           "moneyChange": 150
         },
         "negative": {
-          "result": "Du übergibst eine große Geldsumme an die Bankmitarbeiter, prompt erwidern sie, dass sie das Geld in eine ramerotische Waffenschmiede investiert hätten und es bereits 250% an Wert gewonne hat. Den Ertrag lässt du dir direkt auszahlen.",
+          "result": "Du übergibst eine große Aramiksumme an die Bankmitarbeiter, prompt erwidern sie, dass sie das Aramik in eine ramerotische Waffenschmiede investiert hätten und es bereits 250% an Wert gewonne hat. Den Ertrag lässt du dir direkt auszahlen.",
           "description": "Du verlässt die Bank reicher gen Westen.",
           "changes": [0, 0, 0],
           "moneyChange": 150
