@@ -17,6 +17,8 @@ Jede mitspielende Person sollte auf einem digitalen Endgerät folgende Webseite 
 
 Zudem sollten alle Mitspielenden ein Blatt Papier bereithalten, um tabellarisch die eigene Figur zu tracken (siehe **Figureneigenschaften**).
 
+<img src="table.jpeg" width="400">
+
 Itreg ist ein würfelbasiertes Laufspiel. Dabei führen die Spielenden ihre Züge im Uhrzeigersinn aus. Die älteste Person beginnt und führt den ersten Zug durch.
 
 Das Ziel des Spiels besteht darin, die Stadt **Itreg** (nordwestliche Ecke) als Erste*r zu erreichen und dort eine bestimmte Aktion auf dem Aktionsfeld durchzuführen. Wenn man gewonnen hat, wird das Spiel dies mitteilen.
