@@ -2,7 +2,13 @@
 
 ## Geschichte
 
+Die Grafschaft Itreg liegt im Südosten des Kontinents Volinoa. Eine gewaltige Barriere, die Maulangmauer, teilt das Land in die nördlich gelegenen Maulanggebiete mit der Hauptstadt Itreg und die namenlosen Regionen im Süden.
 
+Du erreichst die Grafschaft an Bord eines Handelsschiffs, das in der Hafenstadt Südstern vor Anker geht. Von dort aus beginnt deine Reise mit einem klaren Ziel: die gleichnamige Hauptstadt Itreg zu erreichen.
+
+In der Grafschaft gilt Aramik, ein Edelstein, als Währung. Kleine Mengen davon finden sich überall im Land, denn sie gelangen mit dem Niederschlag aus der Atmosphäre auf die Oberfläche.
+
+Noch verfügst du über keinerlei nennenswerte Fähigkeiten — doch das solltest du ändern.
 
 ## Spielvorbereitung
 
