@@ -3,8 +3,8 @@
     "id": 1,
     "title": "Ligon Wald",
     "area": 1,
-    "overviewImage": "images/card1_overview.png",
-    "image": "images/card1_detail.png",
+    "overviewImage": "images/card1_overview.webp",
+    "image": "images/card1_detail.webp",
     "description": "Du betrittst den Ligon Wald. Die Dunkelheit schließt sich langsam um dich mit jedem Meter, den du tiefer eindringst. Plötzlich springt eine Bande Söldner aus dem Unterholz und umzingelt dich. Du wirst überfallen.",
     "options": [
       {
@@ -85,8 +85,8 @@
     "id": 2,
     "title": "Fährhafen",
     "area": 1,
-    "overviewImage": "images/card2_overview.png",
-    "image": "images/card2_detail.png",
+    "overviewImage": "images/card2_overview.webp",
+    "image": "images/card2_detail.webp",
     "description": "Du erreichst den Fährhafen nördlich der Hafenstadt.",
     "options": [
       {
@@ -167,8 +167,8 @@
     "id": 3,
     "title": "Razerath",
     "area": 1,
-    "overviewImage": "images/card3_overview.png",
-    "image": "images/card3_detail.png",
+    "overviewImage": "images/card3_overview.webp",
+    "image": "images/card3_detail.webp",
     "description": "Du erreichst die Siedlung Razerath südlich der Ligon Berge. Sie ist bekannt für ihre Mienenarbeiteter, die seit Dekanden die Ligon Berge aushöhlen, während die sie mittels Ballons mit Siedlungen in größeren Höhen Handel treiben.",
     "options": [
       {
@@ -249,8 +249,8 @@
     "id": 4,
     "title": "Agons Brücke",
     "area": 1,
-    "overviewImage": "images/card4_overview.png",
-    "image": "images/card4_detail.png",
+    "overviewImage": "images/card4_overview.webp",
+    "image": "images/card4_detail.webp",
     "description": "Der ehemalige Graf Itregs Agon ließ diese Brücke bauen, um den Südwesten mit dem Südosten der Grafschaft zu verbinden. Viele Neuankömmling in der Grafschaft Itreg überqueren Agons Brücke, um die legendären Festmale in Racrans Festung zu genießen. Vor der Brücke wird Wegzoll von einem Brückenwächter verlangt.",
     "options": [
       {
@@ -295,8 +295,8 @@
     "id": 5,
     "title": "Racrans Festung",
     "area": 1,
-    "overviewImage": "images/card5_overview.png",
-    "image": "images/card5_detail.png",
+    "overviewImage": "images/card5_overview.webp",
+    "image": "images/card5_detail.webp",
     "description": "Racrans Festung stellt die am besten befestigte Burg in der Grafschaft Itreg dar. Einst war sie ein wichtiger taktischer Stützpunkt, seit Beginn der langen Jahre des Friedens vor 324 Jahren, ist sie vorallem bekannst geworden durch ihrer außergewöhlichen Festmähler, aber auch für Gelehrte ist ihre Bibliothek ein Anziehungspunkt.",
     "options": [
       {
@@ -377,8 +377,8 @@
     "id": 6,
     "title": "Hafenstadt Südstern",
     "area": 1,
-    "overviewImage": "images/card6_overview.png",
-    "image": "images/card6_detail.png",
+    "overviewImage": "images/card6_overview.webp",
+    "image": "images/card6_detail.webp",
     "description": "Die Hafenstadt Südstern - florierende Handelsstadt und maritimes Tor zur Grafschaft Itreg.",
     "options": [
       {
@@ -495,8 +495,8 @@
     "id": 7,
     "area": 2,
     "title": "Tempel der Erleuchtung",
-    "overviewImage": "images/card7_overview.png",
-    "image": "images/card7_detail.png",
+    "overviewImage": "images/card7_overview.webp",
+    "image": "images/card7_detail.webp",
     "description": "Eines der wenigen Gebäude der Graftschaft, welches bereits vor dem 53-jährigen Krieg errichtet wurde. Während diesem Krieg löste die Heretik die Zrenith-Religion als dominanten Glaubenseinstellung in Itreg ab, jedoch sind die Zrenither weiterhin aktiv. Der Tempel der Erleuchtung gilt als Wahlfahrtort für diese zölibatären und gegenüber Außenstehenden stummen Gläubigen.",
     "options": [
       {
@@ -559,8 +559,8 @@
     "id": 8,
     "title": "Herrenhaus am großen See",
     "area": 2,
-    "overviewImage": "images/card8_overview.png",
-    "image": "images/card8_detail.png",
+    "overviewImage": "images/card8_overview.webp",
+    "image": "images/card8_detail.webp",
     "description": "Die Familie Trothrin machte nach Ende des 53-jährigen Krieges ein Vermögen mit dem Wiederaufbau der Grafschaft Itreg. Als Zeichen ihres Reichtums errichteteten sie ein Herrenhaus nördlich des großen Sees und damit auf halbem Weg zwischen den Siedlungen Binouth und Lilouth, den wichtigsten Handelsstützpunkten der damaligen Zeit. Nun steht das Haus seit über einem Jahrhundert leer, nachdem die letzte Generation der Trothrin Familie auf mysteriöse Weise verschwand. Seither hat sich niemand mehr in das Gebäude getraut, da immernoch Licht brennt und ein riesenhafter Schatten im Inneren zu sehen ist.",
     "options": [
       {
@@ -641,8 +641,8 @@
     "id": 9,
     "title": "Azelon",
     "area": 2,
-    "overviewImage": "images/card9_overview.png",
-    "image": "images/card9_detail.png",
+    "overviewImage": "images/card9_overview.webp",
+    "image": "images/card9_detail.webp",
     "description": "Du betrittst die größte Stadt der Grafschaft Itreg - Azelon. Sie ist von Handel getrieben, aber auch von Elend erflüllt, welches in ölig und blutigen Flecken die Gassen bedeckt. Überragt wird die Stadt von der zentralen Kathedrale, die den Zrenithern als Folge der, im 53-jährigen Krieg zugenommenen, Heretik enteignet wurde. Heute ist sie der Sitz des Stadthalters, dessen Linien seit dem Tod des kinderlosen Azelon regiert.",
     "options": [
       {
@@ -723,8 +723,8 @@
     "id": 10,
     "title": "West-Zhranorath",
     "area": 1,
-    "overviewImage": "images/card10_overview.png",
-    "image": "images/card10_detail.png",
+    "overviewImage": "images/card10_overview.webp",
+    "image": "images/card10_detail.webp",
     "description": "Der Teil Zhranorath westlich der großen Schlucht, geprägt von Elend, Armut und Hoffnungslosigkeit.",
     "options": [
       {
@@ -805,8 +805,8 @@
     "id": 11,
     "title": "Ost-Zhranorath",
     "area": 1,
-    "overviewImage": "images/card11_overview.png",
-    "image": "images/card11_detail.png",
+    "overviewImage": "images/card11_overview.webp",
+    "image": "images/card11_detail.webp",
     "description": "Der Teil Zhranorath östlich der großen Schlucht. Durch ihre zentrale Lage, ist diese Siedlung einer der wichtigsten Handelsplätze Itregs.",
     "options": [
       {
@@ -887,8 +887,8 @@
     "id": 12,
     "title": "Gefängnis",
     "area": 3,
-    "overviewImage": "images/card12_overview.png",
-    "image": "images/card12_detail.png",
+    "overviewImage": "images/card12_overview.webp",
+    "image": "images/card12_detail.webp",
     "description": "Das Gefängnis Itregs, ein riesenhafter Turm, markiert den Übergang der Maulang Mauer in das Anbram Gebirge. Dessen Ein- sowie Ausgang befindet sich in Maulang. Wobei noch wenige Gefangene jemals, der teuer gemauerten, Ausgang betrachten durften. Und nun sitzt du dort in einer Zelle ein - was ein Pech.",
     "options": [
       {
@@ -969,8 +969,8 @@
     "id": 13,
     "title": "Helarons Friedhof",
     "area": 1,
-    "overviewImage": "images/card13_overview.png",
-    "image": "images/card13_detail.png",
+    "overviewImage": "images/card13_overview.webp",
+    "image": "images/card13_detail.webp",
     "description": "Als der 53-jährige Krieg vor 324 Jahren durch General Helarons Truppen gewonnen wurde, bestattete die neugegründete Graftschaft Itreg Zehntausenden Leichname der gefallenen Soldaten gesammelt auf einem Friedhof. Dieser ist heute nach Helaron benannt und Ost-Zhranorath für dessen Verwaltung zuständig. Du siehst einen Grabräuber, welcher Grab um Grab öffnet und durchsucht.",
     "options": [
       {
@@ -1033,8 +1033,8 @@
     "id": 14,
     "title": "Verlassene Ruinen Lilouths",
     "area": 2,
-    "overviewImage": "images/card14_overview.png",
-    "image": "images/card14_detail.png",
+    "overviewImage": "images/card14_overview.webp",
+    "image": "images/card14_detail.webp",
     "description": "Lilouth war einst eine florierende Siedlung östlich des großen Sees, bis sie während dem 53-jährigen durch eine Drachen vor dem Auschluss dieser Spezies aus dem Konflikt komplett niedergebrannt wurde. Heute stehen nur noch Ruinen, die als verflucht gelten und daher nicht betreten werden.",
     "options": [
       {
@@ -1097,8 +1097,8 @@
     "id": 15,
     "title": "Drachenhöhle",
     "area": 2,
-    "overviewImage": "images/card15_overview.png",
-    "image": "images/card15_detail.png",
+    "overviewImage": "images/card15_overview.webp",
+    "image": "images/card15_detail.webp",
     "description": "Du stehst vor dem Eingang der namenlosen Höhle der Drachen, in die die Drachen während des 53-jährigen Krieges verbannt wurden. Niemand weiß, wie Kommandant Luzehn es schaffte, die Drachen sich dazu zu verpflichten. Seither hat niemand mehr Drachen in Itreg gesehen und nach 324 Jahren Frieden, müssten die Drachen längst verhungert sein. Doch du kannst deutlich Licht im Inneren der Höhle erahnen.",
     "options": [
       {
@@ -1161,8 +1161,8 @@
     "id": 16,
     "title": "Binouth",
     "area": 2,
-    "overviewImage": "images/card16_overview.png",
-    "image": "images/card16_detail.png",
+    "overviewImage": "images/card16_overview.webp",
+    "image": "images/card16_detail.webp",
     "description": "Du befindest dich in einer der ekonomisch relevantesten Siedlungen Itregs. Hier regiert Aramik und Handel.",
     "options": [
       {
@@ -1225,8 +1225,8 @@
     "id": 17,
     "title": "Steinbruch",
     "area": 2,
-    "overviewImage": "images/card17_overview.png",
-    "image": "images/card17_detail.png",
+    "overviewImage": "images/card17_overview.webp",
+    "image": "images/card17_detail.webp",
     "description": "Östliche von Azelon findet sich hochqualitiativer Stein nur wenigen Meter unter der Erde. Seit etwa einem Jahr bietet die Grafschaft Itreg den doppelten Marktpreis für solches Gestein, wenn dieses zu Agons Tor geliefert wird. Es soll der Verteidigung der Mauer zu gute kommen. Um den Umsatz für die Stadt Azelon zu maximieren werden seit einigen Monaten junge Männer zur Arbeit im stadteigenen Steinbruch konskribiert.",
     "options": [
       {
@@ -1271,8 +1271,8 @@
     "id": 18,
     "title": "Agons Tor",
     "area": 2,
-    "overviewImage": "images/card18_overview.png",
-    "image": "images/card18_detail.png",
+    "overviewImage": "images/card18_overview.webp",
+    "image": "images/card18_detail.webp",
     "description": "Der Kontinent Volinoa, in dessen Südosten die Grafschaft Itreg lieft, wird durch eine kreisförmige Mauer in Maulang und die namenlosen Außengebiete eingeteil. Dabei liegt im Maulangbereich einer jeder Grafschaft deren Regierungssitz. Der ehemalige Graf von Itreg und spätere König Volinoas ordnete den Bau der Maulangmauer ausgehend von diesem Tor an, um als letzter Schutzwall der Grafschaften gegenüber Feinden von fremden Kontinenten. Nur rechtschaffende Bürger dürfen gegen Wegzoll das Tor Agons gen Maulang passieren, welche durch die Maulang-Garde geschützt wird.",
     "options": [
       {
@@ -1335,8 +1335,8 @@
     "id": 19,
     "title": "Luzehns Tor",
     "area": 2,
-    "overviewImage": "images/card19_overview.png",
-    "image": "images/card19_detail.png",
+    "overviewImage": "images/card19_overview.webp",
+    "image": "images/card19_detail.webp",
     "description": "Eines der ersten Tore der Maulangmauer, welches erichtet wurde. Einst hieß es bramitisches Tor, da für den Handel zwischen den Außengebieten des östlich anliegenden Grafschaft Bramit und dem Maulanggebiets Itregs unerlässlich war. Nach Ende des 53-jährigen Krieges wurd es jedoch als Ehrung für Kommandant Luzehn umbenannt. Es scheint aktuell unter Belagerung zu stehen. Riesige hölzerene Belagerungstürme, Katapulte und anderes Kriegsgerät setzen dem Tor zu.",
     "options": [
       {
@@ -1399,8 +1399,8 @@
     "id": 20,
     "title": "Itzor",
     "area": 2,
-    "overviewImage": "images/card20_overview.png",
-    "image": "images/card20_detail.png",
+    "overviewImage": "images/card20_overview.webp",
+    "image": "images/card20_detail.webp",
     "description": "Die Wasserassage Itzor ermöglicht den Wasserzulauf nach Maulang aus den Ligon Bergen, versperrt jedoch den Zugang für Flöße und ähnliches. Diese müssen eine Weg- und Warenzoll bezahlen, dann wird für sie das Tor geöffnet. Es wird von einer kleiner Garnison der Maulang-Garde bewacht. Kurz vor dem Tor befindet sich ein Handelsschiff, welches nach Itreg reisen möchte, jedoch den Zoll nicht aufbringen kann.",
     "options": [
       {
@@ -1463,8 +1463,8 @@
     "id": 21,
     "title": "Staatsbibliothek",
     "area": 2,
-    "overviewImage": "images/card21_overview.png",
-    "image": "images/card21_detail.png",
+    "overviewImage": "images/card21_overview.webp",
+    "image": "images/card21_detail.webp",
     "description": "Die Staatsbibliothek Itregs ist die größte Wissensammlung der Grafschaft und steht jedem Unbewaffneten gebührenfrei offen. Sie wurde zu Beginn der langen Jahre des Friedens gegründet mit dem Ziel, den Hergang des 53-jährigen Kriegs für alle Ewigkeit zu dokumentieren. Sie wird durch die Maulang-Garde bewacht. Bei einem jährlich stattfindenden Wettkämpf in Rameros werden die besten Krieger in die Maulang-Garde, deren primäre Aufgabe der Schutz der Maulang-Mauer ist, aufgenommen.",
     "options": [
       {
@@ -1527,8 +1527,8 @@
     "id": 22,
     "title": "Rameros",
     "area": 3,
-    "overviewImage": "images/card22_overview.png",
-    "image": "images/card22_detail.png",
+    "overviewImage": "images/card22_overview.webp",
+    "image": "images/card22_detail.webp",
     "description": "Rameros bildet des bürgerliche Herz des Maulanggebiets in Itreg. Bekannt ist die Siedlung für ihr Rindfleisch und die die blutigen Wettkämpfe, welche den Arena der Siedlung duchgeführt werden und unter anderem Mitglieder für die Maulang-Garde zu aquirieren.",
     "options": [
       {
@@ -1591,8 +1591,8 @@
     "id": 23,
     "title": "Bank",
     "area": 3,
-    "overviewImage": "images/card23_overview.png",
-    "image": "images/card23_detail.png",
+    "overviewImage": "images/card23_overview.webp",
+    "image": "images/card23_detail.webp",
     "description": "Die itregianische Bank wird seit jeher von sehr besonderen Menschen geführt. Sie lieben das Aramik und das Aramik liebt sie. Auch für Großanleger haben sie viel Zuneigung übrig, für Geringverdiener eher weniger.",
     "options": [
       {
@@ -1691,8 +1691,8 @@
     "id": 24,
     "area": 3,
     "title": "Itreg",
-    "overviewImage": "images/card24_overview.png",
-    "image": "images/card24_detail.png",
+    "overviewImage": "images/card24_overview.webp",
+    "image": "images/card24_detail.webp",
     "description": "Als Du das Stadttor Itregs durchsschreitest, bist du beeindruckt von der Größe und Schönheit dieser Stadt. Aus dem Nichts wirst du von einem Palastdiener angesprochen, der Dir mitteilt, dass deine Taten in der Grafschaft Aufmerksamkeit in der Haupstadt und sogar bei der Gräfin geweckt haben. Dieser wirst du nun vorgeführt.",
     "options": [
       {
@@ -1773,8 +1773,8 @@
     "id": 25,
     "area": 2,
     "title": "Gabeg",
-    "overviewImage": "images/card25_overview.png",
-    "image": "images/card25_detail.png",
+    "overviewImage": "images/card25_overview.webp",
+    "image": "images/card25_detail.webp",
     "description": "Die Siedlung Gabeg markiert den Einstiegspunkt in eine kilometer lange sehr enge Schlucht nach Bramitan im Osten. Dieser Durchgang gilt als Todesfalle, jedoch kam wohl vor einiger Zeit eine zehntausend Mann starke Streitkraft von Osten hier hindurch und plünderte die Siedlung. Das erzählt dir zumindest einer der hungernden Bewohnern. Im Norden der Siedlung befindet sich eine fast 2000 Meter hohe glatte Felswand, deren Erklimmung nur die fähigsten Kletterer wagen. An ihrem Fuß befindet sich der Eingang zu einem verlassenen System aus Kristallminen.",
     "options": [
       {
@@ -1837,8 +1837,8 @@
     "id": 26,
     "title": "Hochebene in den Anbram Bergen",
     "area": 3,
-    "overviewImage": "images/card26_overview.png",
-    "image": "images/card26_detail.png",
+    "overviewImage": "images/card26_overview.webp",
+    "image": "images/card26_detail.webp",
     "description": "Die Hochebene in den Anbram Bergen war einst eine Brutstätte der Drachen bedingt durch die dort ansässigen heißen Quellen, welche die Drachen lieben. Nach deren Rückzug in die Drachenhöhle am Fuß der Anbram Berge, liegt das Land brach nur ein einziger selten besuchter Zrenither-Tempel säumt die Ebene. Von Ost nach West durchzieht ein Fluss die Hochebene, welcher an der westlichen Flanke des Gebirges herabstürzt und dessen hohen Temperaturen von den Bewohnern Rameros hoch geschätz werden.",
     "options": [
       {

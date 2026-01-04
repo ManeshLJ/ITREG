@@ -26,12 +26,14 @@
 
     function setBackgroundImage(primary, secondary, fallback) {
       const img = new Image();
+      img.decoding = "async";
       img.onload = () => {
         document.body.style.backgroundImage = `url(${primary})`;
       };
       img.onerror = () => {
         if (secondary) {
           const img2 = new Image();
+          img2.decoding = "async";
           img2.onload = () => {
             document.body.style.backgroundImage = `url(${secondary})`;
           };
@@ -62,7 +64,7 @@
       const areaIndicator = document.getElementById("area_indicator");
       areaIndicator.innerText = card.area;
       
-      setBackgroundImage(card.image, card.overviewImage, "images/backup.png");
+      setBackgroundImage(card.image, card.overviewImage, "images/backup.webp");
 
       document.getElementById("card_title").innerText = card.title;
       document.getElementById("card_description").innerText = card.description;

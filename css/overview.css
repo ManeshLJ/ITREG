@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/spielfeld.png"); /* dein Bildpfad */
+  background-image: url("../images/spielfeld.webp");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -42,7 +42,7 @@ h1 {
 
 .card img {
   width: 100%;
-  aspect-ratio: 3 / 2; /* Querformat */
+  aspect-ratio: 3 / 2;
   object-fit: cover;
   display: block;
 }
@@ -60,7 +60,7 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255,255,255,0.1); /* oder dunkler: rgba(0,0,0,0.2) */
+  background: rgba(255,255,255,0.1); 
   pointer-events: none;
   z-index: 0;
 }
@@ -72,7 +72,7 @@ h1 {
   bottom: 0;
   width: 100%;
   box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
-  border-top: 2px solid black; /* ← Das ist der schwarze Rand */
+  border-top: 2px solid black; 
 }
 
 .footer-content {
