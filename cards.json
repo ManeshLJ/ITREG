@@ -262,7 +262,8 @@
           "result": "Du zahlst den Wegzoll. Trotz der ablenkenden Vorfreude auf Racrans Festung, schaffst du es die Brücke sicher zu überqueren.",
           "description": "Du verlässt die Brücke Agons gen Westen.",
           "changes": [1, 0, 0],
-          "moneyChange": -40
+          "moneyChange": -40,
+          "new_node" : 7
         },
         "negative": {
           "result": "Du zahlst den Wegzoll. Als du etwa die Hälfte der Brücke überquert hast, bricht die Holzplanke, welche dein Gewicht trägt. Du verlierst die Balance und stürzst in die tobenden Strömung unter dir.",
@@ -280,7 +281,8 @@
           "result": "Du schaffst es mühelos am Brückenwächter vorbei und überquerst die Brücke mit schnellen Schritten.",
           "description": "Du verlässt die Brücke Agons gestärkt gen Westen.",
           "changes": [1, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node" : 7
         },
         "negative": {
           "result": "Der Brückenwächter bringt dich zu Boden während du versuchst an ihm vorbeizukommen. Er tritt dich einige Male bis einige Münzen aus deinen Taschen fällt und lässt dich liegen.",
@@ -390,7 +392,8 @@
           "result": "Stolzen Fußes machst du dich auf den Weg gen Abenteuer.",
           "description": "Du verläßt die Hafenstadt Südstern gen Westen.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node" : 3
         },
         "negative": {
           "result": "Beim Versuch die Stadt zu verlassen, brichst du vor Erschöpfung zusammen. Du bist zu schwach.",
