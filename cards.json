@@ -256,7 +256,7 @@
       {
         "text": "Den Wegzoll zahlen und die Brücke langsam überqueren",
         "description": "Du bist schließlich ein rechtschaffender Reisender.",
-        "values": [1, 0, 0],
+        "values": [2, 0, 0],
         "cost": 40,
         "positive": {
           "result": "Du zahlst den Wegzoll. Trotz der ablenkenden Vorfreude auf Racrans Festung, schaffst du es die Brücke sicher zu überqueren.",
@@ -269,7 +269,8 @@
           "result": "Du zahlst den Wegzoll. Als du etwa die Hälfte der Brücke überquert hast, bricht die Holzplanke, welche dein Gewicht trägt. Du verlierst die Balance und stürzst in die tobenden Strömung unter dir.",
           "description": "Bei Sonnenaufgang wachst du durchnässt am Strand liegend auf. Du befindest dich in der Hafenstadt Südstern.",
           "changes": [0, 0, 0],
-          "moneyChange": -40
+          "moneyChange": -40,
+          "new_node" : 0
         }
       },
       {
@@ -288,7 +289,8 @@
           "result": "Der Brückenwächter bringt dich zu Boden während du versuchst an ihm vorbeizukommen. Er tritt dich einige Male bis einige Münzen aus deinen Taschen fällt und lässt dich liegen.",
           "description": "Du verlässt die Brücke Agons ärmer gen Westen.",
           "changes": [0, 0, 0],
-          "moneyChange": -60
+          "moneyChange": -60,
+          "new_node" : 7
         }
       }
     ]
@@ -310,13 +312,15 @@
           "result": "Diese Aramiksumme hat sich wirklich gelohnt. Das Essen ist köstlich, die Unterhaltung exzellent und die Gesellschaft anregend.",
           "description": "Du verlässt Racrans Festung am nächsten Morgen gen Norden mit neu geknüpften Kontakten.",
           "changes": [0, 0, 1],
-          "moneyChange": -40
+          "moneyChange": -40,
+          "new_node": 16 
         },
         "negative": {
           "result": "Diese Aramiksumme hat sich wirklich gelohnt. Das Essen ist köstlich, die Unterhaltung exzellent, jedoch fühlen sich einige Gäste durch deine Anwesenheit gestört und werfen dich aus der Festung",
           "description": "Du verlässt Racrans Festung gen Norden.",
           "changes": [0, 0, 0],
-          "moneyChange": -40
+          "moneyChange": -40,
+          "new_node": 16 
         }
       },
       {
@@ -328,13 +332,15 @@
           "result": "Du führst eine anregende Unterhaltung mit den Türstehern und schaffst es, sie zu überzeugen, dich ohne Eintrittsgeld an dem Festmahl teilnehmen zu lassen. Das Essen ist köstlich, die Unterhaltung exzellent und die Gesellschaft anregend.",
           "description": "Du verlässt Racrans Festung am nächsten Morgen gen Norden mit neu geknüpften Kontakten.",
           "changes": [0, 0, 1],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 16 
         },
         "negative": {
           "result": "Dein Gesprächseinstieg, die Mitte und das Ende versagen allesamt. Die Türsteher lachen dich aus und werfen dich aus der Festung.",
           "description": "Du verlässt Racrans Festung gen Norden.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 16 
         }
       },
       {
@@ -346,13 +352,15 @@
           "result": "Du schaffst es in die Burg und nimmst von Urin triefend am Festmahl teil. Das Essen ist köstlich, die Unterhaltung exzellent und die Gesellschaft anregend. Die anderen Gäste stören sich an deinem Geruch so sehr, dass sie dich aus der Burg werfen.",
           "description": "Du verlässt Racrans Festung peinlich berührt aber gestärkt gen Norden.",
           "changes": [2, 0, -1],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 16 
         },
         "negative": {
           "result": "Beim Versuch den Abortschacht hinauf zu klettern, stürzst du ab und landest unsanft auf dem Boden vor der Burg.",
           "description": "Du verlässt Racrans Festung gen Norden.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 16 
         }
       },
       {
@@ -364,13 +372,15 @@
           "result": "Dein Wissen über Langhornfrösche befriedigt den Bibliotheksdiener, sodass du für ein kleines Entgelt die Bibliothek betreten darfst. Du verbringst den Tag damit, in alten Schriften zu lesen und dein Wissen zu erweitern.",
           "description": "Du verlässt Racrans Festung am nächsten Morgen schlauer gen Norden.",
           "changes": [0, 1, 0],
-          "moneyChange": -20
+          "moneyChange": -20,
+          "new_node": 16
         },
         "negative": {
           "result": "Deine Ausführungen über Hustmäuse langeweilen den Bibliotheksdiener nur, sodass er dir den Zutritt verweigert.",
           "description": "Du verlässt Racrans Festung peinlich berührt gen Norden.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 16 
         }
       }
     ]
@@ -399,7 +409,8 @@
           "result": "Beim Versuch die Stadt zu verlassen, brichst du vor Erschöpfung zusammen. Du bist zu schwach.",
           "description": "Du bleibst in der Hafenstadt Südstern.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node" : 0
         }
       },
       {
@@ -411,13 +422,15 @@
           "result": "Stolzen Fußes machst du dich auf den Weg gen Abenteuer.",
           "description": "Du verläßt die Hafenstadt Südstern gen Norden.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node" : 99999
         },
         "negative": {
           "result": "Beim Versuch die Stadt zu verlassen, brichst du vor Erschöpfung zusammen. Du bist zu schwach.",
           "description": "Du bleibst in der Hafenstadt Südstern.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node" : 0
         }
       },
       {
@@ -429,13 +442,15 @@
           "result": "Du verbringst den Tag damit, im Krafthaus zu trainieren. Deine Muskeln werden gestärkt.",
           "description": "Du bleibst gestärkt in der Hafenstadt Südstern.",
           "changes": [1, 0, 0],
-          "moneyChange": -20
+          "moneyChange": -20,
+          "new_node" : 0
         },
         "negative": {
           "result": "Du verbringst den Tag damit, im Krafthaus zu trainieren. Deine Muskeln werden gestärkt.",
           "description": "Du bleibst gestärkt in der Hafenstadt Südstern.",
           "changes": [1, 0, 0],
-          "moneyChange": -20
+          "moneyChange": -20,
+          "new_node" : 0
         }
       },
       {
@@ -447,13 +462,15 @@
           "result": "Du verbringst den Tag damit, in der Bibliothek zu lesen. Du erwirbst neues Wissen.",
           "description": "Du bleibst schlauer in der Hafenstadt Südstern.",
           "changes": [0, 1, 0],
-          "moneyChange": -20
+          "moneyChange": -20,
+          "new_node" : 0
         },
         "negative": {
           "result": "Du verbringst den Tag damit, in der Bibliothek zu lesen. Du erwirbst neues Wissen.",
           "description": "Du bleibst schlauer in der Hafenstadt Südstern.",
           "changes": [0, 1, 0],
-          "moneyChange": -20
+          "moneyChange": -20,
+          "new_node" : 0
         }
       },
       {
@@ -465,13 +482,15 @@
           "result": "Du verbringst den Tag damit, in dem Wirtshaus zu trinken und dich mit verschieden Menschen zu unterhalten. Du wirst charmanter.",
           "description": "Du bleibst charmanter in der Hafenstadt Südstern.",
           "changes": [0, 0, 1],
-          "moneyChange": -20
+          "moneyChange": -20,
+          "new_node" : 0
         },
         "negative": {
           "result": "Du verbringst den Tag damit, in dem Wirtshaus zu trinken und dich mit verschieden Menschen zu unterhalten. Du wirst charmanter.",
           "description": "Du bleibst charmanter in der Hafenstadt Südstern.",
           "changes": [0, 0, 1],
-          "moneyChange": -20
+          "moneyChange": -20,
+          "new_node" : 0
         }
       },
       {
@@ -483,13 +502,15 @@
           "result": "Du verbringst den Tag damit, in einem Handwerksbetrieb zu arbeiten. Am Abend erhälst du deinen Lohn.",
           "description": "Du bleibst etwas reicher in der Hafenstadt Südstern.",
           "changes": [0, 0, 0],
-          "moneyChange": 15
+          "moneyChange": 15,
+          "new_node" : 0
         },
         "negative": {
           "result": "Du verbringst den Tag damit, in einem Handwerksbetrieb zu arbeiten. Am Abend erhälst du deinen Lohn.",
           "description": "Du bleibst etwas reicher in der Hafenstadt Südstern.",
           "changes": [1, 0, 0],
-          "moneyChange": 15
+          "moneyChange": 15,
+          "new_node" : 0
         }
       }
     ]
