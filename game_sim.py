@@ -372,6 +372,13 @@ def built_static_node_graph(
 
     graph.add_edges_from([(28, 35), (35, 37), (35, 42), (37, 38), (38, 39), (39, 40), (39, 41), (42, 43)])
 
+    # Lilouth zu Drachenhöhle
+    graph.add_node(56, event_id=-1, x=3810, y=3260)
+    graph.add_node(57, event_id=-1, x=4080, y=3070)
+    graph.add_node(58, event_id=15, x=4340, y=2950) # Arrive: Drachenhöhle
+
+    graph.add_edges_from([(41, 56), (56, 57), (57, 58)])
+
     # Lilouth zu Herrenhaus
     graph.add_node(44, event_id=-1, x=3420, y=3300)
     graph.add_node(45, event_id=-1, x=3170, y=3140)
@@ -379,6 +386,19 @@ def built_static_node_graph(
     graph.add_node(47, event_id=8, x=2590, y=3050) # Arrive: Herrenhaus
 
     graph.add_edges_from([(41, 44), (44, 45), (45, 46), (46, 47)])
+
+    # Staatsbibliothek + Gabeg + Hochebene / Abzweigung
+    graph.add_node(59, event_id=-1, x=3040, y=2860)
+    graph.add_node(60, event_id=-1, x=2990, y=2570)
+    graph.add_node(61, event_id=21, x=3080, y=2280)
+    graph.add_node(62, event_id=21, x=3240, y=1980) # Arrive: Staatsbibliothek
+    graph.add_node(63, event_id=21, x=3670, y=2080)
+    graph.add_node(64, event_id=-1, x=3960, y=2070)
+    graph.add_node(65, event_id=-1, x=4270, y=2000)
+    graph.add_node(66, event_id=25, x=4570, y=1870)
+    graph.add_node(67, event_id=26, x=4740, y=1100) # Arrive: Hochebene
+
+    graph.add_edges_from([(45, 59), (59, 60), (60, 61), (61, 62), (62, 63), (63, 64), (64, 65), (65, 66)])
 
     # Herenhaus zu Binouth 
     graph.add_node(48, event_id=-1, x=2320, y=3190)
@@ -392,6 +412,13 @@ def built_static_node_graph(
     graph.add_node(55, event_id=-1, x=1200, y=3200)
 
     graph.add_edges_from([(54, 55)])
+
+    # Gefängnis nach Rameros
+    graph.add_node(68, event_id=12, x=3780, y=1200) # Arrive: Gefängnis
+    graph.add_node(69, event_id=-1, x=3510, y=970)
+    graph.add_node(70, event_id=-1, x=3340, y=680)
+
+    graph.add_edges_from([(69, 70)])
 
 
     # after success we go to virutal field 1000

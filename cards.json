@@ -978,13 +978,15 @@
           "result": "Du wartest und wartest, aber es passiert nicht.",
           "description": "Du befindest dich im Gefängnis.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 68
         },
         "negative": {
           "result": "Du wartest und wartest, aber es passiert nicht.",
           "description": "Du befindest dich im Gefängnis.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 68
         }
       },
       {
@@ -996,13 +998,15 @@
           "result": "Mit eine kuren Anlauf schaffst du es, die Zelltür aufzubrechen. Mit bloßen Händen kämpfst du gegen die Wächter, viele von ihnen aus der Maulang-Garde, und schaffst es zu entkommen.",
           "description": "Du verlässt das Gefängnis gestärkt gen Westen.",
           "changes": [1, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 69
         },
         "negative": {
           "result": "Mit eine kuren Anlauf schaffst du es, die Zelltür aufzubrechen. Mit bloßen Händen kämpfst du gegen die Wächter, viele von ihnen aus der Maulang-Garde, du bist viel zu scwach und wirst überwältigt und zurück in eine Zelle gebracht.",
           "description": "Du befindest dich im Gefängnis.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 68
         }
       },
       {
@@ -1014,13 +1018,15 @@
           "result": "Du bist an den richtigen Wärter geraten, er führt dich nachts unbemerkt aus dem Gefängnis, nachdem du ihm eine große Summe Aramik überlassen hast.",
           "description": "Du verlässt charmanter das Gefängnis gestärkt gen Westen.",
           "changes": [0, 0, 1],
-          "moneyChange": -150
+          "moneyChange": -150,
+          "new_node": 69
         },
         "negative": {
           "result": "Du bist an den falschen Wärter geraten, nachdem du ihm eine große Summe Aramik überlassen hast, schlägt er dich einfach zusammen und lässt dich in deiner Zelle liegen.",
           "description": "Du befindest dich im Gefängnis.",
           "changes": [0, 0, 0],
-          "moneyChange": -150
+          "moneyChange": -150,
+          "new_node": 68
         }
       },
       {
@@ -1032,13 +1038,15 @@
           "result": "Du spielst und gewinnst, da du sehr schlau bist und deine Gegenspielen lesen kannst. Du machst eine kleine Menge Aramik.",
           "description": "Du befindest dich im Gefängnis.",
           "changes": [0, 0, 0],
-          "moneyChange": 40
+          "moneyChange": 40,
+          "new_node": 68
         },
         "negative": {
           "result": "Du spielst und gewinnst aber verlierst auch, da du nicht ganz so schlau bist. Am Ende hast du etwa so viel Aramik wie du begonnen hast.",
           "description": "Du befindest dich im Gefängnis.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 68
         }
       }
     ]
@@ -1200,13 +1208,15 @@
           "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
           "description": "Du befindest dich im Ödland.",
           "changes": [0, 1, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 44
         },
         "negative": {
           "result": "Du wendest der Höhle deinen Rücken zu und schreitest gen Süden, auf dem Weg findest du ein altes Buch, welches sich als Aufzeichnungen des 53-jährigen Krieges herausstellen.",
           "description": "Du befindest dich im Ödland.",
           "changes": [0, 1, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 44
         }
       },
       {
@@ -1218,13 +1228,15 @@
           "result": "Du stürmst voller Wagemut in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und hüllt dich in orangen Flammen.",
           "description": "Du verlässt die Drachenhöhle gen Süden und kommst schwer verletzt im Ödland an.",
           "changes": [-1, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 44
         },
         "negative": {
           "result": "Du stürmst voller Wagemut in die Höhle, doch bevor du auch nur ein einziges schuppiges Wesen erblickst, wirst du geröstet. Deine Haut zerfällt und deine Organe versagen.",
           "description": "Du wachst im Tempel der Erleuchtung auf, dessen stummen Mönchen die gerettet haben. Warum, sie vor Ort waren, weißt du nicht. Du heilst schnell, bald bringen dich die Mönche zu Lettas Einkehr.",
           "changes": [-1, 1, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 43
         }
       },
       {
@@ -1236,13 +1248,15 @@
           "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, dann verlässt du die Höhle und rennst gen Süden.",
           "description": "Du befindest dich im Ödland.",
           "changes": [0, 1, 1],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 44
         },
         "negative": {
           "result": "Du schreitest voller Selbstbewusstsein in die Höhle und da erblickst du sie - ein Roter, zwei Blaue und ein weiß-goldener Drache. Sie sind die schönsten Wesen, die du je gesehen hast. Während du diesen Gedanken fasst, öffnet einer der blauen sein Maul und spricht zu dir. Er fragt, ob du ein neuer Rekruit der Zrenith-Mönch seist und die übliche Lieferung Schafe bei dir hast. Du antwortest das dem so sein, doch sie glauben dir nicht und speihen Flammen in deine Richtung. Du kannst jedoch ausweichen, die Höhle verlassen und rennst gen Süden.",
           "description": "Du befindest dich im Ödland.",
           "changes": [0, 1, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 44
         }
       }
     ]
@@ -1572,13 +1586,15 @@
           "result": "Stundenlang wälzt du die schier endlosen Bände, welche verschiedene Schlachten und Abkommen beschreiben. Und so langsam erschließt sich die ein klares Bild. Viele Jahre vor Beginn des Krieges, begannen größere Bevölkerungsgruppe aus den Gebieten östlich der Anbram Berge nach Itreg zuzuwandern. Zwischen diesen Bramiten und Itregianern brach Jahre später der Krieg aus.",
           "description": "Du verlässt die Staatsbibliothek schlauer gen Osten.",
           "changes": [0, 1, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 64
         },
         "negative": {
           "result": "Stundenlang wälzt du die schier endlosen, welche verschiedene Schlachten und Abkommen beschreiben. Wirklich schlau wirst du aus ihnen jedoch nicht.",
           "description": "Du verlässt die Staatsbibliothek gen Osten.",
           "changes": [0, 2, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 64
         }
       },
       {
@@ -1590,13 +1606,15 @@
           "result": "Du hörst den Ausführungen der Bibliothekarin gebandt zu. Sie erklärt dir, dass die Zrenither vor Ausbruch des Krieges mit aller Kraft versuchten, das Ausbreiten der bramitischen Lehren zu verhindern. Diese genossen großen Zuwachs, bedingt durch den großen Erfolg der bramitischen Einwanderer, insbesondere der Gründung der Handelsstadt Lilouth.",
           "description": "Du verlässt die Staatsbibliothek ärmer aber schlauer gen Osten.",
           "changes": [0, 2, 0],
-          "moneyChange": -60
+          "moneyChange": -60,
+          "new_node": 64
         },
         "negative": {
           "result": "Du hörst den Ausführungen der Bibliothekarin gebandt zu, dir fehlt es jedoch an Grundlagen, um zu verstehen wovon sie spricht.",
           "description": "Du verlässt die Staatsbibliothek ärmer gen Osten.",
           "changes": [0, 0, 0],
-          "moneyChange": -60
+          "moneyChange": -60,
+          "new_node": 64
         }
       },
       {
@@ -1608,13 +1626,15 @@
           "result": "Der Mönch gibt dir zu verstehen, dass dein Betragen unwürdig sei, um den Temple zu betreten, ohne ein Wort zu sagen. Er verwehrt dir den Zutritt. Du schläfst vor dem Tempel.",
           "description": "Du verlässt die Staatsbibliothek ärmer aber schlauer gen Osten.",
           "changes": [0, 1, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 64
         },
         "negative": {
           "result": "Der weißbärtige Mann schnautz dich an, es sei nicht seine Aufgabe Reisende zu lehren. Du sollst zu den Bibliothekaren gehen.",
           "description": "Du bleibst in der Staatsbibliothek.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 62
         }
       }
     ]
@@ -1882,13 +1902,15 @@
           "result": "Du bezahlst den Wächter der Feldwand und beginnst den Freesolo-Aufstieg der Felswand. Du bist verdammt gut im Klettern und schaffst es die fast 2000 Meter nach oben. ",
           "description": "Du befindest dich gestärkt in der Hochebene der Anbram Berge.",
           "changes": [1, 0, 0],
-          "moneyChange": -100
+          "moneyChange": -100,
+          "new_node": 67
         },
         "negative": {
           "result": "Du bezahlst den Wächter der Feldwand und beginnst den Freesolo-Aufstieg der Felswand. Du bist verdammt schlecht im Klettern und schaffst es gerade mal 5 Meter nach oben. Zu deinem Glück, wenn du etwas höher gekommen wärst, hättest du dich stärker verletzt. ",
           "description": "Du befindest dich in Gabeg.",
           "changes": [0, 0, 0],
-          "moneyChange": -100
+          "moneyChange": -100,
+          "new_node": 67
         }
       },
       {
@@ -1900,13 +1922,15 @@
           "result": "Zunächst sind die Kristallminen trist, alles schwarz um dich herum. Doch nach einigen Stunden erreichst du tiefere Bereiche, in denen Kristallen, von deiner Laterne erhellt, in den buntesten Farben schimmern. Du schaffst es dich durch das Labyrinth zu navigieren. Schließlich hörst du Stimmen und folgst ihnen ein steiles Loch hinab. Unten angekommen, merkst du, dass du dich in einer Gefängniszelle befindest.",
           "description": "Du befindest dich schlauer im Gefängnis.",
           "changes": [0, 1, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 55
         },
         "negative": {
           "result": "Die Kristallminen sind sehr schlicht. Stundenlang irrst du durch die Dunkelheit. Auf einmal fliegt dir ein Feuerball von der Seite entgegen. Du kannst ausweichen und rennst davon, hinter dir ein Monster. Du schaffst es ins Freie. In der Pforte hinter dir steht ein blaugeschuppter Drache, doch er verlässt die Höhle nicht.",
           "description": "Du befindest dich bei der Drachenhöhle.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 58
         }
       },
       {
@@ -1918,13 +1942,15 @@
           "result": "Lange schreitest du dahin, zweimal musst du nächtigen. Doch schließlich erreichst du Bramitan. Ein gänzlich verbranntes Land. Kein Grünen Pflanzen, kein blaues Wasser, nur schwarze Asche, selbst der Himmel scheint zu brennen. Du wendest dich um und erklimmst die Anbram Berge von Osten.",
           "description": "Du erreichst die Hochebene in den Anbram Bergen schlauer.",
           "changes": [0, 1, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 67
         },
         "negative": {
           "result": "Lange schreitest du dahin. Nach einer Nacht wird es dir jedoch zu anstrengend und du kehrst um. ",
           "description": "Du befindest dich in Gabeg.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": 66
         }
       }
     ]
@@ -1946,13 +1972,15 @@
           "result": "Du schreitest die 1840 massiven Steinstufen herab. Als du am Fuß des Gebirges ankommst, bezahlst du den Wegzoll und wendest dich gen Norden.",
           "description": "Du verlässt die Hochebene der Anbram Berge gen Norden.",
           "changes": [1, 0, 0],
-          "moneyChange": -200
+          "moneyChange": -200,
+          "new_node": -1
         },
         "negative": {
           "result": "Du schreitest 1823 massive Steinstufen herab. Bei der 1824 rutscht du ab und fällst die letzten 16 Stufen zu Boden. Du verletzt dich. Den Wegzoll musst du trotzdem zahlen.",
           "description": "Du verlässt die Hochebene der Anbram Berge verletzt gen Norden.",
           "changes": [-1, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": -1
         }
       },
       {
@@ -1964,13 +1992,15 @@
           "result": "Du schaffst es die Haupttore und alle weiteren Hindernisse im verlassenen Tempel beiseite zu schaffen und erfährst in Aufzeichnungen, dass eine Gruppe Zrenither für drei Monate auf der Hochebene verweilen, während sie Dracheneier an den heißen Quellen ausbrüten lassen. Plötzlich verlierst du ohne sichtbaren Grund das Bewusstsein.",
           "description": "Du wachst durchnässt angespült in der Siedlung Rameros auf.",
           "changes": [0, 1, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": -1
         },
         "negative": {
           "result": "Du versuchst stundenlang die unnachgiebigen Pforten zu öffnen. Schließlich wendest du dich ab und siehst dich von eine Grupper in weißen Roben gekleideten Personen umringt. Manche halten schwarze Steine in ihren Händen. Du verlierst ohne sichtbaren Grund das Bewusstsein.",
           "description": "Du wachst durchnässt angespült in der Siedlung Rameros auf.",
           "changes": [0, 0, 0],
-          "moneyChange": 0
+          "moneyChange": 0,
+          "new_node": -1
         }
       },
       {
@@ -1982,13 +2012,15 @@
           "result": "19,4 Sekunden lang kannst du den Fall genießen, dann schlägst du auf. Deine Knochen brechen und Herz hört auf zu schlagen. Du wachst schwer verletzt in Rameros Legionärlazareth auf. Deine Pfleger bezeichnen dein Überleben als Wunder trotzdem verlangen sie eine Aufnahme- und Pflegepauschale von dir.",
           "description": "Du befindest dich in Rameros.",
           "changes": [-2, 0, 0],
-          "moneyChange": -50
+          "moneyChange": -50,
+          "new_node": -1
         },
         "negative": {
           "result": "19,4 Sekunden lang kannst du den Fall genießen, dann schlägst du auf. Du wachst schwer verletzt in Rameros Legionärlazareth auf. Deine Pfleger bezeichnen dein Überleben als Wunder trotzdem verlangen sie eine Aufnahme- und Pflegepauschale von dir.",
           "description": "Du befindest dich in Rameros.",
           "changes": [-2, 0, 0],
-          "moneyChange": -50
+          "moneyChange": -50,
+          "new_node": -1
         }
       }
     ]
